@@ -143,6 +143,8 @@ The component can load the same theme module and sees the configured value:
 
 If another dependency loads `theme` first without configuration, the entrypoint cannot configure it afterward. Put configuration in the entrypoint and ensure it runs before dependencies load the module.
 
+Sass also allows an existing public module variable to be reassigned through its namespace after loading. That is different from `@use ... with (...)`: reassignment mutates module state and can make output depend on evaluation order. Built-in module variables cannot be reassigned. Prefer load-time configuration for build-wide defaults, and use explicit mixin parameters for multiple style variations.
+
 ## 7. One configuration is shared throughout a compilation
 
 If several modules load the same theme module, they share the same loaded module and configuration.
