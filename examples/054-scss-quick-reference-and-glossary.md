@@ -40,7 +40,7 @@ Create <code>package.json</code>:
     "css:watch": "sass --watch --style=expanded src/scss:dist"
   },
   "devDependencies": {
-    "sass": "^1.0.0"
+    "sass": "^1.108.2"
   }
 }
 ~~~

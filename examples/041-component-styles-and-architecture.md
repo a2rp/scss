@@ -90,7 +90,7 @@ The namespace makes the dependency clear. A file that needs tokens should load t
 }
 ~~~
 
-The index file presents the settings module through one path. Add §show§ or §hide§ clauses when only some members should be public.
+The index file presents the settings module through one path. Add `show` or `hide` clauses when only some members should be public.
 
 ## 6. Keep private implementation details private
 
@@ -130,7 +130,7 @@ Names beginning with an underscore or hyphen are private to the module that defi
 }
 ~~~
 
-The parent selector creates §.card__title§ and §.card--featured§. The module defines one component and its related selectors.
+The parent selector creates `.card__title` and `.card--featured`. The module defines one component and its related selectors.
 
 ## 8. Add a parameterized mixin
 
@@ -519,13 +519,13 @@ Requirements:
 - Put brand and text colors in the token module.
 - Put a configurable focus-ring mixin in the focus module.
 - Make the button module load both dependencies with namespaces.
-- Keep the button’s base and disabled selectors under §.button§.
+- Keep the button’s base and disabled selectors under `.button`.
 - Load the button from the app entry point.
 
 ## 23. Reference links
 
-- [Sass modules and §@use§](https://sass-lang.com/documentation/at-rules/use/)
-- [The §@forward§ rule](https://sass-lang.com/documentation/at-rules/forward/)
-- [Mixins and §@include§](https://sass-lang.com/documentation/at-rules/mixin/)
-- [The §@extend§ rule](https://sass-lang.com/documentation/at-rules/extend/)
+- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
+- [The `@forward` rule](https://sass-lang.com/documentation/at-rules/forward/)
+- [Mixins and `@include`](https://sass-lang.com/documentation/at-rules/mixin/)
+- [The `@extend` rule](https://sass-lang.com/documentation/at-rules/extend/)
 - [Placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors/)

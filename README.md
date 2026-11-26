@@ -33,7 +33,7 @@ Basic CSS and HTML knowledge will help you understand how Sass output is used in
 4. Build the practical patterns yourself before looking back at the example.
 5. Use the summary and keywords files for quick review.
 
-Each roadmap row uses one chapter number and filename across the lessons, Q&A, and examples folders. These links identify planned files; the files will be added chapter by chapter and a link does not mean its content is already present or complete.
+Every roadmap chapter has a corresponding lesson, Q&A, and example file. The numbered filenames make it easy to match the three resources for each topic.
 
 ## Sass version and project setup
 

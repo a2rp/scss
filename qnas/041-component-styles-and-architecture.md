@@ -25,21 +25,21 @@ Add more directories only when they make real responsibilities easier to find. A
 
 ## 3. What is a Sass partial?
 
-A partial is a Sass file commonly named with a leading underscore, such as §_button.scss§. It is normally loaded from another Sass file; its underscore is omitted from the module URL, so §@use "components/button"§ can load it.
+A partial is a Sass file commonly named with a leading underscore, such as `_button.scss`. It is normally loaded from another Sass file; its underscore is omitted from the module URL, so `@use "components/button"` can load it.
 
-The underscore is a naming convention for partial files. The Sass module system is provided by §@use§ and §@forward§.
+The underscore is a naming convention for partial files. The Sass module system is provided by `@use` and `@forward`.
 
 ## 4. Which Sass file should I compile?
 
-Compile the designated application entry point, such as §app.scss§. That file loads the foundations, components, and utilities needed for that output bundle.
+Compile the designated application entry point, such as `app.scss`. That file loads the foundations, components, and utilities needed for that output bundle.
 
 Compiling every partial independently can create multiple CSS files with repeated dependencies and makes the final composition less obvious.
 
 ## 5. What is the difference between @use and @import?
 
-§@use§ loads a module with a namespace and makes its members available only to the stylesheet that loads it. It also includes that module’s CSS in the compilation once.
+`@use` loads a module with a namespace and makes its members available only to the stylesheet that loads it. It also includes that module’s CSS in the compilation once.
 
-The legacy §@import§ model shares members globally and can execute the same stylesheet repeatedly. Sass’s module system is the preferred way to structure new code and migrate old code.
+The legacy `@import` model shares members globally and can execute the same stylesheet repeatedly. Sass’s module system is the preferred way to structure new code and migrate old code.
 
 ## 6. Does @use emit a module’s CSS?
 
@@ -59,19 +59,19 @@ Namespaces make a dependency explicit and reduce name collisions:
 }
 ~~~
 
-Reading §tokens.$color-text§ shows where the value came from. Default namespaces use the final module URL component; an §as§ clause can choose a different name.
+Reading `tokens.$color-text` shows where the value came from. Default namespaces use the final module URL component; an `as` clause can choose a different name.
 
 ## 8. Should I use @use as *?
 
-§@use "module" as *§ removes the namespace for that module’s members. This can shorten references, but it makes their origin less visible and may introduce collisions. Prefer namespaced members, especially for dependencies written by other people or shared across a codebase.
+`@use "module" as *` removes the namespace for that module’s members. This can shorten references, but it makes their origin less visible and may introduce collisions. Prefer namespaced members, especially for dependencies written by other people or shared across a codebase.
 
 ## 9. Where must @use appear?
 
-Place §@use§ at the top level before rules other than §@forward§. Sass permits variable declarations before §@use§ when those variables are used to configure the module. Do not put §@use§ inside a selector or conditional block.
+Place `@use` at the top level before rules other than `@forward`. Sass permits variable declarations before `@use` when those variables are used to configure the module. Do not put `@use` inside a selector or conditional block.
 
 ## 10. What is @forward for?
 
-§@forward§ re-exports public variables, functions, and mixins from another Sass module so consumers can load a single public entry point.
+`@forward` re-exports public variables, functions, and mixins from another Sass module so consumers can load a single public entry point.
 
 ~~~scss
 // settings/_index.scss
@@ -79,7 +79,7 @@ Place §@use§ at the top level before rules other than §@forward§. Sass permi
 @forward "breakpoints" show $breakpoint-table;
 ~~~
 
-A forwarding file can use §show§ or §hide§ to control its public API. Forward only members consumers should depend on.
+A forwarding file can use `show` or `hide` to control its public API. Forward only members consumers should depend on.
 
 ## 11. Is a barrel file always a good idea?
 
@@ -128,19 +128,19 @@ Use a mixin when the reusable operation should emit CSS rules or declarations.
 
 ## 16. Can mixins accept content blocks?
 
-Yes. A mixin can contain §@content§, and the code in the §@include§ block is inserted at that point. This is useful for wrapping caller-provided styles in a media query or selector context.
+Yes. A mixin can contain `@content`, and the code in the `@include` block is inserted at that point. This is useful for wrapping caller-provided styles in a media query or selector context.
 
 Content blocks are lexically scoped: they see variables where the mixin is included, not local variables created inside the mixin.
 
 ## 17. When is @extend appropriate?
 
-§@extend§ expresses a selector relationship: elements matching the extender should also match the extended selector. A placeholder selector such as §%message-base§ can hold shared styles without appearing in CSS until extended.
+`@extend` expresses a selector relationship: elements matching the extender should also match the extended selector. A placeholder selector such as `%message-base` can hold shared styles without appearing in CSS until extended.
 
 Use it when that relationship is intentional and the resulting selector list remains understandable.
 
 ## 18. Why can @extend be surprising?
 
-§@extend§ updates rules that contain the extended selector, including rules beyond the line where the extension appears. It can produce larger or more complex selector lists than expected.
+`@extend` updates rules that contain the extended selector, including rules beyond the line where the extension appears. It can produce larger or more complex selector lists than expected.
 
 It also cannot extend a selector outside the current media context from inside a media query. For configurable or purely mechanical reuse, a mixin may make the output and intent easier to follow.
 
@@ -164,11 +164,11 @@ The convention should give components clear roots and avoid accidental styling a
 
 There is no Sass-enforced numeric limit. Nest only when it makes a component relationship clearer, and keep the final selector short enough to inspect. Deep nesting often ties styles to exact markup and makes overrides difficult.
 
-Use §&§ for concise pseudo-classes or a deliberate component naming pattern, not to mirror every HTML ancestor.
+Use `&` for concise pseudo-classes or a deliberate component naming pattern, not to mirror every HTML ancestor.
 
 ## 22. Should components style raw HTML elements?
 
-A component may need scoped element styles, but broad rules such as §h2 { ... }§ in a shared component stylesheet can affect unrelated content. Scope such rules under a component root when that is the intended contract:
+A component may need scoped element styles, but broad rules such as `h2 { ... }` in a shared component stylesheet can affect unrelated content. Scope such rules under a component root when that is the intended contract:
 
 ~~~scss
 .card {
@@ -194,7 +194,7 @@ If the application uses CSS cascade layers, declare their order centrally and as
 
 ## 25. Can I load a component module from multiple other modules?
 
-Yes. Within one compilation, §@use§ loads a given module once, so its CSS is not duplicated just because several modules depend on it. The dependency should still be explicit in each file that uses its Sass members.
+Yes. Within one compilation, `@use` loads a given module once, so its CSS is not duplicated just because several modules depend on it. The dependency should still be explicit in each file that uses its Sass members.
 
 If you build separate CSS entry points, each is compiled separately and may include the same module’s CSS in its own output.
 
@@ -206,13 +206,13 @@ A one-directional graph is easier to load and reason about.
 
 ## 27. What is a private Sass member?
 
-A variable, function, or mixin whose name begins with §-§ or §_§ is private to its defining module and is not available to modules that load it with §@use§.
+A variable, function, or mixin whose name begins with `-` or `_` is private to its defining module and is not available to modules that load it with `@use`.
 
 Use private members for implementation details. Do not make a member public unless another stylesheet should intentionally depend on it.
 
 ## 28. How do configurable Sass modules work?
 
-A module can define variables with §!default§, and a consumer can configure them the first time it loads that module:
+A module can define variables with `!default`, and a consumer can configure them the first time it loads that module:
 
 ~~~scss
 @use "theme" with (
@@ -242,9 +242,9 @@ Sass maps can help generate each set of declarations. The browser applies the se
 
 ## 30. How do I migrate a legacy Sass codebase?
 
-First identify which files are compiled as entries and where global variables come from. Convert shared values and helpers into modules, add explicit §@use§ statements in each consumer, and give references namespaces. Then review the generated CSS and remove obsolete imports.
+First identify which files are compiled as entries and where global variables come from. Convert shared values and helpers into modules, add explicit `@use` statements in each consumer, and give references namespaces. Then review the generated CSS and remove obsolete imports.
 
-Do not replace every §@import§ mechanically: legacy code may depend on global scope, execution order, or nested imports.
+Do not replace every `@import` mechanically: legacy code may depend on global scope, execution order, or nested imports.
 
 ## 31. Should each component get its own file?
 
@@ -270,7 +270,7 @@ Make that behavior clear in the module’s name, documentation, and entry-point 
 - Compiling partials as well as the application entry point without intent.
 - Forwarding every internal member through a public index.
 - Hiding normal component rules inside unnecessary mixins.
-- Using §@extend§ just to deduplicate declarations.
+- Using `@extend` just to deduplicate declarations.
 - Nesting selectors to mirror deep HTML structure.
 - Mixing tokens and unrelated CSS output in one broad module.
 - Relying on a long chain of later overrides to repair earlier styles.
@@ -278,9 +278,9 @@ Make that behavior clear in the module’s name, documentation, and entry-point 
 
 ## Official Sass references
 
-- [Sass modules and §@use§](https://sass-lang.com/documentation/at-rules/use/)
-- [The §@forward§ rule](https://sass-lang.com/documentation/at-rules/forward/)
-- [Mixins and §@include§](https://sass-lang.com/documentation/at-rules/mixin/)
-- [The §@extend§ rule](https://sass-lang.com/documentation/at-rules/extend/)
+- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
+- [The `@forward` rule](https://sass-lang.com/documentation/at-rules/forward/)
+- [Mixins and `@include`](https://sass-lang.com/documentation/at-rules/mixin/)
+- [The `@extend` rule](https://sass-lang.com/documentation/at-rules/extend/)
 - [Placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors/)
 - [Sass module system](https://sass-lang.com/blog/the-module-system-is-launched/)

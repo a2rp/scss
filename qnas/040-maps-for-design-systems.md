@@ -1,6 +1,6 @@
 # Maps for design systems — Q&A
 
-This Q&A explains Sass maps as data structures for design tokens, component variants, and generated CSS. The examples use the built-in §sass:map§ module, so load it with §@use "sass:map";§ in each stylesheet that calls its functions.
+This Q&A explains Sass maps as data structures for design tokens, component variants, and generated CSS. The examples use the built-in `sass:map` module, so load it with `@use "sass:map";` in each stylesheet that calls its functions.
 
 ## 1. What is a Sass map?
 
@@ -28,7 +28,7 @@ Sass maps can be iterated over, but their key/value structure is what makes name
 
 ## 3. Why should map keys usually be quoted?
 
-Quoting clearly marks a key as a string and avoids ambiguity with Sass values. For example, an unquoted color name such as §red§ can be interpreted as a color rather than the string name §"red"§.
+Quoting clearly marks a key as a string and avoids ambiguity with Sass values. For example, an unquoted color name such as `red` can be interpreted as a color rather than the string name `"red"`.
 
 ~~~scss
 $palette: (
@@ -55,7 +55,7 @@ Sass permits this, but a map with a consistent purpose and documented shape is e
 
 ## 5. How do I read a value from a map?
 
-Load §sass:map§ and use §map.get()§:
+Load `sass:map` and use `map.get()`:
 
 ~~~scss
 @use "sass:map";
@@ -88,17 +88,17 @@ The multi-key lookup form is supported by modern Dart Sass (Dart Sass 1.27.0 or 
 
 ## 7. What does map.get() return if a key is missing?
 
-§map.get()§ returns §null§ when the requested key or an intermediate nested map is missing. That can cause a required declaration to be omitted, so validate required tokens rather than relying on the result.
+`map.get()` returns `null` when the requested key or an intermediate nested map is missing. That can cause a required declaration to be omitted, so validate required tokens rather than relying on the result.
 
 ~~~scss
 $value: map.get($tokens, "color", "typo");
 ~~~
 
-For required configuration, use §map.has-key()§ and issue §@error§ with the missing token name.
+For required configuration, use `map.has-key()` and issue `@error` with the missing token name.
 
 ## 8. How do I check if a key exists?
 
-Use §map.has-key()§. It accepts nested keys as well:
+Use `map.has-key()`. It accepts nested keys as well:
 
 ~~~scss
 @use "sass:map";
@@ -122,7 +122,7 @@ They return the keys or values of a map as Sass lists. For example, keys can dri
 $names: map.keys($tokens);
 ~~~
 
-If the task needs each name with its corresponding value, use §@each $key, $value in $map§ directly.
+If the task needs each name with its corresponding value, use `@each $key, $value in $map` directly.
 
 ## 10. Are maps mutable?
 
@@ -136,7 +136,7 @@ If the return value is not assigned or passed elsewhere, the update has no effec
 
 ## 11. How do I add or replace an entry?
 
-Use §map.set()§:
+Use `map.set()`:
 
 ~~~scss
 $colors: map.set($colors, "brand", #2747b8);
@@ -150,9 +150,9 @@ $tokens: map.set($tokens, "color", "brand", #2747b8);
 
 ## 12. What is the difference between map.merge() and map.deep-merge()?
 
-§map.merge()§ combines entries at the top level. When both inputs contain the same key, the second map replaces the first map’s value for that key. If that value is itself a map, the entire nested map is replaced.
+`map.merge()` combines entries at the top level. When both inputs contain the same key, the second map replaces the first map’s value for that key. If that value is itself a map, the entire nested map is replaced.
 
-§map.deep-merge()§ recursively combines nested map values. Use it when an override should replace selected nested tokens while retaining other nested entries. It is available in Dart Sass 1.27.0 and later.
+`map.deep-merge()` recursively combines nested map values. Use it when an override should replace selected nested tokens while retaining other nested entries. It is available in Dart Sass 1.27.0 and later.
 
 ~~~scss
 $base: ("color": ("brand": blue, "text": black));
@@ -166,13 +166,13 @@ Choose the operation based on the intended merge behavior; do not assume a norma
 
 ## 13. How do I remove a map entry?
 
-The §sass:map§ module provides §map.remove()§ to return a map without specified top-level keys, and §map.deep-remove()§ for removing a nested key path. These functions also return new maps, so assign the result if it should be retained.
+The `sass:map` module provides `map.remove()` to return a map without specified top-level keys, and `map.deep-remove()` for removing a nested key path. These functions also return new maps, so assign the result if it should be retained.
 
 Check the Sass map module reference for exact signatures and compiler compatibility.
 
 ## 14. How do I loop through a map?
 
-Use §@each§ with two variables: the first receives a key and the second its value.
+Use `@each` with two variables: the first receives a key and the second its value.
 
 ~~~scss
 @each $name, $value in $colors {
@@ -194,7 +194,7 @@ Iterate through the map and interpolate its key and value:
 }
 ~~~
 
-This generates browser-readable CSS properties, such as §--color-brand§. The Sass map itself remains compile-time data.
+This generates browser-readable CSS properties, such as `--color-brand`. The Sass map itself remains compile-time data.
 
 ## 16. Can I generate custom properties from a nested map?
 
@@ -214,7 +214,7 @@ This assumes the map is exactly two levels deep. For more complex shapes, use ex
 
 ## 17. Do Sass maps automatically create CSS variables?
 
-No. A map is Sass data and disappears after compilation. Use Sass to generate declarations such as §--color-brand: #3157d5;§ if the browser needs a runtime value.
+No. A map is Sass data and disappears after compilation. Use Sass to generate declarations such as `--color-brand: #3157d5;` if the browser needs a runtime value.
 
 CSS custom properties are especially useful for theme switching, inheritance, and values changed by selectors or JavaScript.
 
@@ -226,7 +226,7 @@ Sass maps can still be the source data used to generate those theme rules.
 
 ## 19. What is a semantic design token?
 
-A semantic token names a value by its intended role, such as §"text-muted"§, §"surface"§, or §"action-primary"§. A primitive token describes a raw value, such as a palette entry §"blue-600"§.
+A semantic token names a value by its intended role, such as `"text-muted"`, `"surface"`, or `"action-primary"`. A primitive token describes a raw value, such as a palette entry `"blue-600"`.
 
 Semantic names reduce the number of components that need changes when the visual palette changes. A system may have both layers and map semantic roles to primitive values.
 
@@ -256,13 +256,13 @@ Then use the returned value in a declaration. A Sass function returns a Sass val
 
 ## 22. When should I use @error, @warn, or a null result?
 
-Use §@error§ when compilation cannot safely continue, such as when a required token is missing. Use §@warn§ for a recoverable situation where compilation can continue but the author should review something. Use §null§ for a deliberate optional value only when callers handle it clearly.
+Use `@error` when compilation cannot safely continue, such as when a required token is missing. Use `@warn` for a recoverable situation where compilation can continue but the author should review something. Use `null` for a deliberate optional value only when callers handle it clearly.
 
 Do not use a silent null result for a required design token: it can hide a typo.
 
 ## 23. What happens if a CSS declaration has a null value?
 
-Sass omits declarations whose value is §null§. That behavior is convenient for optional output, but it can also make a missing map lookup disappear without an obvious error. Explicitly check optional values and validate required ones.
+Sass omits declarations whose value is `null`. That behavior is convenient for optional output, but it can also make a missing map lookup disappear without an obvious error. Explicitly check optional values and validate required ones.
 
 ~~~scss
 @if $value != null {
@@ -272,13 +272,13 @@ Sass omits declarations whose value is §null§. That behavior is convenient for
 
 ## 24. Is false the same as null?
 
-No. §false§ is a boolean value; §null§ represents the absence of a value. A component option such as §"uppercase": false§ can be a meaningful setting. Do not treat every false value as missing.
+No. `false` is a boolean value; `null` represents the absence of a value. A component option such as `"uppercase": false` can be a meaningful setting. Do not treat every false value as missing.
 
-When testing an optional token for absence, compare it to §null§ or check whether the key exists.
+When testing an optional token for absence, compare it to `null` or check whether the key exists.
 
 ## 25. What if the map has a key whose value is null?
 
-The key exists, so §map.has-key()§ can report it as present, while §map.get()§ returns §null§ as its value. Decide whether a null entry means “intentionally unset” or indicates invalid configuration, and validate accordingly.
+The key exists, so `map.has-key()` can report it as present, while `map.get()` returns `null` as its value. Decide whether a null entry means “intentionally unset” or indicates invalid configuration, and validate accordingly.
 
 Key presence and value usability are separate questions.
 
@@ -302,40 +302,40 @@ If nested maps become difficult to inspect, simplify the structure or split it i
 
 ## 29. Why can an empty map be confusing?
 
-The empty map syntax §()§ is also interpreted as an empty list in some Sass contexts. Non-empty maps have key/value structure, but code that only checks an empty value’s type may not distinguish the two as expected.
+The empty map syntax `()` is also interpreted as an empty list in some Sass contexts. Non-empty maps have key/value structure, but code that only checks an empty value’s type may not distinguish the two as expected.
 
 Do not rely on an empty map to signal a distinct configuration state unless the surrounding API makes that state clear.
 
 ## 30. How do maps work with Sass modules and @use?
 
-A module can define and expose token maps. Another stylesheet loads it with §@use "tokens"§ and accesses public members through the module namespace. This helps avoid global name collisions and the legacy behavior of §@import§.
+A module can define and expose token maps. Another stylesheet loads it with `@use "tokens"` and accesses public members through the module namespace. This helps avoid global name collisions and the legacy behavior of `@import`.
 
 Keep module boundaries purposeful. A design-system module should expose documented tokens and helpers rather than every internal implementation detail.
 
 ## 31. What does !default do for map configuration?
 
-§!default§ assigns a variable’s default only if it has not already been assigned. It can support configurable Sass modules, but consumers must configure the module when it is first loaded through the Sass module system.
+`!default` assigns a variable’s default only if it has not already been assigned. It can support configurable Sass modules, but consumers must configure the module when it is first loaded through the Sass module system.
 
 It does not let a running browser mutate the Sass map. Use CSS custom properties for runtime customization.
 
 ## 32. Should a Sass function or mixin be used with a map?
 
-Use a function when the result is a Sass value, such as one token value. Use a mixin when the operation should emit CSS declarations or rules. Use a direct §@each§ loop when it is short and clear.
+Use a function when the result is a Sass value, such as one token value. Use a mixin when the operation should emit CSS declarations or rules. Use a direct `@each` loop when it is short and clear.
 
 Choose the smallest abstraction that makes the token usage understandable.
 
 ## 33. How do I debug the contents of a map?
 
-During development, §@debug $tokens;§ can print a Sass value to the compiler’s debug output. You can also inspect a focused lookup rather than dumping a large token map.
+During development, `@debug $tokens;` can print a Sass value to the compiler’s debug output. You can also inspect a focused lookup rather than dumping a large token map.
 
 Remove temporary debug statements when they are no longer useful, especially if they clutter normal compilation logs.
 
 ## 34. What are common map mistakes?
 
-- Forgetting to assign the result of §map.set()§ or a merge function.
-- Assuming §map.merge()§ recursively combines nested maps.
+- Forgetting to assign the result of `map.set()` or a merge function.
+- Assuming `map.merge()` recursively combines nested maps.
 - Using an unquoted color-like key.
-- Expecting a missing §map.get()§ lookup to throw an error.
+- Expecting a missing `map.get()` lookup to throw an error.
 - Iterating a nested map as though every group had the same shape.
 - Expecting Sass data to remain available at browser runtime.
 - Using a deeply nested map that is harder to maintain than smaller modules.
@@ -349,7 +349,7 @@ They can work together: keep authoring tokens in a Sass map and compile them int
 ## Official references
 
 - [Sass maps](https://sass-lang.com/documentation/values/maps/)
-- [The built-in §sass:map§ module](https://sass-lang.com/documentation/modules/map/)
-- [The §@each§ control rule](https://sass-lang.com/documentation/at-rules/control/each/)
+- [The built-in `sass:map` module](https://sass-lang.com/documentation/modules/map/)
+- [The `@each` control rule](https://sass-lang.com/documentation/at-rules/control/each/)
 - [Sass functions](https://sass-lang.com/documentation/at-rules/function/)
-- [Sass modules and §@use§](https://sass-lang.com/documentation/at-rules/use/)
+- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)

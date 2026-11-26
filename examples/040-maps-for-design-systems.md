@@ -1,6 +1,6 @@
 # Maps for design systems — Examples
 
-These examples use Dart Sass and the built-in §sass:map§ module. Treat each numbered code block as a separate example unless a section says it continues a previous one. Save Sass code in a §.scss§ file and compile it with Dart Sass, for example:
+These examples use Dart Sass and the built-in `sass:map` module. Treat each numbered code block as a separate example unless a section says it continues a previous one. Save Sass code in a `.scss` file and compile it with Dart Sass, for example:
 
 ~~~sh
 sass input.scss output.css
@@ -123,7 +123,7 @@ A lookup typo now stops compilation with a message instead of producing a missin
 
 ## 6. Check optional tokens
 
-Use §map.has-key()§ when a token is optional and should only produce a declaration when it exists.
+Use `map.has-key()` when a token is optional and should only produce a declaration when it exists.
 
 ~~~scss
 @use "sass:map";
@@ -141,7 +141,7 @@ $tokens: (
 }
 ~~~
 
-If the map has no §"outline"§ key, Sass emits no outline declaration. For required tokens, prefer an accessor that reports an error.
+If the map has no `"outline"` key, Sass emits no outline declaration. For required tokens, prefer an accessor that reports an error.
 
 ## 7. Inspect keys and values
 
@@ -161,7 +161,7 @@ $spacing-values: map.values($spacing);
 @debug $spacing-values;
 ~~~
 
-The compiler prints the Sass lists in its debug output. Use §@each§ directly when each key needs to stay paired with its value.
+The compiler prints the Sass lists in its debug output. Use `@each` directly when each key needs to stay paired with its value.
 
 ## 8. Add or replace a top-level entry
 
@@ -180,7 +180,7 @@ $colors: map.set($colors, "focus", #9a42c8);
 }
 ~~~
 
-§map.set()§ returns a new map. Reassigning that result retains the new entry.
+`map.set()` returns a new map. Reassigning that result retains the new entry.
 
 ## 9. Update a nested entry
 
@@ -201,7 +201,7 @@ $tokens: map.set($tokens, "color", "brand", #2747b8);
 }
 ~~~
 
-The original map value is not changed in place; the returned map becomes the new value of §$tokens§.
+The original map value is not changed in place; the returned map becomes the new value of `$tokens`.
 
 ## 10. Compare shallow and deep merges
 
@@ -228,7 +228,7 @@ $deep: map.deep-merge($base, $override);
 @debug map.get($deep, "color", "text");    // #182033
 ~~~
 
-The shallow merge replaces the whole conflicting §"color"§ entry. The deep merge replaces only §"brand"§ and retains §"text"§.
+The shallow merge replaces the whole conflicting `"color"` entry. The deep merge replaces only `"brand"` and retains `"text"`.
 
 ## 11. Remove an entry
 
@@ -244,7 +244,7 @@ $colors: (
 $colors: map.remove($colors, "accent");
 ~~~
 
-§map.remove()§ returns a map without the requested top-level key. The §sass:map§ module also provides §map.deep-remove()§ for a nested key path.
+`map.remove()` returns a map without the requested top-level key. The `sass:map` module also provides `map.deep-remove()` for a nested key path.
 
 ## 12. Generate custom properties from a flat map
 
@@ -352,7 +352,7 @@ $optional-declarations: (
 }
 ~~~
 
-The explicit condition documents that §null§ means “do not emit this declaration.” Avoid letting a missing required map lookup silently act like an optional value.
+The explicit condition documents that `null` means “do not emit this declaration.” Avoid letting a missing required map lookup silently act like an optional value.
 
 ## 16. Generate spacing utility classes
 
@@ -370,7 +370,7 @@ $spacing: (
 }
 ~~~
 
-This creates §.gap-small§, §.gap-medium§, and §.gap-large§. Utility generation is useful when the naming pattern and supported values are intentional parts of the project’s CSS API.
+This creates `.gap-small`, `.gap-medium`, and `.gap-large`. Utility generation is useful when the naming pattern and supported values are intentional parts of the project’s CSS API.
 
 ## 17. Generate theme rules
 
@@ -408,7 +408,7 @@ $themes: (
 }
 ~~~
 
-Sass generates both sets of CSS declarations. At runtime, the browser applies the declarations under the selected §data-theme§ attribute.
+Sass generates both sets of CSS declarations. At runtime, the browser applies the declarations under the selected `data-theme` attribute.
 
 ## 18. Keep primitive and semantic tokens separate
 
@@ -428,7 +428,7 @@ $semantic-colors: (
 );
 ~~~
 
-To compile this example, include §@use "sass:map";§ as the first line. The palette names describe raw values; semantic names describe how components use them. This separation lets a theme change semantic assignments without renaming component tokens.
+To compile this example, include `@use "sass:map";` as the first line. The palette names describe raw values; semantic names describe how components use them. This separation lets a theme change semantic assignments without renaming component tokens.
 
 ## 19. Share a token map through a Sass module
 
@@ -442,7 +442,7 @@ styles/
   app.scss
 ~~~
 
-§styles/_tokens.scss§:
+`styles/_tokens.scss`:
 
 ~~~scss
 @use "sass:map";
@@ -463,7 +463,7 @@ $tokens: (
 }
 ~~~
 
-§styles/components/_button.scss§:
+`styles/components/_button.scss`:
 
 ~~~scss
 @use "../tokens";
@@ -474,7 +474,7 @@ $tokens: (
 }
 ~~~
 
-§styles/app.scss§:
+`styles/app.scss`:
 
 ~~~scss
 @use "components/button";
@@ -497,7 +497,7 @@ $tokens: (
 @debug map.get($tokens, "color", "missing");
 ~~~
 
-The first debug statement prints the color value; the second prints §null§. This is a quick way to inspect a lookup while developing. Remove temporary debug statements when finished.
+The first debug statement prints the color value; the second prints `null`. This is a quick way to inspect a lookup while developing. Remove temporary debug statements when finished.
 
 ## 21. Common broken patterns and fixes
 
@@ -533,12 +533,12 @@ $combined: map.deep-merge($base, $override);
 }
 ~~~
 
-Fix the key and validate required paths with §map.has-key()§ or a token function that raises §@error§.
+Fix the key and validate required paths with `map.has-key()` or a token function that raises `@error`.
 
 ## 22. Practice tasks
 
-1. Add a §"success"§ color to §$colors§ and use it on a notice component.
-2. Create a §"type"§ group with §"body"§ and §"heading"§ tokens.
+1. Add a `"success"` color to `$colors` and use it on a notice component.
+2. Create a `"type"` group with `"body"` and `"heading"` tokens.
 3. Add a third button variant and confirm the loop generates its modifier class.
 4. Make a dark theme with surface, text, and brand custom properties.
 5. Add an accessor that reports an error for a missing group and a missing token.
@@ -549,7 +549,7 @@ Fix the key and validate required paths with §map.has-key()§ or a token functi
 ## Reference links
 
 - [Sass maps](https://sass-lang.com/documentation/values/maps/)
-- [The built-in §sass:map§ module](https://sass-lang.com/documentation/modules/map/)
-- [The §@each§ control rule](https://sass-lang.com/documentation/at-rules/control/each/)
+- [The built-in `sass:map` module](https://sass-lang.com/documentation/modules/map/)
+- [The `@each` control rule](https://sass-lang.com/documentation/at-rules/control/each/)
 - [Sass functions](https://sass-lang.com/documentation/at-rules/function/)
-- [Sass modules and §@use§](https://sass-lang.com/documentation/at-rules/use/)
+- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
