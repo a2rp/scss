@@ -194,7 +194,7 @@ Inside a CSS calculation, slash is always the division operator:
 
 ~~~scss
 .box {
-  width: calc(100% / 3);
+  width: calc(var(--available-width) / 3);
 }
 ~~~
 
@@ -202,11 +202,11 @@ Generated CSS:
 
 ~~~css
 .box {
-  width: calc(100% / 3);
+  width: calc(var(--available-width) / 3);
 }
 ~~~
 
-Sass preserves the calculation for the browser because the percentage depends on layout. Do not confuse this with a slash-separated list in ordinary CSS value syntax.
+The browser supplies the custom property value at runtime, so Sass preserves the division calculation. By contrast, Sass can simplify calc(100% / 3) to 33.3333333333% because dividing a known percentage by a unitless number is compile-time arithmetic. Do not confuse slash inside a calculation with a slash-separated list in ordinary CSS value syntax.
 
 For ordinary SassScript numeric division, prefer math.div(). Inside calc(), use CSS calculation syntax.
 
