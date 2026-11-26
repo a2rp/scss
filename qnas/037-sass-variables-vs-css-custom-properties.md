@@ -1,4 +1,4 @@
-# 037 — Sass Variables versus CSS Custom Properties: Q&A
+# 037 - Sass Variables versus CSS Custom Properties: Q&A
 
 ## Core differences
 
@@ -244,8 +244,13 @@ $font-stack: ("Field Sans", sans-serif);
 
 - [Lesson: Sass variables versus CSS custom properties](../lessons/037-sass-variables-vs-css-custom-properties.md)
 - [Examples: Sass variables versus CSS custom properties](../examples/037-sass-variables-vs-css-custom-properties.md)
-- [Sass: Variables](https://sass-lang.com/documentation/variables/)
-- [Sass: Custom property declarations](https://sass-lang.com/documentation/style-rules/declarations/#custom-properties)
-- [Sass: Interpolation](https://sass-lang.com/documentation/interpolation/)
-- [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/)
-- [CSS Properties and Values API: `@property`](https://www.w3.org/TR/css-properties-values-api-1/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="036-sass-and-css-at-rules.md">036 - Sass with CSS At-Rules: Q&amp;A</a></td><td><a href="../lessons/037-sass-variables-vs-css-custom-properties.md">Lesson</a></td><td><a href="../examples/037-sass-variables-vs-css-custom-properties.md">Example</a></td><td><a href="038-runtime-theming-and-design-tokens.md">038 - Runtime Theming and Design Tokens: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

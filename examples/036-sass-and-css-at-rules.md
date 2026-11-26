@@ -1,4 +1,4 @@
-# 036 — Sass with CSS At-Rules: Examples
+# 036 - Sass with CSS At-Rules: Examples
 
 This chapter's examples focus on how Sass source becomes CSS when CSS at-rules are nested, parameterized, or emitted from mixins.
 
@@ -570,7 +570,13 @@ $wide: 68rem;
 
 - [Lesson: Sass with CSS at-rules](../lessons/036-sass-and-css-at-rules.md)
 - [Q&A: Sass with CSS at-rules](../qnas/036-sass-and-css-at-rules.md)
-- [Sass: CSS at-rules](https://sass-lang.com/documentation/at-rules/css/)
-- [Sass: Interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass: @at-root](https://sass-lang.com/documentation/at-rules/at-root/)
-- [Sass: Media query behavior](https://sass-lang.com/documentation/breaking-changes/media-logic/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="035-migrating-to-sass-modules.md">035 - Migrating to Sass Modules: Examples</a></td><td><a href="../lessons/036-sass-and-css-at-rules.md">Lesson</a></td><td><a href="../qnas/036-sass-and-css-at-rules.md">Q&amp;A</a></td><td><a href="037-sass-variables-vs-css-custom-properties.md">037 - Sass Variables versus CSS Custom Properties: Examples</a></td></tr>
+  </tbody>
+</table>

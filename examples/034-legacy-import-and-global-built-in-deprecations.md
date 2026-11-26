@@ -1,4 +1,4 @@
-# 034 — Legacy @import and Global Built-In Deprecations: Examples
+# 034 - Legacy @import and Global Built-In Deprecations: Examples
 
 These examples show how to distinguish Sass imports from CSS imports, replace global Sass dependencies with modules, and review a migration.
 
@@ -495,6 +495,13 @@ npx sass-migrator module --built-in-only --migrate-deps src/scss/app.scss
 
 - [Lesson: Legacy @import and global built-in deprecations](../lessons/034-legacy-import-and-global-built-in-deprecations.md)
 - [Q&A: Legacy @import and global built-in deprecations](../qnas/034-legacy-import-and-global-built-in-deprecations.md)
-- [Breaking change: @import and global built-ins](https://sass-lang.com/documentation/breaking-changes/import/)
-- [Sass: @import](https://sass-lang.com/documentation/at-rules/import/)
-- [Sass Migrator](https://sass-lang.com/documentation/cli/migrator/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="033-emitted-css-and-entrypoints.md">033 - Generated CSS and Entry Points: Examples</a></td><td><a href="../lessons/034-legacy-import-and-global-built-in-deprecations.md">Lesson</a></td><td><a href="../qnas/034-legacy-import-and-global-built-in-deprecations.md">Q&amp;A</a></td><td><a href="035-migrating-to-sass-modules.md">035 - Migrating to Sass Modules: Examples</a></td></tr>
+  </tbody>
+</table>

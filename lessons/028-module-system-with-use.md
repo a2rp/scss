@@ -1,4 +1,4 @@
-# 028 — The Module System with @use
+# 028 - The Module System with @use
 
 ## Learning goals
 
@@ -270,9 +270,13 @@ When adding a dependency:
 - Public `!default` variables can be configured when the module is first loaded.
 - Built-in modules such as `sass:math` provide namespaced functions.
 - Sass `@import` is deprecated in Dart Sass; migration needs a review of the resulting module structure.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: Breaking Change — @import and global built-in functions](https://sass-lang.com/documentation/breaking-changes/import/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="027-at-root-and-at-rules.md">027 - @at-root and Nested At-Rules</a></td><td><a href="../qnas/028-module-system-with-use.md">Q&amp;A</a></td><td><a href="../examples/028-module-system-with-use.md">Example</a></td><td><a href="029-module-namespaces-and-private-members.md">029 - Module Namespaces and Private Members</a></td></tr>
+  </tbody>
+</table>

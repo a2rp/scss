@@ -1,4 +1,4 @@
-# 019 — Mixin Arguments, Defaults, and Keyword Arguments: Q&A
+# 019 - Mixin Arguments, Defaults, and Keyword Arguments: Q&A
 
 ## Parameters and positional arguments
 
@@ -135,9 +135,13 @@ Yes. A mixin can accept true or false. How that Boolean changes emitted CSS is a
 ### 32. Are mixin content blocks the same as arguments?
 
 No. Arguments pass values into parameters. A content block passes a block of Sass statements to a mixin and is covered in the next chapter.
+## Chapter navigation
 
-## Official references
-
-- [Sass @mixin and @include: arguments and defaults](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass variables and default expressions](https://sass-lang.com/documentation/variables/)
-- [Sass stylesheet structure](https://sass-lang.com/documentation/syntax/structure/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="018-mixin-basics.md">018 - Mixin Basics: Q&amp;A</a></td><td><a href="../lessons/019-mixin-arguments-defaults-and-keyword-args.md">Lesson</a></td><td><a href="../examples/019-mixin-arguments-defaults-and-keyword-args.md">Example</a></td><td><a href="020-content-blocks-and-context-aware-mixins.md">020 - Content Blocks and Context-Aware Mixins: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

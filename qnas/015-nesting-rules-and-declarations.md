@@ -1,4 +1,4 @@
-# 015 — Nesting Rules and Declarations: Q&A
+# 015 - Nesting Rules and Declarations: Q&A
 
 ## Understanding nested selectors
 
@@ -149,11 +149,13 @@ It joins the outer and inner property names with a hyphen.
 ### 35. What is the key behavior change to remember for mixed declarations?
 
 Dart Sass 1.92.0 and later preserves the original source order around nested rules, even if the generated CSS repeats a parent selector.
+## Chapter navigation
 
-## Official references
-
-- [Sass style rules and selector nesting](https://sass-lang.com/documentation/style-rules/)
-- [Sass property declarations and nested properties](https://sass-lang.com/documentation/style-rules/declarations/)
-- [Sass mixed declarations change](https://sass-lang.com/documentation/breaking-changes/mixed-decls/)
-- [Sass and native CSS nesting](https://sass-lang.com/blog/sass-and-native-nesting/)
-- [Sass parent selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="014-comments-and-css-output.md">014 - Comments and Generated CSS Output: Q&amp;A</a></td><td><a href="../lessons/015-nesting-rules-and-declarations.md">Lesson</a></td><td><a href="../examples/015-nesting-rules-and-declarations.md">Example</a></td><td><a href="016-parent-selector.md">016 - The Parent Selector: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

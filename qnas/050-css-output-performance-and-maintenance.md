@@ -1,4 +1,4 @@
-# CSS output, performance, and maintenance — Q&A
+# CSS output, performance, and maintenance - Q&A
 
 This Q&A reviews how Sass source becomes browser-delivered CSS and how to measure output before changing it. Browser behavior and tooling evolve, so verify details against the build and browser versions your project uses.
 
@@ -121,13 +121,13 @@ Compile before and after with the same version and production options. Compare g
 ## 30. What is a safe CSS optimization loop?
 
 Measure the real page, inspect its downloaded CSS, use Coverage across representative routes and states, trace candidate rules back to source, make one targeted change, rebuild production output, compare the same metrics, and verify visual and interaction behavior.
+## Chapter navigation
 
-## Official references
-
-- [Dart Sass CLI: output styles and compilation](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass: @use and module output](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @import and migration](https://sass-lang.com/documentation/at-rules/import/)
-- [Chrome DevTools: Coverage](https://developer.chrome.com/docs/devtools/coverage/)
-- [Chrome DevTools: CSS inspection and Coverage](https://developer.chrome.com/docs/devtools/css/reference/)
-- [web.dev: the critical rendering path](https://web.dev/learn/performance/understanding-the-critical-path)
-- [Chrome Lighthouse: render-blocking resources](https://developer.chrome.com/docs/lighthouse/performance/render-blocking/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="049-source-maps-and-browser-devtools.md">049 - Source maps and browser developer tools - Q&amp;A</a></td><td><a href="../lessons/050-css-output-performance-and-maintenance.md">Lesson</a></td><td><a href="../examples/050-css-output-performance-and-maintenance.md">Example</a></td><td><a href="051-accessible-motion-and-responsive-patterns.md">051 - Accessible motion and responsive patterns - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

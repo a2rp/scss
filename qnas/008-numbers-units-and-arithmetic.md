@@ -1,4 +1,4 @@
-# 008 — Numbers, Units, and Arithmetic: Q&A
+# 008 - Numbers, Units, and Arithmetic: Q&A
 
 This Q&A reviews Sass number values, units, arithmetic, and the use of math.div() for numeric division.
 
@@ -283,9 +283,13 @@ Modulo uses % between two numbers as an operator, as in 10 % 3. A percentage uni
 - Compatible units cancel in division.
 - Interpolation creates text, not a numeric Sass value.
 - Use CSS calculations when the browser must resolve runtime context.
+## Chapter navigation
 
-## References
-
-- [Sass numbers and units](https://sass-lang.com/documentation/values/numbers/)
-- [Sass numeric operators](https://sass-lang.com/documentation/operators/numeric/)
-- [Sass math module](https://sass-lang.com/documentation/modules/math/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="007-sass-value-types-and-null.md">007 - Sass Value Types and Null: Q&amp;A</a></td><td><a href="../lessons/008-numbers-units-and-arithmetic.md">Lesson</a></td><td><a href="../examples/008-numbers-units-and-arithmetic.md">Example</a></td><td><a href="009-slash-division-and-calculations.md">009 - Slash Division and Calculations: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

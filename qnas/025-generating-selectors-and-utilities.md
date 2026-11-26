@@ -1,4 +1,4 @@
-# 025 — Generating Selectors and Utility Classes: Q&A
+# 025 - Generating Selectors and Utility Classes: Q&A
 
 ## Selectors and interpolation
 
@@ -170,10 +170,13 @@ Interpolation constructs text and can bypass Sass's normal structure and value c
 - Use descriptive tokens instead of raw decimal values in class names.
 - Responsive media queries remain in CSS for the browser to evaluate.
 - Keep generators predictable and small enough to maintain.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass documentation: @each](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass documentation: parent selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
-- [Sass documentation: @at-root](https://sass-lang.com/documentation/at-rules/at-root/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="024-loops-each-for-and-while.md">024 - Loops: each, for, and while: Q&amp;A</a></td><td><a href="../lessons/025-generating-selectors-and-utilities.md">Lesson</a></td><td><a href="../examples/025-generating-selectors-and-utilities.md">Example</a></td><td><a href="026-extend-placeholder-selectors.md">026 - @extend and Placeholder Selectors: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

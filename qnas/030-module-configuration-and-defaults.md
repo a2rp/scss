@@ -1,4 +1,4 @@
-# 030 — Module Configuration and !default: Q&A
+# 030 - Module Configuration and !default: Q&A
 
 ## Defaults
 
@@ -191,10 +191,13 @@ They load the same Sass module within the same compilation. Sass reuses that mod
 | Configure variables by entrypoint | Separate and separately compile entrypoints |
 | Emit multiple values in one stylesheet | Use a parameterized mixin |
 | Change a value in the browser | Use a CSS custom property |
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use — Configuration](https://sass-lang.com/documentation/at-rules/use/#configuration)
-- [Sass: @use — With Mixins](https://sass-lang.com/documentation/at-rules/use/#with-mixins)
-- [Sass: @use — Reassigning Variables](https://sass-lang.com/documentation/at-rules/use/#reassigning-variables)
-- [Sass: Variables — Default Values](https://sass-lang.com/documentation/variables/#default-values)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="029-module-namespaces-and-private-members.md">029 - Module Namespaces and Private Members: Q&amp;A</a></td><td><a href="../lessons/030-module-configuration-and-defaults.md">Lesson</a></td><td><a href="../examples/030-module-configuration-and-defaults.md">Example</a></td><td><a href="031-forwarding-public-apis-with-forward.md">031 - Forwarding Public APIs with @forward: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

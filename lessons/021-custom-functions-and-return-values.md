@@ -1,4 +1,4 @@
-# 021 — Custom Functions and Return Values
+# 021 - Custom Functions and Return Values
 
 ## Learning goals
 
@@ -275,7 +275,13 @@ The function owns the formula, and each call site chooses the step and optional 
 - Call a custom function with its name and arguments in parentheses.
 - Functions compute values; mixins insert reusable CSS output.
 - Sass evaluates custom functions during compilation.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: @function](https://sass-lang.com/documentation/at-rules/function/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="020-content-blocks-and-context-aware-mixins.md">020 - Content Blocks and Context-Aware Mixins</a></td><td><a href="../qnas/021-custom-functions-and-return-values.md">Q&amp;A</a></td><td><a href="../examples/021-custom-functions-and-return-values.md">Example</a></td><td><a href="022-built-in-sass-modules.md">022 - Built-in Sass Modules</a></td></tr>
+  </tbody>
+</table>

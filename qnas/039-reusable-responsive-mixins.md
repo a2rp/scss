@@ -1,4 +1,4 @@
-# 039 — Reusable Responsive Mixins: Q&A
+# 039 - Reusable Responsive Mixins: Q&A
 
 ## Mixin basics
 
@@ -169,13 +169,13 @@ Including a large set of styles at many breakpoints repeats those declarations i
 ### 40. How should compiled CSS be used when debugging a mixin?
 
 Inspect it to confirm the resulting selector, media condition, and declarations. Sass source explains the abstraction; compiled CSS shows what the browser evaluates.
+## Chapter navigation
 
-## Further reading
-
-- [Lesson: Reusable responsive mixins](../lessons/039-reusable-responsive-mixins.md)
-- [Examples: Reusable responsive mixins](../examples/039-reusable-responsive-mixins.md)
-- [Sass: Mixins and content blocks](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass: Module loading with @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: Map functions](https://sass-lang.com/documentation/modules/map/)
-- [Sass: @error](https://sass-lang.com/documentation/at-rules/error/)
-- [CSS Media Queries Level 5](https://www.w3.org/TR/mediaqueries-5/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="038-runtime-theming-and-design-tokens.md">038 - Runtime Theming and Design Tokens: Q&amp;A</a></td><td><a href="../lessons/039-reusable-responsive-mixins.md">Lesson</a></td><td><a href="../examples/039-reusable-responsive-mixins.md">Example</a></td><td><a href="040-maps-for-design-systems.md">040 - Maps for design systems - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

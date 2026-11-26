@@ -350,12 +350,13 @@ When a compiler reports a location, inspect a few lines before it as well as the
 5. Add a Sass variable to a CSS custom property with interpolation, then inspect the generated CSS.
 6. Rewrite one simple SCSS rule using the indented .sass syntax and compare the structure.
 7. Format a compressed one-line source into readable SCSS without changing the declarations.
+## Chapter navigation
 
-## Further reading
-
-- [SCSS and Sass syntax](https://sass-lang.com/documentation/syntax/)
-- [Stylesheet structure and statements](https://sass-lang.com/documentation/syntax/structure/)
-- [Sass comments](https://sass-lang.com/documentation/syntax/comments/)
-- [Parsing Sass stylesheets](https://sass-lang.com/documentation/syntax/parsing/)
-- [Property declarations and custom properties](https://sass-lang.com/documentation/style-rules/declarations/)
-- [Sass style rules](https://sass-lang.com/documentation/style-rules/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="004-compiling-scss-to-css.md">004 - Compiling SCSS to CSS</a></td><td><a href="../qnas/005-scss-syntax-and-rules.md">Q&amp;A</a></td><td><a href="../examples/005-scss-syntax-and-rules.md">Example</a></td><td><a href="006-sass-variables-and-scope.md">006 - Sass Variables and Scope</a></td></tr>
+  </tbody>
+</table>

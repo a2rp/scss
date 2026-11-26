@@ -1,4 +1,4 @@
-# 029 — Module Namespaces and Private Members
+# 029 - Module Namespaces and Private Members
 
 ## Learning goals
 
@@ -286,8 +286,13 @@ A plain `@forward` exposes all public members from the forwarded module. Use `sh
 - A leading hyphen or underscore makes a Sass member private; a partial filename is a separate convention.
 - `@forward` creates a downstream-facing API, and `show`, `hide`, and prefixes control that API.
 - Use both `@forward` and `@use` when a file must expose a module and use its members locally.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="028-module-system-with-use.md">028 - The Module System with @use</a></td><td><a href="../qnas/029-module-namespaces-and-private-members.md">Q&amp;A</a></td><td><a href="../examples/029-module-namespaces-and-private-members.md">Example</a></td><td><a href="030-module-configuration-and-defaults.md">030 - Module Configuration and !default</a></td></tr>
+  </tbody>
+</table>

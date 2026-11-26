@@ -1,4 +1,4 @@
-# 014 — Comments and Generated CSS Output
+# 014 - Comments and Generated CSS Output
 
 ## Learning goals
 
@@ -439,9 +439,13 @@ Before moving on, make sure you can answer these questions:
 8. What can --embed-sources put in a source map?
 9. Where should a fix be made: the SCSS input or generated CSS?
 10. How does nesting appear in the compiled stylesheet?
+## Chapter navigation
 
-## Further reading
-
-- [Sass comments](https://sass-lang.com/documentation/syntax/comments/)
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass documentation comments](https://sass-lang.com/documentation/syntax/comments/#documentation-comments)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="013-colors-and-sass-color-module.md">013 - Colors and the Sass Color Module</a></td><td><a href="../qnas/014-comments-and-css-output.md">Q&amp;A</a></td><td><a href="../examples/014-comments-and-css-output.md">Example</a></td><td><a href="015-nesting-rules-and-declarations.md">015 - Nesting Rules and Declarations</a></td></tr>
+  </tbody>
+</table>

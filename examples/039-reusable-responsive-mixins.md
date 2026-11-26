@@ -1,4 +1,4 @@
-# 039 — Reusable Responsive Mixins: Examples
+# 039 - Reusable Responsive Mixins: Examples
 
 The snippets focus on Dart Sass and compile-time mixins. Breakpoint values are illustrative; choose values where your own content needs a layout change.
 
@@ -558,8 +558,13 @@ $breakpoints: (
 
 - [Lesson: Reusable responsive mixins](../lessons/039-reusable-responsive-mixins.md)
 - [Q&A: Reusable responsive mixins](../qnas/039-reusable-responsive-mixins.md)
-- [Sass: Mixins and content blocks](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass: Module loading with @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: Map functions](https://sass-lang.com/documentation/modules/map/)
-- [Sass: @error](https://sass-lang.com/documentation/at-rules/error/)
-- [CSS Media Queries Level 5](https://www.w3.org/TR/mediaqueries-5/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="038-runtime-theming-and-design-tokens.md">038 - Runtime Theming and Design Tokens: Examples</a></td><td><a href="../lessons/039-reusable-responsive-mixins.md">Lesson</a></td><td><a href="../qnas/039-reusable-responsive-mixins.md">Q&amp;A</a></td><td><a href="040-maps-for-design-systems.md">040 - Maps for design systems - Examples</a></td></tr>
+  </tbody>
+</table>

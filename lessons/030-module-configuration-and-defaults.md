@@ -1,4 +1,4 @@
-# 030 — Module Configuration and !default
+# 030 - Module Configuration and !default
 
 ## Learning goals
 
@@ -311,9 +311,13 @@ Configuration options create API commitments. Expose the values consumers truly 
 - Separate Sass entrypoints can build separate compile-time themes.
 - Use mixin parameters for multiple style variations in one compilation.
 - Use CSS custom properties when theme values must change at runtime.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use — Configuration](https://sass-lang.com/documentation/at-rules/use/#configuration)
-- [Sass: Variables — Default Values](https://sass-lang.com/documentation/variables/#default-values)
-- [Sass: Variables — Configuring Modules](https://sass-lang.com/documentation/variables/#configuring-modules)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="029-module-namespaces-and-private-members.md">029 - Module Namespaces and Private Members</a></td><td><a href="../qnas/030-module-configuration-and-defaults.md">Q&amp;A</a></td><td><a href="../examples/030-module-configuration-and-defaults.md">Example</a></td><td><a href="031-forwarding-public-apis-with-forward.md">031 - Forwarding Public APIs with @forward</a></td></tr>
+  </tbody>
+</table>

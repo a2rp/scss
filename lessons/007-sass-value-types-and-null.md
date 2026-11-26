@@ -1,4 +1,4 @@
-# 007 — Sass Value Types and Null
+# 007 - Sass Value Types and Null
 
 ## Learning goals
 
@@ -91,7 +91,7 @@ Sass also provides color functions. Their calculations and modern color syntaxes
 
 ### Lists
 
-A list contains values separated by spaces, commas, or—in supported CSS contexts—slashes. Lists may be bracketed or unbracketed.
+A list contains values separated by spaces, commas, or-in supported CSS contexts-slashes. Lists may be bracketed or unbracketed.
 
 ~~~scss
 $spacing: 0.5rem 1rem 1.5rem;
@@ -129,7 +129,7 @@ $is-disabled: false;
 @debug $has-icon and not $is-disabled; // true
 ~~~
 
-Sass truthiness is important: only false and null are falsey. Other values—including 0, an empty string, and an empty list—are truthy. Do not carry JavaScript's truthiness rules into Sass.
+Sass truthiness is important: only false and null are falsey. Other values-including 0, an empty string, and an empty list-are truthy. Do not carry JavaScript's truthiness rules into Sass.
 
 ~~~scss
 @if 0 {
@@ -376,11 +376,13 @@ Before moving on, make sure you can answer these questions:
 4. Why is false not interchangeable with null?
 5. Does @debug write to the generated stylesheet?
 6. Which types from the table are primarily useful to Sass itself rather than direct CSS property values?
+## Chapter navigation
 
-## Further reading
-
-- [Sass values](https://sass-lang.com/documentation/values/)
-- [Sass null](https://sass-lang.com/documentation/values/null/)
-- [Sass booleans](https://sass-lang.com/documentation/values/booleans/)
-- [Sass lists](https://sass-lang.com/documentation/values/lists/)
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="006-sass-variables-and-scope.md">006 - Sass Variables and Scope</a></td><td><a href="../qnas/007-sass-value-types-and-null.md">Q&amp;A</a></td><td><a href="../examples/007-sass-value-types-and-null.md">Example</a></td><td><a href="008-numbers-units-and-arithmetic.md">008 - Numbers, Units, and Arithmetic</a></td></tr>
+  </tbody>
+</table>

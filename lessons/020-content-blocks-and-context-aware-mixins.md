@@ -1,4 +1,4 @@
-# 020 — Content Blocks and Context-Aware Mixins
+# 020 - Content Blocks and Context-Aware Mixins
 
 ## Learning goals
 
@@ -487,10 +487,13 @@ The mixin provides the media context and passes the breakpoint into the content 
 - @content(value) and using (value) pass values explicitly from the mixin to its content block.
 - Every @content statement inserts the supplied block, so multiple statements produce repeated output.
 - Use regular parameters for values and content blocks for caller-supplied Sass statements.
+## Chapter navigation
 
-## Official references
-
-- [Sass @mixin and @include: content blocks](https://sass-lang.com/documentation/at-rules/mixin/#content-blocks)
-- [Sass @mixin and @include: arguments to content blocks](https://sass-lang.com/documentation/at-rules/mixin/#passing-arguments-to-content-blocks)
-- [Sass local variables and scope](https://sass-lang.com/documentation/variables/)
-- [Sass parent selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="019-mixin-arguments-defaults-and-keyword-args.md">019 - Mixin Arguments, Defaults, and Keyword Arguments</a></td><td><a href="../qnas/020-content-blocks-and-context-aware-mixins.md">Q&amp;A</a></td><td><a href="../examples/020-content-blocks-and-context-aware-mixins.md">Example</a></td><td><a href="021-custom-functions-and-return-values.md">021 - Custom Functions and Return Values</a></td></tr>
+  </tbody>
+</table>

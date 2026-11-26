@@ -287,18 +287,16 @@ A linter can enforce selected patterns; it cannot understand the complete produc
 - Apply auto-fixes carefully, review the diff, and keep rule suppressions narrow and explained.
 - CI should run repeatable checks and fail when required lint, format, or compilation steps fail.
 
-## Official references
-
-- [Stylelint: getting started with SCSS](https://stylelint.io/user-guide/get-started/)
-- [Stylelint: SCSS standard configuration](https://github.com/stylelint-scss/stylelint-config-standard-scss)
-- [Stylelint: configuration](https://stylelint.io/user-guide/configure/)
-- [Stylelint: customization and rule exceptions](https://stylelint.io/user-guide/customize/)
-- [Stylelint: command-line interface](https://stylelint.io/user-guide/cli/)
-- [Stylelint: Sass syntax support](https://stylelint.io/migration-guide/to-14/)
-- [PostCSS Sass syntax parser](https://github.com/postcss/postcss-sass)
-- [Prettier: options](https://prettier.io/docs/options.html)
-- [Prettier: ignoring files](https://prettier.io/docs/ignore.html)
-
 ## Next lesson
 
 Continue with [Source maps and browser developer tools](049-source-maps-and-browser-devtools.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="047-warnings-errors-and-debugging.md">047 - Warnings, errors, and debugging</a></td><td><a href="../qnas/048-linting-and-style-quality.md">Q&amp;A</a></td><td><a href="../examples/048-linting-and-style-quality.md">Example</a></td><td><a href="049-source-maps-and-browser-devtools.md">049 - Source maps and browser developer tools</a></td></tr>
+  </tbody>
+</table>

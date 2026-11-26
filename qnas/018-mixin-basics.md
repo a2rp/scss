@@ -1,4 +1,4 @@
-# 018 — Mixin Basics: Q&A
+# 018 - Mixin Basics: Q&A
 
 ## Definition and inclusion
 
@@ -137,10 +137,13 @@ Check the mixin's nesting and the location where it is included. The generated s
 ### 32. Should mixins be used to avoid semantic classes?
 
 Not automatically. Sass mixins can avoid adding purely presentational classes, but explicit HTML classes are useful when they communicate structure or are needed for CSS or JavaScript hooks.
+## Chapter navigation
 
-## Official references
-
-- [Sass @mixin and @include](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass at-rules](https://sass-lang.com/documentation/at-rules/)
-- [Sass @extend and mixins](https://sass-lang.com/documentation/at-rules/extend/)
-- [Sass stylesheet structure](https://sass-lang.com/documentation/syntax/structure/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="017-interpolation-in-selectors-and-property-names.md">017 - Interpolation in Selectors and Property Names: Q&amp;A</a></td><td><a href="../lessons/018-mixin-basics.md">Lesson</a></td><td><a href="../examples/018-mixin-basics.md">Example</a></td><td><a href="019-mixin-arguments-defaults-and-keyword-args.md">019 - Mixin Arguments, Defaults, and Keyword Arguments: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

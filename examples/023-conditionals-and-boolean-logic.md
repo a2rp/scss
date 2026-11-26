@@ -1,4 +1,4 @@
-# 023 — Conditionals and Boolean Logic: Examples
+# 023 - Conditionals and Boolean Logic: Examples
 
 Each snippet is SCSS you can compile with Dart Sass. Sass evaluates **@if** during compilation and emits CSS only from the selected branch.
 
@@ -372,3 +372,13 @@ sass conditionals.scss conditionals.css
 ~~~
 
 Compare the generated CSS with the expected output shown in each example. The **@debug** messages appear in the compiler output and are not emitted as CSS.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="022-built-in-sass-modules.md">022 - Built-in Sass Modules: Examples</a></td><td><a href="../lessons/023-conditionals-and-boolean-logic.md">Lesson</a></td><td><a href="../qnas/023-conditionals-and-boolean-logic.md">Q&amp;A</a></td><td><a href="024-loops-each-for-and-while.md">024 - Loops: each, for, and while: Examples</a></td></tr>
+  </tbody>
+</table>

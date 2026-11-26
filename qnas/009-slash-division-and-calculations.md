@@ -1,4 +1,4 @@
-# 009 — Slash Division and Calculations: Q&A
+# 009 - Slash Division and Calculations: Q&A
 
 This Q&A explains when slash is a CSS separator, when it represents numeric division, and how Sass calculations are simplified or passed through to the browser.
 
@@ -238,10 +238,13 @@ Interpolation may have converted a numeric Sass value into text. Remove the inte
 - The browser resolves layout-dependent calculation parts.
 - Avoid interpolation inside calculations.
 - Calculation values are not plain Sass numbers for ordinary arithmetic.
+## Chapter navigation
 
-## References
-
-- [Sass numeric operators and slash-separated values](https://sass-lang.com/documentation/operators/numeric/)
-- [Sass calculations](https://sass-lang.com/documentation/values/calculations/)
-- [Sass math module](https://sass-lang.com/documentation/modules/math/)
-- [Sass list module](https://sass-lang.com/documentation/modules/list/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="008-numbers-units-and-arithmetic.md">008 - Numbers, Units, and Arithmetic: Q&amp;A</a></td><td><a href="../lessons/009-slash-division-and-calculations.md">Lesson</a></td><td><a href="../examples/009-slash-division-and-calculations.md">Example</a></td><td><a href="010-strings-and-interpolation.md">010 - Strings and Interpolation: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

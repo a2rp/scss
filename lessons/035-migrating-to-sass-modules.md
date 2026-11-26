@@ -1,4 +1,4 @@
-# 035 — Migrating to Sass Modules
+# 035 - Migrating to Sass Modules
 
 ## Learning goals
 
@@ -29,11 +29,11 @@ Treat the migration as a behavior-preserving refactor. First capture how the pro
 
 Start by listing the Sass files and finding all import sites. Identify:
 
-1. **Application entrypoints** — files compiled into CSS bundles, such as `app.scss` and `admin.scss`.
-2. **Implementation partials** — internal files such as `_tokens.scss`, `_buttons.scss`, and `_layout.scss`.
-3. **Public library entrypoints** — files consumers are expected to load.
-4. **Third-party dependencies** — stylesheets installed from packages or supplied through load paths.
-5. **Special cases** — nested imports, CSS imports, import-only compatibility files, and files with global configuration.
+1. **Application entrypoints** - files compiled into CSS bundles, such as `app.scss` and `admin.scss`.
+2. **Implementation partials** - internal files such as `_tokens.scss`, `_buttons.scss`, and `_layout.scss`.
+3. **Public library entrypoints** - files consumers are expected to load.
+4. **Third-party dependencies** - stylesheets installed from packages or supplied through load paths.
+5. **Special cases** - nested imports, CSS imports, import-only compatibility files, and files with global configuration.
 
 Useful searches:
 
@@ -410,13 +410,13 @@ Silencing changes diagnostic output, not Sass source or compatibility. Track own
 ## 15. Summary
 
 A successful Sass module migration makes dependencies explicit while preserving the behavior and APIs the project intends to support. Inventory the dependency graph, convert a small path at a time, use `@use` for local dependencies and `@forward` for public facades, and establish module configuration before dependents load it. Use Sass Migrator to reduce mechanical work, then verify source, generated CSS, build integration, and consumer-facing APIs.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass Migrator](https://sass-lang.com/documentation/cli/migrator/)
-- [Sass: @import and global built-in deprecations](https://sass-lang.com/documentation/breaking-changes/import/)
-- [Chapter 032: Partials, load paths, and file naming](032-partials-load-paths-and-file-naming.md)
-- [Chapter 033: Generated CSS and entry points](033-emitted-css-and-entrypoints.md)
-- [Chapter 034: Legacy @import and global built-in deprecations](034-legacy-import-and-global-built-in-deprecations.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="034-legacy-import-and-global-built-in-deprecations.md">034 - Legacy @import and Global Built-In Deprecations</a></td><td><a href="../qnas/035-migrating-to-sass-modules.md">Q&amp;A</a></td><td><a href="../examples/035-migrating-to-sass-modules.md">Example</a></td><td><a href="036-sass-and-css-at-rules.md">036 - Sass with CSS At-Rules</a></td></tr>
+  </tbody>
+</table>

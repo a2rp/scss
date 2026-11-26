@@ -1,4 +1,4 @@
-# 008 — Numbers, Units, and Arithmetic
+# 008 - Numbers, Units, and Arithmetic
 
 ## Learning goals
 
@@ -378,9 +378,13 @@ Before moving on, make sure you can answer these questions:
 6. What does dividing compatible units produce?
 7. Why should unit interpolation be avoided?
 8. When should the browser resolve a CSS calculation instead of Sass calculating a value?
+## Chapter navigation
 
-## Further reading
-
-- [Sass numbers and units](https://sass-lang.com/documentation/values/numbers/)
-- [Sass numeric operators](https://sass-lang.com/documentation/operators/numeric/)
-- [Sass math module](https://sass-lang.com/documentation/modules/math/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="007-sass-value-types-and-null.md">007 - Sass Value Types and Null</a></td><td><a href="../qnas/008-numbers-units-and-arithmetic.md">Q&amp;A</a></td><td><a href="../examples/008-numbers-units-and-arithmetic.md">Example</a></td><td><a href="009-slash-division-and-calculations.md">009 - Slash Division and Calculations</a></td></tr>
+  </tbody>
+</table>

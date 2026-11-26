@@ -1,4 +1,4 @@
-# Framework integrations: Angular, React, and Vite — Q&A
+# Framework integrations: Angular, React, and Vite - Q&A
 
 This Q&A covers Sass integration in Angular CLI projects and React applications using a bundler such as Vite. Framework and build-tool options can change between releases; check the documentation for the versions recorded in the project lockfile.
 
@@ -210,13 +210,13 @@ Run the project's documented development command and production build, then conf
 - Development, tests, and production use compatible styles and options.
 - Asset URLs are valid after bundling.
 - One pipeline owns each Sass entry point.
+## Chapter navigation
 
-## Official references
-
-- [Angular workspace configuration: Sass and style options](https://angular.dev/reference/configs/workspace-config)
-- [Angular application generation options](https://angular.dev/cli/generate/application)
-- [Vite CSS features and preprocessors](https://vite.dev/guide/features)
-- [Vite shared configuration options](https://vite.dev/config/shared-options)
-- [React common elements: applying CSS styles](https://react.dev/reference/react-dom/components/common)
-- [React: add React to an existing project](https://react.dev/learn/add-react-to-an-existing-project)
-- [Install Sass](https://sass-lang.com/install/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="044-sass-cli-watch-and-build-options.md">044 - Sass CLI, watch mode, and build options - Q&amp;A</a></td><td><a href="../lessons/045-framework-integrations-angular-react-vite.md">Lesson</a></td><td><a href="../examples/045-framework-integrations-angular-react-vite.md">Example</a></td><td><a href="046-authoring-a-sass-library.md">046 - Authoring a Sass library - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 036 — Sass with CSS At-Rules
+# 036 - Sass with CSS At-Rules
 
 ## Learning goals
 
@@ -600,12 +600,13 @@ Deeply nested media, supports, and container rules make the applied conditions d
 ## 19. Summary
 
 Sass accepts CSS at-rules and adds useful behavior around nesting, SassScript values, and interpolation. It bubbles conditional rules out of style selectors, can combine nested media queries when possible, and preserves general CSS at-rules for the browser. Use `@media`, `@supports`, and `@container` for browser-evaluated conditions; use Sass flow control for compile-time decisions. Use interpolation only when a dynamic name or value needs to become CSS text, and use `@at-root` when a generated selector must escape its parent.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: CSS at-rules](https://sass-lang.com/documentation/at-rules/css/)
-- [Sass: Interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass: @at-root](https://sass-lang.com/documentation/at-rules/at-root/)
-- [Sass: Style rules and nesting](https://sass-lang.com/documentation/style-rules/)
-- [Sass: @extend within at-rules](https://sass-lang.com/documentation/at-rules/extend/)
-- [Chapter 035: Migrating to Sass modules](035-migrating-to-sass-modules.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="035-migrating-to-sass-modules.md">035 - Migrating to Sass Modules</a></td><td><a href="../qnas/036-sass-and-css-at-rules.md">Q&amp;A</a></td><td><a href="../examples/036-sass-and-css-at-rules.md">Example</a></td><td><a href="037-sass-variables-vs-css-custom-properties.md">037 - Sass Variables versus CSS Custom Properties</a></td></tr>
+  </tbody>
+</table>

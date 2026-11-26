@@ -1,4 +1,4 @@
-# 005. SCSS Syntax and Rules — Examples
+# 005. SCSS Syntax and Rules - Examples
 
 This guide uses a small stylesheet to identify SCSS rules, declarations, blocks, expressions, comments, and the CSS output produced by Sass.
 
@@ -270,11 +270,13 @@ When Sass reports a parsing error, start with the first diagnostic and inspect t
 5. Add a nested rule and write down the flat selector Sass produces.
 6. Remove a brace or semicolon, read the Sass error, and then fix the source.
 7. Rewrite one SCSS rule in the indented .sass syntax.
+## Chapter navigation
 
-## Further reading
-
-- [SCSS and Sass syntax](https://sass-lang.com/documentation/syntax/)
-- [Stylesheet structure](https://sass-lang.com/documentation/syntax/structure/)
-- [Sass comments](https://sass-lang.com/documentation/syntax/comments/)
-- [Property declarations and custom properties](https://sass-lang.com/documentation/style-rules/declarations/)
-- [Parsing Sass stylesheets](https://sass-lang.com/documentation/syntax/parsing/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="004-compiling-scss-to-css.md">004 - Compiling SCSS to CSS - Examples</a></td><td><a href="../lessons/005-scss-syntax-and-rules.md">Lesson</a></td><td><a href="../qnas/005-scss-syntax-and-rules.md">Q&amp;A</a></td><td><a href="006-sass-variables-and-scope.md">006 - Sass Variables and Scope - Examples</a></td></tr>
+  </tbody>
+</table>

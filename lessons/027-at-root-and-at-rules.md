@@ -1,4 +1,4 @@
-# 027 — @at-root and Nested At-Rules
+# 027 - @at-root and Nested At-Rules
 
 ## Learning goals
 
@@ -279,10 +279,13 @@ Sass transforms the stylesheet structure. The browser still decides whether it u
 - `with` and `without` queries control which kinds of enclosing rules remain.
 - Selector interpolation paired with `@at-root` is useful for advanced selector generation.
 - Inspect the compiled CSS whenever nesting or `@at-root` changes selector scope or conditional context.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @at-root](https://sass-lang.com/documentation/at-rules/at-root/)
-- [Sass: CSS At-Rules](https://sass-lang.com/documentation/at-rules/css/)
-- [Sass: Parent Selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
-- [Sass: sass:selector module](https://sass-lang.com/documentation/modules/selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="026-extend-placeholder-selectors.md">026 - @extend and Placeholder Selectors</a></td><td><a href="../qnas/027-at-root-and-at-rules.md">Q&amp;A</a></td><td><a href="../examples/027-at-root-and-at-rules.md">Example</a></td><td><a href="028-module-system-with-use.md">028 - The Module System with @use</a></td></tr>
+  </tbody>
+</table>

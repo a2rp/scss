@@ -1,4 +1,4 @@
-# 021 — Custom Functions and Return Values: Examples
+# 021 - Custom Functions and Return Values: Examples
 
 These examples show how to define Sass functions, pass arguments, return values, and use the results in CSS declarations. Each example is self-contained; compile a snippet on its own or combine the function definitions in one stylesheet.
 
@@ -314,3 +314,13 @@ Compare the generated values with the expected CSS above. Sass function definiti
 - Defaults make common calls concise; named arguments clarify special calls.
 - Keep argument types and units compatible with the calculation.
 - Use a mixin when reusable CSS declarations need to be emitted.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="020-content-blocks-and-context-aware-mixins.md">020 - Content Blocks and Context-Aware Mixins: Examples</a></td><td><a href="../lessons/021-custom-functions-and-return-values.md">Lesson</a></td><td><a href="../qnas/021-custom-functions-and-return-values.md">Q&amp;A</a></td><td><a href="022-built-in-sass-modules.md">022 - Built-in Sass Modules: Examples</a></td></tr>
+  </tbody>
+</table>

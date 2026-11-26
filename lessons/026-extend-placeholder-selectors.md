@@ -1,4 +1,4 @@
-# 026 — @extend and Placeholder Selectors
+# 026 - @extend and Placeholder Selectors
 
 ## Learning goals
 
@@ -282,8 +282,13 @@ Extend a simple selector or use a placeholder designed for sharing. Use a mixin 
 - Extend simple selectors; avoid compound and complex extend targets.
 - Mandatory extends catch missing targets; **!optional** should be used only intentionally.
 - Module scope and media-query boundaries affect which rules can be extended.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: @extend](https://sass-lang.com/documentation/at-rules/extend/)
-- [Sass documentation: placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="025-generating-selectors-and-utilities.md">025 - Generating Selectors and Utility Classes</a></td><td><a href="../qnas/026-extend-placeholder-selectors.md">Q&amp;A</a></td><td><a href="../examples/026-extend-placeholder-selectors.md">Example</a></td><td><a href="027-at-root-and-at-rules.md">027 - @at-root and Nested At-Rules</a></td></tr>
+  </tbody>
+</table>

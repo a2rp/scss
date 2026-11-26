@@ -1,4 +1,4 @@
-# Component styles and architecture — Q&A
+# Component styles and architecture - Q&A
 
 This Q&A covers Sass module boundaries, application entry points, component selectors, and style-reuse choices. Sass documentation is linked at the end for syntax and compiler behavior.
 
@@ -275,12 +275,13 @@ Make that behavior clear in the module’s name, documentation, and entry-point 
 - Mixing tokens and unrelated CSS output in one broad module.
 - Relying on a long chain of later overrides to repair earlier styles.
 - Building circular or unclear module dependencies.
+## Chapter navigation
 
-## Official Sass references
-
-- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
-- [The `@forward` rule](https://sass-lang.com/documentation/at-rules/forward/)
-- [Mixins and `@include`](https://sass-lang.com/documentation/at-rules/mixin/)
-- [The `@extend` rule](https://sass-lang.com/documentation/at-rules/extend/)
-- [Placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors/)
-- [Sass module system](https://sass-lang.com/blog/the-module-system-is-launched/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="040-maps-for-design-systems.md">040 - Maps for design systems - Q&amp;A</a></td><td><a href="../lessons/041-component-styles-and-architecture.md">Lesson</a></td><td><a href="../examples/041-component-styles-and-architecture.md">Example</a></td><td><a href="042-project-structure-and-naming-conventions.md">042 - Project structure and naming conventions - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 031 — Forwarding Public APIs with @forward: Q&A
+# 031 - Forwarding Public APIs with @forward: Q&A
 
 ## Core behavior
 
@@ -193,8 +193,13 @@ No. Use it to define a module or package's public API. A stylesheet that simply 
 | Prefix forwarded names | `@forward "buttons" as button-*;` |
 | Set a consumer-overridable forward default | `@forward "theme" with ($brand: purple !default);` |
 | Use a forwarded member locally too | `@forward "buttons"; @use "buttons";` |
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="030-module-configuration-and-defaults.md">030 - Module Configuration and !default: Q&amp;A</a></td><td><a href="../lessons/031-forwarding-public-apis-with-forward.md">Lesson</a></td><td><a href="../examples/031-forwarding-public-apis-with-forward.md">Example</a></td><td><a href="032-partials-load-paths-and-file-naming.md">032 - Partials, Load Paths, and File Naming: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

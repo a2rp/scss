@@ -1,4 +1,4 @@
-# Capstone: build a reusable SCSS design system — Examples
+# Capstone: build a reusable SCSS design system - Examples
 
 This exercise builds a small, reusable design system rather than a collection of disconnected snippets. It includes a public Sass API, private token maps, runtime theme variables, two components, one compiled CSS entry point, and a consumer guide.
 
@@ -537,14 +537,13 @@ Treat these sections as a starting contract. Adapt them to the project's actual 
 - Fallback declarations precede custom-property declarations.
 - The nested dark preview uses the same component styles without duplicating a second component implementation.
 - The README outline explains how a consumer can adopt and maintain the system.
+## Chapter navigation
 
-## References
-
-- [Sass: <code>@use</code> modules](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: <code>@forward</code> modules](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: built-in modules](https://sass-lang.com/documentation/modules/)
-- [Sass: Dart Sass CLI](https://sass-lang.com/documentation/cli/)
-- [MDN: using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties)
-- [MDN: <code>var()</code> function](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/var)
-- [MDN: registering CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties)
-- [Next: SCSS quick reference and glossary](../lessons/054-scss-quick-reference-and-glossary.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="052-browser-support-and-progressive-enhancement.md">052 - Browser support and progressive enhancement - Examples</a></td><td><a href="../lessons/053-capstone-build-a-reusable-scss-design-system.md">Lesson</a></td><td><a href="../qnas/053-capstone-build-a-reusable-scss-design-system.md">Q&amp;A</a></td><td><a href="054-scss-quick-reference-and-glossary.md">054 - SCSS quick reference and glossary - Examples</a></td></tr>
+  </tbody>
+</table>

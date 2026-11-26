@@ -1,4 +1,4 @@
-# 032 — Partials, Load Paths, and File Naming: Examples
+# 032 - Partials, Load Paths, and File Naming: Examples
 
 Each example shows a small file layout and the module URLs Sass should use. Paths in Sass rules use forward slashes. CLI commands are intended to run from the project root unless stated otherwise.
 
@@ -462,5 +462,13 @@ npx sass src/scss:dist/css
 
 - [Lesson: Partials, load paths, and file naming](../lessons/032-partials-load-paths-and-file-naming.md)
 - [Q&A: Partials, load paths, and file naming](../qnas/032-partials-load-paths-and-file-naming.md)
-- [Sass: @use and module resolution](https://sass-lang.com/documentation/at-rules/use/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/dart-sass/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="031-forwarding-public-apis-with-forward.md">031 - Forwarding Public APIs with @forward: Examples</a></td><td><a href="../lessons/032-partials-load-paths-and-file-naming.md">Lesson</a></td><td><a href="../qnas/032-partials-load-paths-and-file-naming.md">Q&amp;A</a></td><td><a href="033-emitted-css-and-entrypoints.md">033 - Generated CSS and Entry Points: Examples</a></td></tr>
+  </tbody>
+</table>

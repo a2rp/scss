@@ -1,4 +1,4 @@
-# 024 — Loops: each, for, and while: Q&A
+# 024 - Loops: each, for, and while: Q&A
 
 ## Core concepts
 
@@ -202,9 +202,13 @@ No. Sass loops are compile-time constructs. If behavior should react to viewport
 - **@while** repeats until its condition becomes false, so update its state.
 - Use interpolation when inserting values into selectors.
 - Sass loops generate CSS during compilation and can increase output size.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: @each](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass documentation: @for](https://sass-lang.com/documentation/at-rules/control/for/)
-- [Sass documentation: @while](https://sass-lang.com/documentation/at-rules/control/while/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="023-conditionals-and-boolean-logic.md">023 - Conditionals and Boolean Logic: Q&amp;A</a></td><td><a href="../lessons/024-loops-each-for-and-while.md">Lesson</a></td><td><a href="../examples/024-loops-each-for-and-while.md">Example</a></td><td><a href="025-generating-selectors-and-utilities.md">025 - Generating Selectors and Utility Classes: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Maps for design systems — Examples
+# Maps for design systems - Examples
 
 These examples use Dart Sass and the built-in `sass:map` module. Treat each numbered code block as a separate example unless a section says it continues a previous one. Save Sass code in a `.scss` file and compile it with Dart Sass, for example:
 
@@ -548,8 +548,13 @@ Fix the key and validate required paths with `map.has-key()` or a token function
 
 ## Reference links
 
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
-- [The built-in `sass:map` module](https://sass-lang.com/documentation/modules/map/)
-- [The `@each` control rule](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass functions](https://sass-lang.com/documentation/at-rules/function/)
-- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="039-reusable-responsive-mixins.md">039 - Reusable Responsive Mixins: Examples</a></td><td><a href="../lessons/040-maps-for-design-systems.md">Lesson</a></td><td><a href="../qnas/040-maps-for-design-systems.md">Q&amp;A</a></td><td><a href="041-component-styles-and-architecture.md">041 - Component styles and architecture - Examples</a></td></tr>
+  </tbody>
+</table>

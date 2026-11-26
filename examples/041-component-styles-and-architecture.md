@@ -1,4 +1,4 @@
-# Component styles and architecture — Examples
+# Component styles and architecture - Examples
 
 These examples use Dart Sass and its module system. Treat each numbered example as a separate project or snippet unless it says it continues another section. In a real project, compile the application entry point rather than compiling every partial.
 
@@ -524,8 +524,13 @@ Requirements:
 
 ## 23. Reference links
 
-- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
-- [The `@forward` rule](https://sass-lang.com/documentation/at-rules/forward/)
-- [Mixins and `@include`](https://sass-lang.com/documentation/at-rules/mixin/)
-- [The `@extend` rule](https://sass-lang.com/documentation/at-rules/extend/)
-- [Placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="040-maps-for-design-systems.md">040 - Maps for design systems - Examples</a></td><td><a href="../lessons/041-component-styles-and-architecture.md">Lesson</a></td><td><a href="../qnas/041-component-styles-and-architecture.md">Q&amp;A</a></td><td><a href="042-project-structure-and-naming-conventions.md">042 - Project structure and naming conventions - Examples</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 007 — Sass Value Types and Null: Q&A
+# 007 - Sass Value Types and Null: Q&A
 
 This Q&A reviews the value types introduced in the lesson, with extra focus on Sass truthiness and how null affects generated CSS.
 
@@ -232,11 +232,13 @@ No. Sass maps are Sass data structures. You need Sass logic to read or transform
 - Null items are omitted from generated CSS lists.
 - False means “no”; null means “no value.”
 - @debug writes to compiler diagnostics, not CSS.
+## Chapter navigation
 
-## References
-
-- [Sass values](https://sass-lang.com/documentation/values/)
-- [Sass null](https://sass-lang.com/documentation/values/null/)
-- [Sass booleans](https://sass-lang.com/documentation/values/booleans/)
-- [Sass lists](https://sass-lang.com/documentation/values/lists/)
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="006-sass-variables-and-scope.md">006 - Sass Variables and Scope - Q&amp;A</a></td><td><a href="../lessons/007-sass-value-types-and-null.md">Lesson</a></td><td><a href="../examples/007-sass-value-types-and-null.md">Example</a></td><td><a href="008-numbers-units-and-arithmetic.md">008 - Numbers, Units, and Arithmetic: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

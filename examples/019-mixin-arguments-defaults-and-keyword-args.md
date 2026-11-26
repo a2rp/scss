@@ -1,4 +1,4 @@
-# 019 — Mixin Arguments, Defaults, and Keyword Arguments: Examples
+# 019 - Mixin Arguments, Defaults, and Keyword Arguments: Examples
 
 Each example shows how arguments affect the CSS emitted by a Sass mixin.
 
@@ -409,3 +409,13 @@ For each include, identify:
 8. Write one call with keyword arguments in a different order from the definition.
 9. Try an unknown keyword and read the compiler error.
 10. Find a mixin include and label each argument as positional, keyword, or defaulted.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="018-mixin-basics.md">018 - Mixin Basics: Examples</a></td><td><a href="../lessons/019-mixin-arguments-defaults-and-keyword-args.md">Lesson</a></td><td><a href="../qnas/019-mixin-arguments-defaults-and-keyword-args.md">Q&amp;A</a></td><td><a href="020-content-blocks-and-context-aware-mixins.md">020 - Content Blocks and Context-Aware Mixins: Examples</a></td></tr>
+  </tbody>
+</table>

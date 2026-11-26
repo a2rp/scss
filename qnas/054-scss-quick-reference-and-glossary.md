@@ -1,4 +1,4 @@
-# SCSS quick reference and glossary — Q&A
+# SCSS quick reference and glossary - Q&A
 
 These questions review the final chapter's syntax reminders and terminology. Examples use modern Dart Sass with SCSS syntax.
 
@@ -263,16 +263,13 @@ Read the warning to identify the deprecated construct, consult the matching offi
 - Runtime theme or inherited browser value: CSS custom property.
 - Conditional or repeated CSS generation: a small flow-control block.
 - Intentional selector relationship: carefully considered <code>@extend</code>.
+## Chapter navigation
 
-## Official references
-
-- [Sass documentation](https://sass-lang.com/documentation/)
-- [Sass syntax](https://sass-lang.com/documentation/syntax/)
-- [Module loading with @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Module forwarding with @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Built-in Sass modules](https://sass-lang.com/documentation/modules/)
-- [Mixins and @include](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass functions](https://sass-lang.com/documentation/at-rules/function/)
-- [Flow-control rules](https://sass-lang.com/documentation/at-rules/control/)
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/)
-- [Sass import deprecation and migration](https://sass-lang.com/documentation/breaking-changes/import/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="053-capstone-build-a-reusable-scss-design-system.md">053 - Capstone: build a reusable SCSS design system - Q&amp;A</a></td><td><a href="../lessons/054-scss-quick-reference-and-glossary.md">Lesson</a></td><td><a href="../examples/054-scss-quick-reference-and-glossary.md">Example</a></td><td>End of course</td></tr>
+  </tbody>
+</table>

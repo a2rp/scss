@@ -1,4 +1,4 @@
-# Authoring a Sass library — Q&A
+# Authoring a Sass library - Q&A
 
 This Q&A is about building reusable Sass APIs with the module system and, where relevant, publishing them as Node.js packages. Sass features and package-import behavior have version requirements, so verify the minimum version stated by the library and used by the consuming build.
 
@@ -220,13 +220,13 @@ Do not load a CSS-emitting entry from every component or application entry. Keep
 - State the Sass implementation, minimum version, and importer setup.
 - Test public entry points and the CSS they generate.
 - Version API and output changes responsibly.
+## Chapter navigation
 
-## Official references
-
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: NodePackageImporter](https://sass-lang.com/documentation/js-api/classes/nodepackageimporter/)
-- [Dart Sass CLI and the Node package importer](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass: variables and configurable defaults](https://sass-lang.com/documentation/variables/)
-- [Sass: @import migration considerations](https://sass-lang.com/documentation/at-rules/import/)
-- [npm package.json exports](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#exports)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="045-framework-integrations-angular-react-vite.md">045 - Framework integrations: Angular, React, and Vite - Q&amp;A</a></td><td><a href="../lessons/046-authoring-a-sass-library.md">Lesson</a></td><td><a href="../examples/046-authoring-a-sass-library.md">Example</a></td><td><a href="047-warnings-errors-and-debugging.md">047 - Warnings, errors, and debugging - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

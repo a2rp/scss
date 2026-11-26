@@ -1,4 +1,4 @@
-# 003. Installing Dart Sass and Version Basics — Examples
+# 003. Installing Dart Sass and Version Basics - Examples
 
 This guide creates a small npm project that installs Dart Sass locally, verifies the executable and package version, compiles one stylesheet, and repeats the install from the lockfile.
 
@@ -237,3 +237,13 @@ Read the warning and identify its source. If it points to your SCSS, follow the 
 3. Compare npm pkg get devDependencies.sass with npm ls sass.
 4. Intentionally change the stylesheet link, reload the page, and locate the failed request in browser developer tools.
 5. Review the package and lockfile diff after an intentional Sass version update.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="002-how-sass-fits-css-and-a-web-build.md">002 - How Sass Fits CSS and a Web Build - Examples</a></td><td><a href="../lessons/003-installing-dart-sass-and-version-basics.md">Lesson</a></td><td><a href="../qnas/003-installing-dart-sass-and-version-basics.md">Q&amp;A</a></td><td><a href="004-compiling-scss-to-css.md">004 - Compiling SCSS to CSS - Examples</a></td></tr>
+  </tbody>
+</table>

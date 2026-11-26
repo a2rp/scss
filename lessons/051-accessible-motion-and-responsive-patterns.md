@@ -263,16 +263,13 @@ Compile the Sass, then inspect the generated CSS. Resize the page, constrain the
 Responsive styles should follow content and available space. Use fluid layout first, viewport media queries for page-level changes, and container queries when a reusable component responds to its own space. Sass maps and mixins can organize shared breakpoints, but should not hide the resulting CSS.
 
 Treat reduced motion as a user preference. Make the static state complete, keep essential information available, and classify motion by whether it is interaction-triggered or automatic before deciding how to control it.
+## Chapter navigation
 
-## References
-
-- [Sass: built-in modules](https://sass-lang.com/documentation/modules/)
-- [MDN: responsive design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)
-- [MDN: media query fundamentals](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries)
-- [MDN: CSS media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries)
-- [MDN: container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
-- [MDN: using media queries for accessibility](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility)
-- [MDN: <code>prefers-reduced-motion</code>](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion)
-- [W3C: WCAG 2.2 SC 2.3.3, Animation from Interactions](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions)
-- [W3C: WCAG 2.2 Understanding docs](https://www.w3.org/WAI/WCAG22/Understanding/)
-- [Next: Browser support and progressive enhancement](052-browser-support-and-progressive-enhancement.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="050-css-output-performance-and-maintenance.md">050 - CSS output, performance, and maintenance</a></td><td><a href="../qnas/051-accessible-motion-and-responsive-patterns.md">Q&amp;A</a></td><td><a href="../examples/051-accessible-motion-and-responsive-patterns.md">Example</a></td><td><a href="052-browser-support-and-progressive-enhancement.md">052 - Browser support and progressive enhancement</a></td></tr>
+  </tbody>
+</table>

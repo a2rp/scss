@@ -1,4 +1,4 @@
-# 026 — @extend and Placeholder Selectors: Q&A
+# 026 - @extend and Placeholder Selectors: Q&A
 
 ## Core behavior
 
@@ -159,8 +159,13 @@ No. Repeated declarations alone do not necessarily represent a selector relation
 - Extend simple selectors and keep targets in the correct module scope.
 - Mandatory extends catch missing targets; **!optional** intentionally suppresses that error.
 - Review compiled selector lists and cascade order when using extends.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: @extend](https://sass-lang.com/documentation/at-rules/extend/)
-- [Sass documentation: placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="025-generating-selectors-and-utilities.md">025 - Generating Selectors and Utility Classes: Q&amp;A</a></td><td><a href="../lessons/026-extend-placeholder-selectors.md">Lesson</a></td><td><a href="../examples/026-extend-placeholder-selectors.md">Example</a></td><td><a href="027-at-root-and-at-rules.md">027 - @at-root and Nested At-Rules: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

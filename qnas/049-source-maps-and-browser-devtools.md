@@ -1,4 +1,4 @@
-# Source maps and browser developer tools — Q&A
+# Source maps and browser developer tools - Q&A
 
 This Q&A explains how Sass source maps connect generated CSS to source files and how browser developer tools help inspect the final cascade. Sass and browser tooling can change, so check current options for the versions used by your project.
 
@@ -121,13 +121,13 @@ Yes, if the framework or bundler emits and preserves CSS source maps, and the br
 ## 30. What is a reliable source-map debugging workflow?
 
 Enable CSS maps, inspect the target element, follow its rule source, compare Styles and Computed, check Developer Resources if the map is missing, verify paths and build freshness, make the fix in Sass, rebuild CSS and maps together, and reload to confirm the result.
+## Chapter navigation
 
-## Official references
-
-- [Dart Sass CLI: source maps](https://sass-lang.com/documentation/cli/dart-sass/#source-maps)
-- [Sass JavaScript API: compile options](https://sass-lang.com/documentation/js-api/interfaces/options/)
-- [Sass JavaScript API: CompileResult](https://sass-lang.com/documentation/js-api/interfaces/compileresult/)
-- [Chrome DevTools: CSS source maps preferences](https://developer.chrome.com/docs/devtools/settings/preferences/)
-- [Chrome DevTools: debug authored source with source maps](https://developer.chrome.com/docs/devtools/javascript/source-maps/)
-- [Chrome DevTools: view and manually load source maps](https://developer.chrome.com/docs/devtools/developer-resources/)
-- [Chrome DevTools: inspect CSS in Styles and Computed](https://developer.chrome.com/docs/devtools/css/reference/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="048-linting-and-style-quality.md">048 - Linting and stylesheet quality - Q&amp;A</a></td><td><a href="../lessons/049-source-maps-and-browser-devtools.md">Lesson</a></td><td><a href="../examples/049-source-maps-and-browser-devtools.md">Example</a></td><td><a href="050-css-output-performance-and-maintenance.md">050 - CSS output, performance, and maintenance - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

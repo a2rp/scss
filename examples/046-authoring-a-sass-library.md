@@ -1,4 +1,4 @@
-# Authoring a Sass library — Examples
+# Authoring a Sass library - Examples
 
 These examples build a small Sass library from internal modules to a documented package entry point. Package names and paths are illustrative; replace them with the package name and versions used by your project.
 
@@ -508,13 +508,13 @@ Adding a documented member is usually compatible. Removing or changing an existi
 [ ] Consumer fixtures compile through the public package URL
 [ ] Breaking changes have release notes and migration guidance
 ~~~
+## Chapter navigation
 
-## Official references
-
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: NodePackageImporter](https://sass-lang.com/documentation/js-api/classes/nodepackageimporter/)
-- [Dart Sass CLI and the Node package importer](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass: variables and configurable defaults](https://sass-lang.com/documentation/variables/)
-- [Sass: @import migration considerations](https://sass-lang.com/documentation/at-rules/import/)
-- [npm package.json exports](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#exports)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="045-framework-integrations-angular-react-vite.md">045 - Framework integrations: Angular, React, and Vite - Examples</a></td><td><a href="../lessons/046-authoring-a-sass-library.md">Lesson</a></td><td><a href="../qnas/046-authoring-a-sass-library.md">Q&amp;A</a></td><td><a href="047-warnings-errors-and-debugging.md">047 - Warnings, errors, and debugging - Examples</a></td></tr>
+  </tbody>
+</table>

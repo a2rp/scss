@@ -237,9 +237,13 @@ Sass output is generated. Use a fresh one-time compile, update command, or runni
 5. Compile with expanded and compressed styles and compare the output formatting.
 6. Open a generated CSS file with its source map and locate a rule in the original SCSS.
 7. Introduce a temporary syntax error, read the diagnostic, fix it, and compile successfully again.
+## Chapter navigation
 
-## Further reading
-
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass @use rule](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass stylesheet structure](https://sass-lang.com/documentation/syntax/structure/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="003-installing-dart-sass-and-version-basics.md">003 - Installing Dart Sass and Version Basics</a></td><td><a href="../qnas/004-compiling-scss-to-css.md">Q&amp;A</a></td><td><a href="../examples/004-compiling-scss-to-css.md">Example</a></td><td><a href="005-scss-syntax-and-rules.md">005 - SCSS Syntax and Rules</a></td></tr>
+  </tbody>
+</table>

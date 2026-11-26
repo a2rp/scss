@@ -1,4 +1,4 @@
-# 022 — Built-in Sass Modules: Q&A
+# 022 - Built-in Sass Modules: Q&A
 
 ## Module system and @use
 
@@ -174,15 +174,13 @@ No. Sass's **@import** historically loaded Sass files at compile time and expose
 - Sass math functions run during compilation; CSS calculations may run in the browser.
 - Prefer namespaced APIs over legacy global aliases.
 - Consult the official documentation for every function's exact behavior and compatibility.
+## Chapter navigation
 
-## Further reading
-
-- [Sass built-in modules](https://sass-lang.com/documentation/modules/)
-- [Sass @use](https://sass-lang.com/documentation/at-rules/use/)
-- [sass:math](https://sass-lang.com/documentation/modules/math/)
-- [sass:color](https://sass-lang.com/documentation/modules/color/)
-- [sass:list](https://sass-lang.com/documentation/modules/list/)
-- [sass:map](https://sass-lang.com/documentation/modules/map/)
-- [sass:string](https://sass-lang.com/documentation/modules/string/)
-- [sass:meta](https://sass-lang.com/documentation/modules/meta/)
-- [sass:selector](https://sass-lang.com/documentation/modules/selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="021-custom-functions-and-return-values.md">021 - Custom Functions and Return Values: Q&amp;A</a></td><td><a href="../lessons/022-built-in-sass-modules.md">Lesson</a></td><td><a href="../examples/022-built-in-sass-modules.md">Example</a></td><td><a href="023-conditionals-and-boolean-logic.md">023 - Conditionals and Boolean Logic: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

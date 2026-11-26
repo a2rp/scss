@@ -1,4 +1,4 @@
-# 006. Sass Variables and Scope — Q&A
+# 006. Sass Variables and Scope - Q&A
 
 ## Sass variable basics
 
@@ -172,3 +172,13 @@ Hyphens and underscores are equivalent in Sass identifiers. For example, $font-s
 - **!default:** Assigns a fallback only when the variable is undefined or null.
 - **!global:** Reassigns an existing top-level variable; use sparingly.
 - **Custom-property interpolation:** Inserts a Sass expression into CSS custom-property text.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="005-scss-syntax-and-rules.md">005 - SCSS Syntax and Rules - Q&amp;A</a></td><td><a href="../lessons/006-sass-variables-and-scope.md">Lesson</a></td><td><a href="../examples/006-sass-variables-and-scope.md">Example</a></td><td><a href="007-sass-value-types-and-null.md">007 - Sass Value Types and Null: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

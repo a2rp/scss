@@ -1,4 +1,4 @@
-# Accessible motion and responsive patterns — Examples
+# Accessible motion and responsive patterns - Examples
 
 This exercise builds a small Sass page with a fluid card grid, a viewport breakpoint for the page layout, a container query for each reusable card, and an optional entrance animation that respects reduced-motion preferences.
 
@@ -412,15 +412,13 @@ Use the browser and operating system settings to inspect the example:
 - A card's inner layout changes based on its own container width.
 - The reduced-motion path keeps the status message visible and removes the optional entrance movement.
 - Keyboard focus remains visible on card links.
+## Chapter navigation
 
-## References
-
-- [Sass built-in modules](https://sass-lang.com/documentation/modules/)
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/)
-- [MDN: responsive design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)
-- [MDN: media query fundamentals](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries)
-- [MDN: container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
-- [MDN: using media queries for accessibility](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using_for_accessibility)
-- [MDN: <code>prefers-reduced-motion</code>](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion)
-- [W3C: WCAG 2.2 SC 2.3.3, Animation from Interactions](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions)
-- [Next: Browser support and progressive enhancement](../lessons/052-browser-support-and-progressive-enhancement.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="050-css-output-performance-and-maintenance.md">050 - CSS output, performance, and maintenance - Examples</a></td><td><a href="../lessons/051-accessible-motion-and-responsive-patterns.md">Lesson</a></td><td><a href="../qnas/051-accessible-motion-and-responsive-patterns.md">Q&amp;A</a></td><td><a href="052-browser-support-and-progressive-enhancement.md">052 - Browser support and progressive enhancement - Examples</a></td></tr>
+  </tbody>
+</table>

@@ -303,11 +303,13 @@ No. Sass is useful when its compile-time features and organization help a projec
 3. Add one nested child selector and one `&:hover` selector.
 4. Compare the SCSS source with the generated CSS.
 5. Change a variable, recompile, and confirm every intended use changes.
+## Chapter navigation
 
-## Official references
-
-- [Sass documentation](https://sass-lang.com/documentation/)
-- [Sass syntax: SCSS and indented syntax](https://sass-lang.com/documentation/syntax/)
-- [Sass basics](https://sass-lang.com/guide/)
-- [Install Sass](https://sass-lang.com/install/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start of course</td><td><a href="../qnas/001-introduction-to-sass-and-scss.md">Q&amp;A</a></td><td><a href="../examples/001-introduction-to-sass-and-scss.md">Example</a></td><td><a href="002-how-sass-fits-css-and-a-web-build.md">002 - How Sass Fits CSS and a Web Build</a></td></tr>
+  </tbody>
+</table>

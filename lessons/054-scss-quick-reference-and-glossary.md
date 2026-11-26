@@ -402,16 +402,13 @@ Then run <code>npm run css:build</code> or <code>npm run css:watch</code>.
 - Need conditional or repeated source generation? Use <code>@if</code>, <code>@each</code>, or <code>@for</code> when it keeps output understandable.
 - Need to relate selectors intentionally? Consider <code>@extend</code>; otherwise prefer explicit classes or mixins.
 - Need to check what the browser receives? Inspect compiled CSS and use source maps in developer tools.
+## Chapter navigation
 
-## Official references
-
-- [Sass documentation](https://sass-lang.com/documentation/)
-- [SCSS and Sass syntax](https://sass-lang.com/documentation/syntax/)
-- [Sass module loading with @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass module forwarding with @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Built-in Sass modules](https://sass-lang.com/documentation/modules/)
-- [Mixins and @include](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass functions](https://sass-lang.com/documentation/at-rules/function/)
-- [Flow control](https://sass-lang.com/documentation/at-rules/control/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/)
-- [Sass import deprecation](https://sass-lang.com/documentation/breaking-changes/import/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="053-capstone-build-a-reusable-scss-design-system.md">053 - Capstone: build a reusable SCSS design system</a></td><td><a href="../qnas/054-scss-quick-reference-and-glossary.md">Q&amp;A</a></td><td><a href="../examples/054-scss-quick-reference-and-glossary.md">Example</a></td><td>End of course</td></tr>
+  </tbody>
+</table>

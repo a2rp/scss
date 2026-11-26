@@ -162,11 +162,13 @@ No. Plain CSS may be simpler. Add Sass when its features improve the project's a
 | Nesting changes the source and emits CSS selectors. | Yes | Nesting is transformed by Sass into ordinary CSS. |
 | Every project needs Sass. | No | Use Sass when its features are useful for that project. |
 | The browser's cascade still applies to compiled Sass output. | Yes | The output is CSS, so normal browser CSS rules apply. |
+## Chapter navigation
 
-## Official references
-
-- [Sass documentation](https://sass-lang.com/documentation/)
-- [Sass syntax: SCSS and indented syntax](https://sass-lang.com/documentation/syntax/)
-- [Sass basics](https://sass-lang.com/guide/)
-- [Install Sass](https://sass-lang.com/install/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start of course</td><td><a href="../lessons/001-introduction-to-sass-and-scss.md">Lesson</a></td><td><a href="../examples/001-introduction-to-sass-and-scss.md">Example</a></td><td><a href="002-how-sass-fits-css-and-a-web-build.md">002 - How Sass Fits CSS and a Web Build - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

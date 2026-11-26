@@ -1,4 +1,4 @@
-# 032 — Partials, Load Paths, and File Naming
+# 032 - Partials, Load Paths, and File Naming
 
 ## Learning goals
 
@@ -463,9 +463,13 @@ Before adding a Sass module, ask:
 - Use forward slashes and exact case in Sass URLs on every operating system.
 - Keep standalone entrypoints distinct from reusable partials.
 - Give modules descriptive names and keep load-path resolution predictable.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use and module resolution](https://sass-lang.com/documentation/at-rules/use/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="031-forwarding-public-apis-with-forward.md">031 - Forwarding Public APIs with @forward</a></td><td><a href="../qnas/032-partials-load-paths-and-file-naming.md">Q&amp;A</a></td><td><a href="../examples/032-partials-load-paths-and-file-naming.md">Example</a></td><td><a href="033-emitted-css-and-entrypoints.md">033 - Generated CSS and Entry Points</a></td></tr>
+  </tbody>
+</table>

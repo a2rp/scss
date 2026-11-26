@@ -1,4 +1,4 @@
-# 028 — The Module System with @use: Q&A
+# 028 - The Module System with @use: Q&A
 
 ## Fundamentals
 
@@ -216,9 +216,13 @@ With `@use`, each file must explicitly load its dependency and use the right nam
 | Configure public defaults | `@use "theme" with ($brand-color: purple);` |
 | Use a built-in module | `@use "sass:math";` |
 | Expose members downstream | `@forward "tokens";` |
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: Breaking Change — @import and global built-in functions](https://sass-lang.com/documentation/breaking-changes/import/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="027-at-root-and-at-rules.md">027 - @at-root and Nested At-Rules: Q&amp;A</a></td><td><a href="../lessons/028-module-system-with-use.md">Lesson</a></td><td><a href="../examples/028-module-system-with-use.md">Example</a></td><td><a href="029-module-namespaces-and-private-members.md">029 - Module Namespaces and Private Members: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

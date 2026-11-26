@@ -1,4 +1,4 @@
-# Sass CLI, watch mode, and build options — Q&A
+# Sass CLI, watch mode, and build options - Q&A
 
 This Q&A focuses on Dart Sass’s command-line interface. Exact option support can depend on the installed Sass version; use the CLI’s <code>--help</code> output and the official documentation linked at the end.
 
@@ -236,10 +236,13 @@ Whether to emit source maps depends on the project’s debugging and deployment 
 - Suppressing warnings instead of fixing first-party deprecations.
 - Using a flag unsupported by the project’s installed Sass version.
 - Forgetting that a compiler error should fail the enclosing build.
+## Chapter navigation
 
-## Official references
-
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass CLI overview](https://sass-lang.com/documentation/cli/)
-- [Sass installation](https://sass-lang.com/install/)
-- [Sass breaking changes and deprecations](https://sass-lang.com/documentation/breaking-changes/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="043-npm-scripts-and-build-integration.md">043 - npm scripts and build integration - Q&amp;A</a></td><td><a href="../lessons/044-sass-cli-watch-and-build-options.md">Lesson</a></td><td><a href="../examples/044-sass-cli-watch-and-build-options.md">Example</a></td><td><a href="045-framework-integrations-angular-react-vite.md">045 - Framework integrations: Angular, React, and Vite - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

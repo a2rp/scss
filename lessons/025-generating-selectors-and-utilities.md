@@ -1,4 +1,4 @@
-# 025 — Generating Selectors and Utility Classes
+# 025 - Generating Selectors and Utility Classes
 
 ## Learning goals
 
@@ -329,10 +329,13 @@ Each token or breakpoint can add output. Keep the data set small and useful.
 - Keep selector tokens valid and avoid raw decimals or other punctuation in generated names.
 - Sass creates the utility rules at compile time; browser media queries remain runtime conditions.
 - Generate only the utilities the project needs.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass documentation: @each](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass documentation: parent selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
-- [Sass documentation: @at-root](https://sass-lang.com/documentation/at-rules/at-root/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="024-loops-each-for-and-while.md">024 - Loops: each, for, and while</a></td><td><a href="../qnas/025-generating-selectors-and-utilities.md">Q&amp;A</a></td><td><a href="../examples/025-generating-selectors-and-utilities.md">Example</a></td><td><a href="026-extend-placeholder-selectors.md">026 - @extend and Placeholder Selectors</a></td></tr>
+  </tbody>
+</table>

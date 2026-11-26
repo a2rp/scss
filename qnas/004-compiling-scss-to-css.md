@@ -1,4 +1,4 @@
-# 004. Compiling SCSS to CSS — Q&A
+# 004. Compiling SCSS to CSS - Q&A
 
 ## Compilation basics
 
@@ -165,3 +165,13 @@ A one-time compile runs and exits. Watch mode compiles once, remains active, and
 - **Source map:** a mapping from generated CSS back to Sass source.
 - **Watch:** compile now and keep recompiling after changes.
 - **Update:** compile only outputs that are stale.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="003-installing-dart-sass-and-version-basics.md">003 - Installing Dart Sass and Version Basics - Q&amp;A</a></td><td><a href="../lessons/004-compiling-scss-to-css.md">Lesson</a></td><td><a href="../examples/004-compiling-scss-to-css.md">Example</a></td><td><a href="005-scss-syntax-and-rules.md">005 - SCSS Syntax and Rules - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

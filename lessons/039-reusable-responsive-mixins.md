@@ -1,4 +1,4 @@
-# 039 — Reusable Responsive Mixins
+# 039 - Reusable Responsive Mixins
 
 ## Learning goals
 
@@ -519,8 +519,13 @@ $breakpoints: (
 - [Q&A: Reusable responsive mixins](../qnas/039-reusable-responsive-mixins.md)
 - [Examples: Reusable responsive mixins](../examples/039-reusable-responsive-mixins.md)
 - [Next lesson: Maps for design systems](040-maps-for-design-systems.md)
-- [Sass: Mixins and content blocks](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass: Module loading with @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: Map functions](https://sass-lang.com/documentation/modules/map/)
-- [Sass: @error](https://sass-lang.com/documentation/at-rules/error/)
-- [CSS Media Queries Level 5](https://www.w3.org/TR/mediaqueries-5/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="038-runtime-theming-and-design-tokens.md">038 - Runtime Theming and Design Tokens</a></td><td><a href="../qnas/039-reusable-responsive-mixins.md">Q&amp;A</a></td><td><a href="../examples/039-reusable-responsive-mixins.md">Example</a></td><td><a href="040-maps-for-design-systems.md">040 - Maps for design systems</a></td></tr>
+  </tbody>
+</table>

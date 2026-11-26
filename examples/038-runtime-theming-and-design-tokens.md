@@ -1,4 +1,4 @@
-# 038 — Runtime Theming and Design Tokens: Examples
+# 038 - Runtime Theming and Design Tokens: Examples
 
 These examples use Sass for build-time token generation and CSS custom properties for values the browser can change at runtime. The sample colors illustrate the structure; check each actual foreground/background pair in your product before shipping.
 
@@ -503,8 +503,13 @@ A check in one column does not prove the other combinations work. Inspect the ac
 
 - [Lesson: Runtime theming and design tokens](../lessons/038-runtime-theming-and-design-tokens.md)
 - [Q&A: Runtime theming and design tokens](../qnas/038-runtime-theming-and-design-tokens.md)
-- [Sass: @use modules](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: Maps](https://sass-lang.com/documentation/values/maps/)
-- [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/)
-- [CSS Color Adjustment Module](https://www.w3.org/TR/css-color-adjust-1/)
-- [WCAG 2.2: Contrast Minimum](https://www.w3.org/TR/WCAG22/#contrast-minimum)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="037-sass-variables-vs-css-custom-properties.md">037 - Sass Variables versus CSS Custom Properties: Examples</a></td><td><a href="../lessons/038-runtime-theming-and-design-tokens.md">Lesson</a></td><td><a href="../qnas/038-runtime-theming-and-design-tokens.md">Q&amp;A</a></td><td><a href="039-reusable-responsive-mixins.md">039 - Reusable Responsive Mixins: Examples</a></td></tr>
+  </tbody>
+</table>

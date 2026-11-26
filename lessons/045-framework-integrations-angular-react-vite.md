@@ -312,16 +312,16 @@ Before considering the integration complete, confirm:
 | Component class isolation | Angular view encapsulation setting | CSS Modules via `.module.scss` when supported |
 | Build output | Angular CLI build | Vite production build |
 
-## Official references
-
-- [Angular workspace configuration: styles and Sass preprocessor options](https://angular.dev/reference/configs/workspace-config)
-- [Angular application generation options](https://angular.dev/cli/generate/application)
-- [Vite CSS features and preprocessors](https://vite.dev/guide/features)
-- [Vite shared configuration options](https://vite.dev/config/shared-options)
-- [React common elements: applying CSS styles](https://react.dev/reference/react-dom/components/common)
-- [React: add React to an existing project](https://react.dev/learn/add-react-to-an-existing-project)
-- [Install Sass](https://sass-lang.com/install/)
-
 ## Next lesson
 
 Continue with [Authoring a Sass library](046-authoring-a-sass-library.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="044-sass-cli-watch-and-build-options.md">044 - Sass CLI, watch mode, and build options</a></td><td><a href="../qnas/045-framework-integrations-angular-react-vite.md">Q&amp;A</a></td><td><a href="../examples/045-framework-integrations-angular-react-vite.md">Example</a></td><td><a href="046-authoring-a-sass-library.md">046 - Authoring a Sass library</a></td></tr>
+  </tbody>
+</table>

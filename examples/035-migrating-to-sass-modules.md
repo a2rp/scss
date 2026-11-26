@@ -1,4 +1,4 @@
-# 035 — Migrating to Sass Modules: Examples
+# 035 - Migrating to Sass Modules: Examples
 
 These examples show a migration in small steps: make dependencies explicit, publish a controlled API, preserve configuration, and verify the source and compiled CSS.
 
@@ -518,7 +518,13 @@ npx sass src/scss/app.scss dist/app.css
 
 - [Lesson: Migrating to Sass modules](../lessons/035-migrating-to-sass-modules.md)
 - [Q&A: Migrating to Sass modules](../qnas/035-migrating-to-sass-modules.md)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass Migrator](https://sass-lang.com/documentation/cli/migrator/)
-- [Sass import and global built-in deprecations](https://sass-lang.com/documentation/breaking-changes/import/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="034-legacy-import-and-global-built-in-deprecations.md">034 - Legacy @import and Global Built-In Deprecations: Examples</a></td><td><a href="../lessons/035-migrating-to-sass-modules.md">Lesson</a></td><td><a href="../qnas/035-migrating-to-sass-modules.md">Q&amp;A</a></td><td><a href="036-sass-and-css-at-rules.md">036 - Sass with CSS At-Rules: Examples</a></td></tr>
+  </tbody>
+</table>

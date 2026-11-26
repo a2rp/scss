@@ -1,4 +1,4 @@
-# 017 — Interpolation in Selectors and Property Names: Q&A
+# 017 - Interpolation in Selectors and Property Names: Q&A
 
 ## Interpolation basics
 
@@ -129,12 +129,13 @@ Usually no. Sass calculations understand Sass variables directly. Interpolating 
 ### 30. What should I inspect after adding interpolation?
 
 Compile the stylesheet and check the final selector, property name, and value. Confirm that the selector matches the intended markup and that quotes and units survived as intended.
+## Chapter navigation
 
-## Official references
-
-- [Sass interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass property declarations](https://sass-lang.com/documentation/style-rules/declarations/)
-- [Sass values: numbers and units](https://sass-lang.com/documentation/values/numbers/)
-- [Sass values: strings](https://sass-lang.com/documentation/values/strings/)
-- [Sass variables and dynamic variable names](https://sass-lang.com/documentation/variables/)
-- [Sass custom property syntax](https://sass-lang.com/documentation/breaking-changes/css-vars/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="016-parent-selector.md">016 - The Parent Selector: Q&amp;A</a></td><td><a href="../lessons/017-interpolation-in-selectors-and-property-names.md">Lesson</a></td><td><a href="../examples/017-interpolation-in-selectors-and-property-names.md">Example</a></td><td><a href="018-mixin-basics.md">018 - Mixin Basics: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

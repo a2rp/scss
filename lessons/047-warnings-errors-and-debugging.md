@@ -237,15 +237,16 @@ Use this short loop when Sass output is unexpected:
 - Error CSS does not turn a failed build into a successful one.
 - Use Sass tools for compilation problems and browser developer tools for computed-style problems.
 
-## Official references
-
-- [Sass: @warn](https://sass-lang.com/documentation/at-rules/warn/)
-- [Sass: @error](https://sass-lang.com/documentation/at-rules/error/)
-- [Sass: @debug](https://sass-lang.com/documentation/at-rules/debug/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass deprecations](https://sass-lang.com/documentation/breaking-changes/)
-- [Sass JavaScript API logger](https://sass-lang.com/documentation/js-api/interfaces/logger/)
-
 ## Next lesson
 
 Continue with [Linting and style quality](048-linting-and-style-quality.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="046-authoring-a-sass-library.md">046 - Authoring a Sass library</a></td><td><a href="../qnas/047-warnings-errors-and-debugging.md">Q&amp;A</a></td><td><a href="../examples/047-warnings-errors-and-debugging.md">Example</a></td><td><a href="048-linting-and-style-quality.md">048 - Linting and stylesheet quality</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Linting and stylesheet quality — Examples
+# Linting and stylesheet quality - Examples
 
 This guide builds a small Stylelint and Prettier workflow for authored SCSS. One file intentionally contains a lint problem so you can see a diagnostic and correct it. Do not leave the deliberately broken version in a project that is expected to pass lint.
 
@@ -269,15 +269,13 @@ The exact clean-install command depends on the package manager. Ensure each chec
 - Add a documented, rule-specific exception and remove it after the constraint ends.
 - Compile Sass separately and inspect the browser output.
 - Confirm CI fails if any required check fails.
+## Chapter navigation
 
-## Official references
-
-- [Stylelint: getting started with SCSS](https://stylelint.io/user-guide/get-started/)
-- [Stylelint: SCSS standard configuration](https://github.com/stylelint-scss/stylelint-config-standard-scss)
-- [Stylelint: configuration and overrides](https://stylelint.io/user-guide/configure/)
-- [Stylelint: command-line options and autofix](https://stylelint.io/user-guide/cli/)
-- [Stylelint: customization and rule exceptions](https://stylelint.io/user-guide/customize/)
-- [Stylelint: errors and warnings](https://stylelint.io/user-guide/errors/)
-- [PostCSS SCSS parser](https://github.com/postcss/postcss-scss)
-- [Prettier: options](https://prettier.io/docs/options.html)
-- [Prettier: ignoring files](https://prettier.io/docs/ignore.html)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="047-warnings-errors-and-debugging.md">047 - Warnings, errors, and debugging - Examples</a></td><td><a href="../lessons/048-linting-and-style-quality.md">Lesson</a></td><td><a href="../qnas/048-linting-and-style-quality.md">Q&amp;A</a></td><td><a href="049-source-maps-and-browser-devtools.md">049 - Source maps and browser developer tools - Examples</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 011 — Lists and List Functions: Q&A
+# 011 - Lists and List Functions: Q&A
 
 ## List fundamentals
 
@@ -205,3 +205,13 @@ It combines the elements into one comma-separated list: a, b, c, d.
 ### 40. What is the key rule for list functions?
 
 Know the list's separator, nesting, and brackets. Use the proper index, choose append() or join() based on whether the new value should stay nested, and assign a function's returned value when you need the updated list.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="010-strings-and-interpolation.md">010 - Strings and Interpolation: Q&amp;A</a></td><td><a href="../lessons/011-lists-and-list-functions.md">Lesson</a></td><td><a href="../examples/011-lists-and-list-functions.md">Example</a></td><td><a href="012-maps-and-map-functions.md">012 - Maps and Map Functions: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 026 — @extend and Placeholder Selectors: Examples
+# 026 - @extend and Placeholder Selectors: Examples
 
 These examples compare ordinary class extensions, placeholders, and mixins. Sass resolves **@extend** during compilation and writes the resulting selectors into CSS.
 
@@ -354,3 +354,13 @@ Inspect the selector groups and rule order. The compiled CSS shows which selecto
 - Use mixins for configurable or locally inserted declarations.
 - A semantic relationship is a good reason to extend a class; a shared abstract base is a good reason to extend a placeholder.
 - Check generated selectors and cascade order.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="025-generating-selectors-and-utilities.md">025 - Generating Selectors and Utility Classes: Examples</a></td><td><a href="../lessons/026-extend-placeholder-selectors.md">Lesson</a></td><td><a href="../qnas/026-extend-placeholder-selectors.md">Q&amp;A</a></td><td><a href="027-at-root-and-at-rules.md">027 - @at-root and Nested At-Rules: Examples</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 010 — Strings and Interpolation: Q&A
+# 010 - Strings and Interpolation: Q&A
 
 ## Core concepts
 
@@ -198,3 +198,13 @@ Sass already evaluates regular property values. Direct assignment keeps the valu
 - A Sass value in a regular property: assign it directly.
 - A Sass value inside a custom property or dynamic CSS syntax: interpolate it carefully.
 - A number with a unit: use Sass arithmetic and unit-aware numbers, not string concatenation.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="009-slash-division-and-calculations.md">009 - Slash Division and Calculations: Q&amp;A</a></td><td><a href="../lessons/010-strings-and-interpolation.md">Lesson</a></td><td><a href="../examples/010-strings-and-interpolation.md">Example</a></td><td><a href="011-lists-and-list-functions.md">011 - Lists and List Functions: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

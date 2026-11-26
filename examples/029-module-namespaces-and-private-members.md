@@ -1,4 +1,4 @@
-# 029 — Module Namespaces and Private Members: Examples
+# 029 - Module Namespaces and Private Members: Examples
 
 These examples show how Sass module names are referenced and how a library can shape its public API. File paths are included in comments; keep the same layout when compiling a multi-file example.
 
@@ -460,8 +460,13 @@ These references are invalid because they try to access private members:
 ~~~
 
 The invalid snippet is for comparison only; do not compile it as part of a working stylesheet.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="028-module-system-with-use.md">028 - The Module System with @use: Examples</a></td><td><a href="../lessons/029-module-namespaces-and-private-members.md">Lesson</a></td><td><a href="../qnas/029-module-namespaces-and-private-members.md">Q&amp;A</a></td><td><a href="030-module-configuration-and-defaults.md">030 - Module Configuration and !default: Examples</a></td></tr>
+  </tbody>
+</table>

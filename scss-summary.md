@@ -371,14 +371,3 @@ The course roadmap contains 54 chapters grouped into these learning areas:
 - Capstone and reference: a reusable SCSS design system and a quick reference/glossary.
 
 Use the [README roadmap](README.md) to open a chapter's lesson, Q&A, or example. The roadmap identifies planned file paths; a link alone does not mean its file is already complete.
-
-## Official references
-
-- [Sass documentation](https://sass-lang.com/documentation/)
-- [Sass syntax](https://sass-lang.com/documentation/syntax/)
-- [Sass at-rules](https://sass-lang.com/documentation/at-rules/)
-- [Sass built-in modules](https://sass-lang.com/documentation/modules/)
-- [Sass module system: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass module system: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass @import and global built-in deprecations](https://sass-lang.com/documentation/breaking-changes/import/)
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/)

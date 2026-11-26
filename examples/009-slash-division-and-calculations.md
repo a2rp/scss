@@ -1,4 +1,4 @@
-# 009 — Slash Division and Calculations: Examples
+# 009 - Slash Division and Calculations: Examples
 
 Each snippet uses SCSS. Slash-separated values preserve CSS syntax; math.div() calculates Sass numbers; CSS calculations preserve browser-dependent work.
 
@@ -447,10 +447,13 @@ The browser resolves the percentage and custom property when it computes layout.
 4. Change min(300px, 24px) to min(300px, 240px). Which value should Sass emit?
 5. Why does calc(100% - 2rem) remain a calculation?
 6. Why should a Sass variable be passed directly into calc() rather than interpolated?
+## Chapter navigation
 
-## References
-
-- [Sass numeric operators and slash-separated values](https://sass-lang.com/documentation/operators/numeric/)
-- [Sass calculations](https://sass-lang.com/documentation/values/calculations/)
-- [Sass math module](https://sass-lang.com/documentation/modules/math/)
-- [Sass list module](https://sass-lang.com/documentation/modules/list/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="008-numbers-units-and-arithmetic.md">008 - Numbers, Units, and Arithmetic: Examples</a></td><td><a href="../lessons/009-slash-division-and-calculations.md">Lesson</a></td><td><a href="../qnas/009-slash-division-and-calculations.md">Q&amp;A</a></td><td><a href="010-strings-and-interpolation.md">010 - Strings and Interpolation: Examples</a></td></tr>
+  </tbody>
+</table>

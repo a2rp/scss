@@ -1,4 +1,4 @@
-# 027 — @at-root and Nested At-Rules: Q&A
+# 027 - @at-root and Nested At-Rules: Q&A
 
 ## Core behavior
 
@@ -171,10 +171,13 @@ Compile the stylesheet and verify both the selector and the at-rule context. Che
 | `@at-root (with: rule)` | Keeps style rules and excludes at-rules |
 | `@at-root (without: all)` | Removes all enclosing style rules and at-rules |
 | Interpolated selector plus `@at-root` | Emits the generated selector without automatic parent nesting |
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @at-root](https://sass-lang.com/documentation/at-rules/at-root/)
-- [Sass: CSS At-Rules](https://sass-lang.com/documentation/at-rules/css/)
-- [Sass: Parent Selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
-- [Sass: sass:selector module](https://sass-lang.com/documentation/modules/selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="026-extend-placeholder-selectors.md">026 - @extend and Placeholder Selectors: Q&amp;A</a></td><td><a href="../lessons/027-at-root-and-at-rules.md">Lesson</a></td><td><a href="../examples/027-at-root-and-at-rules.md">Example</a></td><td><a href="028-module-system-with-use.md">028 - The Module System with @use: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

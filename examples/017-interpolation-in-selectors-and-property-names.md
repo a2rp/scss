@@ -1,4 +1,4 @@
-# 017 — Interpolation in Selectors and Property Names: Examples
+# 017 - Interpolation in Selectors and Property Names: Examples
 
 These examples demonstrate when interpolation constructs CSS syntax and when a Sass value should be used directly.
 
@@ -374,3 +374,13 @@ Inspect the output and check:
 - Interpolate Sass values inside CSS custom properties; use meta.inspect() when quotes matter.
 - Prefer maps over attempts to construct variable names dynamically.
 - Inspect generated selectors and property names for correctness and clarity.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="016-parent-selector.md">016 - The Parent Selector: Examples</a></td><td><a href="../lessons/017-interpolation-in-selectors-and-property-names.md">Lesson</a></td><td><a href="../qnas/017-interpolation-in-selectors-and-property-names.md">Q&amp;A</a></td><td><a href="018-mixin-basics.md">018 - Mixin Basics: Examples</a></td></tr>
+  </tbody>
+</table>

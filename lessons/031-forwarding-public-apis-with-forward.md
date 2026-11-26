@@ -1,4 +1,4 @@
-# 031 — Forwarding Public APIs with @forward
+# 031 - Forwarding Public APIs with @forward
 
 ## Learning goals
 
@@ -304,8 +304,13 @@ A forwarded module may contain top-level CSS. Loading the public entrypoint can 
 - Forward before `@use` when both load the same module.
 - Forwarded modules may emit CSS.
 - A considered public API lets libraries reorganize internal files without breaking consumers.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="030-module-configuration-and-defaults.md">030 - Module Configuration and !default</a></td><td><a href="../qnas/031-forwarding-public-apis-with-forward.md">Q&amp;A</a></td><td><a href="../examples/031-forwarding-public-apis-with-forward.md">Example</a></td><td><a href="032-partials-load-paths-and-file-naming.md">032 - Partials, Load Paths, and File Naming</a></td></tr>
+  </tbody>
+</table>

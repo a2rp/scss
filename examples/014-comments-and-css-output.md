@@ -1,4 +1,4 @@
-# 014 — Comments and Generated CSS Output: Examples
+# 014 - Comments and Generated CSS Output: Examples
 
 These examples show what Sass keeps in its source and what appears in generated CSS. CLI commands use the Dart Sass executable named sass.
 
@@ -365,7 +365,7 @@ If the output color needs to change, edit $brand in the SCSS and rebuild. A dire
 9. Nest a selector and inspect the flattened CSS.
 10. Decide whether embedded source contents should be published with a production build.
 
-### Sample source for tasks 1–5
+### Sample source for tasks 1-5
 
 ~~~scss
 // Source-only comment.
@@ -384,9 +384,13 @@ $brand: #2457c5;
 ~~~
 
 Expanded output contains the ordinary block comment and the preserved notice. Compressed output drops the ordinary block comment but keeps the /*! notice.
+## Chapter navigation
 
-## Further reading
-
-- [Sass comments](https://sass-lang.com/documentation/syntax/comments/)
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass documentation comments](https://sass-lang.com/documentation/syntax/comments/#documentation-comments)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="013-colors-and-sass-color-module.md">013 - Colors and the Sass Color Module: Examples</a></td><td><a href="../lessons/014-comments-and-css-output.md">Lesson</a></td><td><a href="../qnas/014-comments-and-css-output.md">Q&amp;A</a></td><td><a href="015-nesting-rules-and-declarations.md">015 - Nesting Rules and Declarations: Examples</a></td></tr>
+  </tbody>
+</table>

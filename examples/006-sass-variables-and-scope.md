@@ -1,4 +1,4 @@
-# 006. Sass Variables and Scope — Examples
+# 006. Sass Variables and Scope - Examples
 
 These examples use the project-local Sass CLI from the repository root. They show how Sass variables are declared, resolved, scoped, and configured.
 
@@ -332,3 +332,13 @@ Each source file is an independent demonstration. Compile the one you want to in
 5. Replace the CSS custom property interpolation with a literal value, then compare.
 6. Add !default to a variable whose existing value is null and inspect the result.
 7. Remove !global from its demonstration and compare the top-level value.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="005-scss-syntax-and-rules.md">005 - SCSS Syntax and Rules - Examples</a></td><td><a href="../lessons/006-sass-variables-and-scope.md">Lesson</a></td><td><a href="../qnas/006-sass-variables-and-scope.md">Q&amp;A</a></td><td><a href="007-sass-value-types-and-null.md">007 - Sass Value Types and Null: Examples</a></td></tr>
+  </tbody>
+</table>

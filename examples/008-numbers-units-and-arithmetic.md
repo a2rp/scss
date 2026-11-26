@@ -1,4 +1,4 @@
-# 008 — Numbers, Units, and Arithmetic: Examples
+# 008 - Numbers, Units, and Arithmetic: Examples
 
 Each example uses SCSS and can be copied into its own .scss file. Sass evaluates arithmetic at compile time when the values and units allow it.
 
@@ -361,9 +361,13 @@ Try these before reading the answers:
 5. Seconds and pixels are incompatible units.
 6. Interpolation creates a string, not a numeric Sass value.
 7. The browser resolves the percentage against the runtime layout width.
+## Chapter navigation
 
-## References
-
-- [Sass numbers and units](https://sass-lang.com/documentation/values/numbers/)
-- [Sass numeric operators](https://sass-lang.com/documentation/operators/numeric/)
-- [Sass math module](https://sass-lang.com/documentation/modules/math/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="007-sass-value-types-and-null.md">007 - Sass Value Types and Null: Examples</a></td><td><a href="../lessons/008-numbers-units-and-arithmetic.md">Lesson</a></td><td><a href="../qnas/008-numbers-units-and-arithmetic.md">Q&amp;A</a></td><td><a href="009-slash-division-and-calculations.md">009 - Slash Division and Calculations: Examples</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 017 — Interpolation in Selectors and Property Names
+# 017 - Interpolation in Selectors and Property Names
 
 ## Learning goals
 
@@ -487,12 +487,13 @@ Interpolation constructs the selector and URL text. The dimension uses a normal 
 - Avoid using interpolation to append units to numbers; use Sass numbers with units and unit-aware arithmetic.
 - CSS custom property values are passed through as CSS text, so interpolate Sass values that need to be inserted.
 - Keep dynamically generated names simple and inspect the resulting CSS.
+## Chapter navigation
 
-## Official references
-
-- [Sass interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass property declarations](https://sass-lang.com/documentation/style-rules/declarations/)
-- [Sass values: numbers and units](https://sass-lang.com/documentation/values/numbers/)
-- [Sass values: strings](https://sass-lang.com/documentation/values/strings/)
-- [Sass variables and dynamic variable names](https://sass-lang.com/documentation/variables/)
-- [Sass custom property syntax](https://sass-lang.com/documentation/breaking-changes/css-vars/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="016-parent-selector.md">016 - The Parent Selector</a></td><td><a href="../qnas/017-interpolation-in-selectors-and-property-names.md">Q&amp;A</a></td><td><a href="../examples/017-interpolation-in-selectors-and-property-names.md">Example</a></td><td><a href="018-mixin-basics.md">018 - Mixin Basics</a></td></tr>
+  </tbody>
+</table>

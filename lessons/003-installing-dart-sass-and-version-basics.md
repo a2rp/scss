@@ -259,11 +259,13 @@ Read the first Sass error and its file and line number. Check the Sass release n
 4. Run npm ci after deleting node_modules, then verify the Sass version again.
 5. Compare the meaning of an exact version, a tilde range, and a caret range.
 6. If a Sass warning appears, identify whether it comes from your stylesheet or a tool dependency.
+## Chapter navigation
 
-## Further reading
-
-- [Install Sass](https://sass-lang.com/install/)
-- [Dart Sass](https://sass-lang.com/dart-sass/)
-- [Sass command-line interface](https://sass-lang.com/documentation/cli/)
-- [Dart Sass legacy JavaScript API migration](https://sass-lang.com/documentation/breaking-changes/legacy-js-api/)
-- [Sass breaking changes](https://sass-lang.com/documentation/breaking-changes/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="002-how-sass-fits-css-and-a-web-build.md">002 - How Sass Fits CSS and a Web Build</a></td><td><a href="../qnas/003-installing-dart-sass-and-version-basics.md">Q&amp;A</a></td><td><a href="../examples/003-installing-dart-sass-and-version-basics.md">Example</a></td><td><a href="004-compiling-scss-to-css.md">004 - Compiling SCSS to CSS</a></td></tr>
+  </tbody>
+</table>

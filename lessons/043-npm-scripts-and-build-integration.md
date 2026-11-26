@@ -358,14 +358,16 @@ Source maps help connect browser CSS to Sass files. Disable them only for output
 | Run a project script | <code>npm run build:css</code> |
 | Pass an extra CLI option | <code>npm run build:css -- --verbose</code> |
 
-## Further reading
-
-- [Install Sass](https://sass-lang.com/install/)
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass JavaScript package](https://sass-lang.com/dart-sass/)
-- [npm scripts](https://docs.npmjs.com/using-npm/scripts/)
-- [npm package.json scripts field](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#scripts)
-
 ## Next lesson
 
 Continue with [Sass CLI, watch mode, and build options](044-sass-cli-watch-and-build-options.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="042-project-structure-and-naming-conventions.md">042 - Project structure and naming conventions</a></td><td><a href="../qnas/043-npm-scripts-and-build-integration.md">Q&amp;A</a></td><td><a href="../examples/043-npm-scripts-and-build-integration.md">Example</a></td><td><a href="044-sass-cli-watch-and-build-options.md">044 - Sass CLI, watch mode, and build options</a></td></tr>
+  </tbody>
+</table>

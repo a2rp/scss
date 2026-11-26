@@ -565,17 +565,16 @@ A case mismatch can appear to work on a case-insensitive filesystem and fail in 
 | Load a package by Node package resolution | <code>pkg:</code> with the Node package importer |
 | Avoid automatic CSS output | Keep the tools entry point free of top-level CSS |
 
-## Official references
-
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: NodePackageImporter](https://sass-lang.com/documentation/js-api/classes/nodepackageimporter/)
-- [Dart Sass CLI and the Node package importer](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass: writing Sass packages](https://sass-lang.com/documentation/js-api/classes/nodepackageimporter/)
-- [Sass: variables and configurable defaults](https://sass-lang.com/documentation/variables/)
-- [Sass: @import and migration considerations](https://sass-lang.com/documentation/at-rules/import/)
-- [npm package.json exports](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#exports)
-
 ## Next lesson
 
 Continue with [Warnings, errors, and debugging](047-warnings-errors-and-debugging.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="045-framework-integrations-angular-react-vite.md">045 - Framework integrations: Angular, React, and Vite</a></td><td><a href="../qnas/046-authoring-a-sass-library.md">Q&amp;A</a></td><td><a href="../examples/046-authoring-a-sass-library.md">Example</a></td><td><a href="047-warnings-errors-and-debugging.md">047 - Warnings, errors, and debugging</a></td></tr>
+  </tbody>
+</table>

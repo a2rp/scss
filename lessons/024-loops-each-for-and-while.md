@@ -1,4 +1,4 @@
-# 024 — Loops: each, for, and while
+# 024 - Loops: each, for, and while
 
 ## Learning goals
 
@@ -253,9 +253,13 @@ Every iteration can produce output. Keep the input list or range focused on styl
 - **@while** repeats until its condition becomes false, so its loop state must be updated.
 - Prefer **@each** for known collections and **@for** for numeric ranges.
 - Keep generated output focused so loops do not create unnecessary CSS.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: @each](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass documentation: @for](https://sass-lang.com/documentation/at-rules/control/for/)
-- [Sass documentation: @while](https://sass-lang.com/documentation/at-rules/control/while/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="023-conditionals-and-boolean-logic.md">023 - Conditionals and Boolean Logic</a></td><td><a href="../qnas/024-loops-each-for-and-while.md">Q&amp;A</a></td><td><a href="../examples/024-loops-each-for-and-while.md">Example</a></td><td><a href="025-generating-selectors-and-utilities.md">025 - Generating Selectors and Utility Classes</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Project structure and naming conventions — Examples
+# Project structure and naming conventions - Examples
 
 The examples use Sass’s module system. File and folder names are illustrative; adapt them to the application’s build setup. Compile the application entry point with Dart Sass, for example:
 
@@ -439,8 +439,13 @@ Replace the sample rows with the files in your project. This quickly reveals vag
 
 ## Reference links
 
-- [Sass modules and @use](https://sass-lang.com/documentation/at-rules/use/)
-- [The @forward rule](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass stylesheet structure](https://sass-lang.com/documentation/syntax/structure/)
-- [Sass module system](https://sass-lang.com/blog/the-module-system-is-launched/)
-- [Sass migrator](https://sass-lang.com/documentation/cli/migrator/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="041-component-styles-and-architecture.md">041 - Component styles and architecture - Examples</a></td><td><a href="../lessons/042-project-structure-and-naming-conventions.md">Lesson</a></td><td><a href="../qnas/042-project-structure-and-naming-conventions.md">Q&amp;A</a></td><td><a href="043-npm-scripts-and-build-integration.md">043 - npm scripts and build integration - Examples</a></td></tr>
+  </tbody>
+</table>

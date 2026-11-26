@@ -1,4 +1,4 @@
-# 013 — Colors and the Sass Color Module
+# 013 - Colors and the Sass Color Module
 
 ## Learning goals
 
@@ -429,9 +429,13 @@ Before moving on, make sure you can answer these questions:
 8. Why is a lighter color not guaranteed to have accessible contrast?
 9. When should you provide a fallback color declaration?
 10. What does a missing channel mean?
+## Chapter navigation
 
-## Further reading
-
-- [Sass colors](https://sass-lang.com/documentation/values/colors/)
-- [sass:color module](https://sass-lang.com/documentation/modules/color/)
-- [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="012-maps-and-map-functions.md">012 - Maps and Map Functions</a></td><td><a href="../qnas/013-colors-and-sass-color-module.md">Q&amp;A</a></td><td><a href="../examples/013-colors-and-sass-color-module.md">Example</a></td><td><a href="014-comments-and-css-output.md">014 - Comments and Generated CSS Output</a></td></tr>
+  </tbody>
+</table>

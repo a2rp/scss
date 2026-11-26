@@ -1,4 +1,4 @@
-# 037 — Sass Variables versus CSS Custom Properties
+# 037 - Sass Variables versus CSS Custom Properties
 
 ## Learning goals
 
@@ -449,11 +449,13 @@ If the browser must switch a theme at runtime, emit custom properties and change
 ## 18. Summary
 
 Sass variables are build-time values that Sass evaluates and compiles away. CSS custom properties are emitted CSS values that participate in the browser's cascade and inheritance and can change at runtime. Use Sass for calculations, maps, mixins, and build-time configuration. Use custom properties for themes, local overrides, and values that CSS or JavaScript should update. Interpolate Sass values into custom property declarations, and use `meta.inspect()` when quotes must be preserved.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: Variables](https://sass-lang.com/documentation/variables/)
-- [Sass: Custom property declarations](https://sass-lang.com/documentation/style-rules/declarations/#custom-properties)
-- [Sass: Interpolation](https://sass-lang.com/documentation/interpolation/)
-- [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/)
-- [Chapter 036: Sass with CSS at-rules](036-sass-and-css-at-rules.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="036-sass-and-css-at-rules.md">036 - Sass with CSS At-Rules</a></td><td><a href="../qnas/037-sass-variables-vs-css-custom-properties.md">Q&amp;A</a></td><td><a href="../examples/037-sass-variables-vs-css-custom-properties.md">Example</a></td><td><a href="038-runtime-theming-and-design-tokens.md">038 - Runtime Theming and Design Tokens</a></td></tr>
+  </tbody>
+</table>

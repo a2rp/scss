@@ -1,4 +1,4 @@
-# Browser support and progressive enhancement — Q&A
+# Browser support and progressive enhancement - Q&A
 
 These answers cover browser targeting, CSS fallbacks, feature queries, and the role of Sass in a compatibility workflow. Browser support changes as browsers release updates, so check current compatibility information for the exact feature and target versions.
 
@@ -141,16 +141,13 @@ Inspect the CSS the browser actually loaded. Confirm the compiler emitted the ru
 ## 27. Does a working fallback remove the need to keep the CSS maintainable?
 
 No. Keep the baseline and enhancements close enough to review together, use Sass modules and mixins where they clarify shared policy, and inspect the compiled CSS when abstractions become complex. A compatibility workaround should have a reason, a target, and a way to remove or review it later.
+## Chapter navigation
 
-## References
-
-- [MDN: supporting older browsers](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers)
-- [MDN: using feature queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries)
-- [MDN: <code>@supports</code> at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40supports)
-- [MDN: CSS error handling and vendor prefixes](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
-- [MDN: Baseline compatibility](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility)
-- [MDN: implementing feature detection](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection)
-- [MDN: cross-browser testing](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Introduction)
-- [Sass: CSS at-rules](https://sass-lang.com/documentation/at-rules/css/)
-- [Sass: Dart Sass CLI](https://sass-lang.com/documentation/cli/)
-- [Next: Capstone — build a reusable SCSS design system](../lessons/053-capstone-build-a-reusable-scss-design-system.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="051-accessible-motion-and-responsive-patterns.md">051 - Accessible motion and responsive patterns - Q&amp;A</a></td><td><a href="../lessons/052-browser-support-and-progressive-enhancement.md">Lesson</a></td><td><a href="../examples/052-browser-support-and-progressive-enhancement.md">Example</a></td><td><a href="053-capstone-build-a-reusable-scss-design-system.md">053 - Capstone: build a reusable SCSS design system - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -364,14 +364,16 @@ Sass variables and maps are compile-time values. Emit CSS custom properties when
 | Return a computed Sass value | `@function ... { @return ...; }` |
 | Emit browser-readable tokens | CSS custom properties |
 
-## Further reading
-
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
-- [The built-in `sass:map` module](https://sass-lang.com/documentation/modules/map/)
-- [The `@each` control rule](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass functions](https://sass-lang.com/documentation/at-rules/function/)
-- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
-
 ## Next lesson
 
 Continue with [Component styles and architecture](041-component-styles-and-architecture.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="039-reusable-responsive-mixins.md">039 - Reusable Responsive Mixins</a></td><td><a href="../qnas/040-maps-for-design-systems.md">Q&amp;A</a></td><td><a href="../examples/040-maps-for-design-systems.md">Example</a></td><td><a href="041-component-styles-and-architecture.md">041 - Component styles and architecture</a></td></tr>
+  </tbody>
+</table>

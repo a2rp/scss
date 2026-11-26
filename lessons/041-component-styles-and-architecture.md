@@ -345,15 +345,16 @@ This can create duplicated dependencies and CSS. Compile the entry points intend
 | Control application CSS composition | A single, explicit entry point |
 | Share values without implicit globals | Namespaced Sass modules |
 
-## Further reading
-
-- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
-- [The `@forward` rule](https://sass-lang.com/documentation/at-rules/forward/)
-- [Mixins and `@include`](https://sass-lang.com/documentation/at-rules/mixin/)
-- [The `@extend` rule](https://sass-lang.com/documentation/at-rules/extend/)
-- [Placeholder selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors/)
-- [Sass module system](https://sass-lang.com/blog/the-module-system-is-launched/)
-
 ## Next lesson
 
 Continue with [Project structure and naming conventions](042-project-structure-and-naming-conventions.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="040-maps-for-design-systems.md">040 - Maps for design systems</a></td><td><a href="../qnas/041-component-styles-and-architecture.md">Q&amp;A</a></td><td><a href="../examples/041-component-styles-and-architecture.md">Example</a></td><td><a href="042-project-structure-and-naming-conventions.md">042 - Project structure and naming conventions</a></td></tr>
+  </tbody>
+</table>

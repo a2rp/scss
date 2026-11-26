@@ -1,4 +1,4 @@
-# 013 — Colors and the Sass Color Module: Q&A
+# 013 - Colors and the Sass Color Module: Q&A
 
 ## Color values and syntax
 
@@ -185,3 +185,13 @@ Inspect the original color, its color.space(), the requested channel and $space,
 ### 41. What is the key rule for Sass color functions?
 
 Be explicit about the color space, choose adjust(), scale(), or change() according to the desired operation, and check both compiler and browser support for modern color syntax.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="012-maps-and-map-functions.md">012 - Maps and Map Functions: Q&amp;A</a></td><td><a href="../lessons/013-colors-and-sass-color-module.md">Lesson</a></td><td><a href="../examples/013-colors-and-sass-color-module.md">Example</a></td><td><a href="014-comments-and-css-output.md">014 - Comments and Generated CSS Output: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

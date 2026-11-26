@@ -1,4 +1,4 @@
-# 012 — Maps and Map Functions: Q&A
+# 012 - Maps and Map Functions: Q&A
 
 ## Map fundamentals
 
@@ -223,3 +223,13 @@ Use map.deep-merge() in Dart Sass.
 ### 42. What is the main rule for maps?
 
 Use maps for named key/value data. Quote string keys consistently, check missing or nested keys intentionally, and remember that map functions return new values instead of changing the original map.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="011-lists-and-list-functions.md">011 - Lists and List Functions: Q&amp;A</a></td><td><a href="../lessons/012-maps-and-map-functions.md">Lesson</a></td><td><a href="../examples/012-maps-and-map-functions.md">Example</a></td><td><a href="013-colors-and-sass-color-module.md">013 - Colors and the Sass Color Module: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

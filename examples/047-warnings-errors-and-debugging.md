@@ -1,4 +1,4 @@
-# Warnings, errors, and debugging — Examples
+# Warnings, errors, and debugging - Examples
 
 These examples demonstrate Sass diagnostics as separate, focused exercises. The <code>@error</code> example is intentionally invalid and should fail; run it separately from the examples expected to compile successfully.
 
@@ -307,12 +307,13 @@ In actual code, declare <code>@use</code> rules at the top of the stylesheet bef
 - Inspect the generated CSS and the command's exit status separately.
 - Remove temporary debug statements and temporary deprecation suppressions.
 - For browser-only styling issues, inspect computed styles in the browser.
+## Chapter navigation
 
-## Official references
-
-- [Sass: @warn](https://sass-lang.com/documentation/at-rules/warn/)
-- [Sass: @error](https://sass-lang.com/documentation/at-rules/error/)
-- [Sass: @debug](https://sass-lang.com/documentation/at-rules/debug/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass deprecations](https://sass-lang.com/documentation/breaking-changes/)
-- [Sass JavaScript API logger](https://sass-lang.com/documentation/js-api/interfaces/logger/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="046-authoring-a-sass-library.md">046 - Authoring a Sass library - Examples</a></td><td><a href="../lessons/047-warnings-errors-and-debugging.md">Lesson</a></td><td><a href="../qnas/047-warnings-errors-and-debugging.md">Q&amp;A</a></td><td><a href="048-linting-and-style-quality.md">048 - Linting and stylesheet quality - Examples</a></td></tr>
+  </tbody>
+</table>

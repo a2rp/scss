@@ -1,4 +1,4 @@
-# 004. Compiling SCSS to CSS — Examples
+# 004. Compiling SCSS to CSS - Examples
 
 The examples below use the project-local Sass executable installed in the previous chapter. Run the commands from the project root so relative input and output paths resolve as shown.
 
@@ -249,3 +249,13 @@ Read the terminal diagnostic and fix the source. Sass may write error CSS for a 
 5. Run watch mode, edit an entrypoint, and observe the terminal update.
 6. Disable source maps and compare the output directory contents.
 7. Break a Sass declaration, read the compiler diagnostic, fix it, and rebuild.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="003-installing-dart-sass-and-version-basics.md">003 - Installing Dart Sass and Version Basics - Examples</a></td><td><a href="../lessons/004-compiling-scss-to-css.md">Lesson</a></td><td><a href="../qnas/004-compiling-scss-to-css.md">Q&amp;A</a></td><td><a href="005-scss-syntax-and-rules.md">005 - SCSS Syntax and Rules - Examples</a></td></tr>
+  </tbody>
+</table>

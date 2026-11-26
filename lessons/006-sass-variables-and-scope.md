@@ -364,10 +364,13 @@ Custom property values are passed through as CSS text. Write --brand: #{$brand};
 6. Add !default to a variable and set it before the default assignment.
 7. Configure a module’s top-level !default variable with @use ... with (...).
 8. Compare a Sass variable with a CSS custom property in the generated CSS.
+## Chapter navigation
 
-## Further reading
-
-- [Sass variables and scope](https://sass-lang.com/documentation/variables/)
-- [Sass module loading with @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Property declarations and CSS custom properties](https://sass-lang.com/documentation/style-rules/declarations/)
-- [Sass interpolation](https://sass-lang.com/documentation/interpolation/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="005-scss-syntax-and-rules.md">005 - SCSS Syntax and Rules</a></td><td><a href="../qnas/006-sass-variables-and-scope.md">Q&amp;A</a></td><td><a href="../examples/006-sass-variables-and-scope.md">Example</a></td><td><a href="007-sass-value-types-and-null.md">007 - Sass Value Types and Null</a></td></tr>
+  </tbody>
+</table>

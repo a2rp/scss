@@ -1,4 +1,4 @@
-# 012 — Maps and Map Functions: Examples
+# 012 - Maps and Map Functions: Examples
 
 Each section is a focused Sass example. If you combine examples in one stylesheet, put each @use at the top and include each module only once.
 
@@ -539,9 +539,13 @@ $color-values: map.values($without-surface);
 ~~~
 
 The button uses the updated brand color. The generated root variables contain each color from the updated map.
+## Chapter navigation
 
-## Further reading
-
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
-- [sass:map module](https://sass-lang.com/documentation/modules/map/)
-- [Sass @each rule](https://sass-lang.com/documentation/at-rules/control/each/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="011-lists-and-list-functions.md">011 - Lists and List Functions: Examples</a></td><td><a href="../lessons/012-maps-and-map-functions.md">Lesson</a></td><td><a href="../qnas/012-maps-and-map-functions.md">Q&amp;A</a></td><td><a href="013-colors-and-sass-color-module.md">013 - Colors and the Sass Color Module: Examples</a></td></tr>
+  </tbody>
+</table>

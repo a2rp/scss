@@ -1,4 +1,4 @@
-# 029 — Module Namespaces and Private Members: Q&A
+# 029 - Module Namespaces and Private Members: Q&A
 
 ## Namespaces and scope
 
@@ -185,8 +185,13 @@ Keep the helper private and provide a public function or mixin that performs the
 | Exclude members | `@forward "tokens" hide $internal-value;` |
 | Forward selected members | `@forward "buttons" show reset, accessible-focus;` |
 | Prefix forwarded members | `@forward "buttons" as button-*;` |
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="028-module-system-with-use.md">028 - The Module System with @use: Q&amp;A</a></td><td><a href="../lessons/029-module-namespaces-and-private-members.md">Lesson</a></td><td><a href="../examples/029-module-namespaces-and-private-members.md">Example</a></td><td><a href="030-module-configuration-and-defaults.md">030 - Module Configuration and !default: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

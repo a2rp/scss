@@ -1,4 +1,4 @@
-# 010 — Strings and Interpolation
+# 010 - Strings and Interpolation
 
 ## Learning goals
 
@@ -524,9 +524,13 @@ Before moving on, make sure you can answer these questions:
 6. Why is interpolation not a good way to add a unit to a number?
 7. What is the difference between string.unquote() and interpolation?
 8. Which index refers to the first character in a Sass string?
+## Chapter navigation
 
-## Further reading
-
-- [Sass strings](https://sass-lang.com/documentation/values/strings/)
-- [Sass interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass string module](https://sass-lang.com/documentation/modules/string/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="009-slash-division-and-calculations.md">009 - Slash Division and Calculations</a></td><td><a href="../qnas/010-strings-and-interpolation.md">Q&amp;A</a></td><td><a href="../examples/010-strings-and-interpolation.md">Example</a></td><td><a href="011-lists-and-list-functions.md">011 - Lists and List Functions</a></td></tr>
+  </tbody>
+</table>

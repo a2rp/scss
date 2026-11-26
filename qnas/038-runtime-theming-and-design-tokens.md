@@ -1,4 +1,4 @@
-# 038 — Runtime Theming and Design Tokens: Q&A
+# 038 - Runtime Theming and Design Tokens: Q&A
 
 ## Token foundations
 
@@ -169,13 +169,13 @@ No. Dark surfaces and readable foregrounds often need deliberate values. Review 
 ### 40. How can a team review a token change safely?
 
 Identify its consumers, inspect every theme and state that uses it, check color contrast and focus, and verify component customization points. Change one semantic decision at a time when practical so visual regressions are easier to trace.
+## Chapter navigation
 
-## Further reading
-
-- [Lesson: Runtime theming and design tokens](../lessons/038-runtime-theming-and-design-tokens.md)
-- [Examples: Runtime theming and design tokens](../examples/038-runtime-theming-and-design-tokens.md)
-- [Sass: @use modules](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: Maps](https://sass-lang.com/documentation/values/maps/)
-- [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/)
-- [CSS Color Adjustment Module](https://www.w3.org/TR/css-color-adjust-1/)
-- [WCAG 2.2: Contrast Minimum](https://www.w3.org/TR/WCAG22/#contrast-minimum)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="037-sass-variables-vs-css-custom-properties.md">037 - Sass Variables versus CSS Custom Properties: Q&amp;A</a></td><td><a href="../lessons/038-runtime-theming-and-design-tokens.md">Lesson</a></td><td><a href="../examples/038-runtime-theming-and-design-tokens.md">Example</a></td><td><a href="039-reusable-responsive-mixins.md">039 - Reusable Responsive Mixins: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

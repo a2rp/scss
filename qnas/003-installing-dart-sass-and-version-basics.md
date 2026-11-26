@@ -1,4 +1,4 @@
-# 003. Installing Dart Sass and Version Basics — Q&A
+# 003. Installing Dart Sass and Version Basics - Q&A
 
 ## Implementations and installation choices
 
@@ -169,3 +169,13 @@ Start with the first Sass error and the named source file and line. Then read th
 - **Avoid for new work:** node-sass / LibSass.
 - **Check local version:** npx sass --version.
 - **Repeatable npm install:** commit package.json and package-lock.json; use npm ci for a clean lockfile install.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="002-how-sass-fits-css-and-a-web-build.md">002 - How Sass Fits CSS and a Web Build - Q&amp;A</a></td><td><a href="../lessons/003-installing-dart-sass-and-version-basics.md">Lesson</a></td><td><a href="../examples/003-installing-dart-sass-and-version-basics.md">Example</a></td><td><a href="004-compiling-scss-to-css.md">004 - Compiling SCSS to CSS - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

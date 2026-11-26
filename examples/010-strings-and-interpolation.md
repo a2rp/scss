@@ -1,4 +1,4 @@
-# 010 — Strings and Interpolation: Examples
+# 010 - Strings and Interpolation: Examples
 
 These examples focus on Sass strings and interpolation. Each section is an independent snippet unless it says otherwise. In a real stylesheet, keep a single sass:string module load at the top of the file.
 
@@ -437,9 +437,13 @@ $spacing: 3;
 ~~~
 
 The selector is .tab-active, the custom property receives the compiled color, the debug result is 5, and the padding is a unit-aware 3rem value.
+## Chapter navigation
 
-## Further reading
-
-- [Sass strings](https://sass-lang.com/documentation/values/strings/)
-- [Sass interpolation](https://sass-lang.com/documentation/interpolation/)
-- [sass:string module](https://sass-lang.com/documentation/modules/string/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="009-slash-division-and-calculations.md">009 - Slash Division and Calculations: Examples</a></td><td><a href="../lessons/010-strings-and-interpolation.md">Lesson</a></td><td><a href="../qnas/010-strings-and-interpolation.md">Q&amp;A</a></td><td><a href="011-lists-and-list-functions.md">011 - Lists and List Functions: Examples</a></td></tr>
+  </tbody>
+</table>

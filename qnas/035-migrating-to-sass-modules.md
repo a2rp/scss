@@ -1,4 +1,4 @@
-# 035 — Migrating to Sass Modules: Q&A
+# 035 - Migrating to Sass Modules: Q&A
 
 ## Migration planning
 
@@ -225,7 +225,13 @@ npx sass-migrator module --built-in-only --migrate-deps src/scss/app.scss
 
 - [Lesson: Migrating to Sass modules](../lessons/035-migrating-to-sass-modules.md)
 - [Examples: Migrating to Sass modules](../examples/035-migrating-to-sass-modules.md)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass Migrator](https://sass-lang.com/documentation/cli/migrator/)
-- [Sass import and global built-in deprecations](https://sass-lang.com/documentation/breaking-changes/import/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="034-legacy-import-and-global-built-in-deprecations.md">034 - Legacy @import and Global Built-In Deprecations: Q&amp;A</a></td><td><a href="../lessons/035-migrating-to-sass-modules.md">Lesson</a></td><td><a href="../examples/035-migrating-to-sass-modules.md">Example</a></td><td><a href="036-sass-and-css-at-rules.md">036 - Sass with CSS At-Rules: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

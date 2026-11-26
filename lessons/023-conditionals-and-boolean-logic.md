@@ -1,4 +1,4 @@
-# 023 — Conditionals and Boolean Logic
+# 023 - Conditionals and Boolean Logic
 
 ## Learning goals
 
@@ -353,8 +353,13 @@ Prefer **true** or **false** for flags. A non-empty string, a number, or a list 
 - Only **false** and **null** are falsey in Sass; values such as **0** are truthy.
 - Sass conditionals select output at compile time; CSS media queries are evaluated by the browser.
 - Parentheses and named variables make compound logic easier to read.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: @if and @else](https://sass-lang.com/documentation/at-rules/control/if/)
-- [Sass documentation: operators](https://sass-lang.com/documentation/operators/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="022-built-in-sass-modules.md">022 - Built-in Sass Modules</a></td><td><a href="../qnas/023-conditionals-and-boolean-logic.md">Q&amp;A</a></td><td><a href="../examples/023-conditionals-and-boolean-logic.md">Example</a></td><td><a href="024-loops-each-for-and-while.md">024 - Loops: each, for, and while</a></td></tr>
+  </tbody>
+</table>

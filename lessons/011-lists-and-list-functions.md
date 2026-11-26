@@ -1,4 +1,4 @@
-# 011 — Lists and List Functions
+# 011 - Lists and List Functions
 
 ## Learning goals
 
@@ -458,10 +458,13 @@ Before moving on, make sure you can answer these questions:
 6. Why must the result of a list function be assigned when you want to keep it?
 7. How can @each iterate over nested two-item lists?
 8. When should you use list.slash() and when should you use math.div()?
+## Chapter navigation
 
-## Further reading
-
-- [Sass lists](https://sass-lang.com/documentation/values/lists/)
-- [sass:list module](https://sass-lang.com/documentation/modules/list/)
-- [Sass @each rule](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass map module](https://sass-lang.com/documentation/modules/map/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="010-strings-and-interpolation.md">010 - Strings and Interpolation</a></td><td><a href="../qnas/011-lists-and-list-functions.md">Q&amp;A</a></td><td><a href="../examples/011-lists-and-list-functions.md">Example</a></td><td><a href="012-maps-and-map-functions.md">012 - Maps and Map Functions</a></td></tr>
+  </tbody>
+</table>

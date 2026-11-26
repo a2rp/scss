@@ -1,4 +1,4 @@
-# 033 — Generated CSS and Entry Points
+# 033 - Generated CSS and Entry Points
 
 ## Learning goals
 
@@ -529,9 +529,13 @@ Top-level selectors remain global when emitted. Use a mixin for CSS that should 
 - Multiple entrypoints produce separate outputs and separate compilations.
 - Directory mode compiles non-partial files as outputs and ignores underscore-prefixed partials as standalone inputs.
 - Dart Sass CLI supports expanded or compressed CSS output and emits source maps by default.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: Dart Sass command-line interface](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="032-partials-load-paths-and-file-naming.md">032 - Partials, Load Paths, and File Naming</a></td><td><a href="../qnas/033-emitted-css-and-entrypoints.md">Q&amp;A</a></td><td><a href="../examples/033-emitted-css-and-entrypoints.md">Example</a></td><td><a href="034-legacy-import-and-global-built-in-deprecations.md">034 - Legacy @import and Global Built-In Deprecations</a></td></tr>
+  </tbody>
+</table>

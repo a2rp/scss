@@ -1,4 +1,4 @@
-# 011 — Lists and List Functions: Examples
+# 011 - Lists and List Functions: Examples
 
 Each example is intended to be read as a small, focused Sass snippet. If you combine them into one stylesheet, keep one @use statement for each module at the top.
 
@@ -455,10 +455,13 @@ body {
 ~~~
 
 The final item is 3px. The index of dashed is 3. $original remains unchanged; $updated is 1px 8px 3px.
+## Chapter navigation
 
-## Further reading
-
-- [Sass lists](https://sass-lang.com/documentation/values/lists/)
-- [sass:list module](https://sass-lang.com/documentation/modules/list/)
-- [Sass @each rule](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass map module](https://sass-lang.com/documentation/modules/map/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="010-strings-and-interpolation.md">010 - Strings and Interpolation: Examples</a></td><td><a href="../lessons/011-lists-and-list-functions.md">Lesson</a></td><td><a href="../qnas/011-lists-and-list-functions.md">Q&amp;A</a></td><td><a href="012-maps-and-map-functions.md">012 - Maps and Map Functions: Examples</a></td></tr>
+  </tbody>
+</table>

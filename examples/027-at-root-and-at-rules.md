@@ -1,4 +1,4 @@
-# 027 — @at-root and Nested At-Rules: Examples
+# 027 - @at-root and Nested At-Rules: Examples
 
 These examples show how nested at-rules and `@at-root` affect compiled CSS. Compile each example on its own so that the output is easy to compare.
 
@@ -419,10 +419,13 @@ When a nested result surprises you:
 3. Decide whether each media or supports condition should remain.
 4. Use plain `@at-root` or a query only for the context that must change.
 5. Compile and compare the actual selector and at-rule nesting with the expected CSS.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @at-root](https://sass-lang.com/documentation/at-rules/at-root/)
-- [Sass: CSS At-Rules](https://sass-lang.com/documentation/at-rules/css/)
-- [Sass: Parent Selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
-- [Sass: sass:selector module](https://sass-lang.com/documentation/modules/selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="026-extend-placeholder-selectors.md">026 - @extend and Placeholder Selectors: Examples</a></td><td><a href="../lessons/027-at-root-and-at-rules.md">Lesson</a></td><td><a href="../qnas/027-at-root-and-at-rules.md">Q&amp;A</a></td><td><a href="028-module-system-with-use.md">028 - The Module System with @use: Examples</a></td></tr>
+  </tbody>
+</table>

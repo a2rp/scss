@@ -1,4 +1,4 @@
-# 015 — Nesting Rules and Declarations: Examples
+# 015 - Nesting Rules and Declarations: Examples
 
 Examples below show SCSS source beside the CSS produced by Dart Sass. Mixed declaration output assumes Dart Sass 1.92.0 or later.
 
@@ -285,3 +285,13 @@ Practice tasks:
 8. Simplify a deep selector after checking which ancestor relationships the markup actually requires.
 
 When reviewing output, check that descendants, direct children, and siblings are not confused; that nested property names are joined as expected; and that mixed declarations retain the intended cascade order.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="014-comments-and-css-output.md">014 - Comments and Generated CSS Output: Examples</a></td><td><a href="../lessons/015-nesting-rules-and-declarations.md">Lesson</a></td><td><a href="../qnas/015-nesting-rules-and-declarations.md">Q&amp;A</a></td><td><a href="016-parent-selector.md">016 - The Parent Selector: Examples</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# 022 — Built-in Sass Modules
+# 022 - Built-in Sass Modules
 
 ## Learning goals
 
@@ -308,15 +308,13 @@ The built-in module system requires Dart Sass. Check the compiler used by the pr
 - Prefer modern namespaced functions over legacy global aliases.
 - Sass module functions calculate or inspect values; CSS functions may remain for the browser.
 - Check the official module reference for a function's full behavior and version compatibility.
+## Chapter navigation
 
-## Further reading
-
-- [Sass built-in modules](https://sass-lang.com/documentation/modules/)
-- [Sass @use](https://sass-lang.com/documentation/at-rules/use/)
-- [sass:math](https://sass-lang.com/documentation/modules/math/)
-- [sass:color](https://sass-lang.com/documentation/modules/color/)
-- [sass:list](https://sass-lang.com/documentation/modules/list/)
-- [sass:map](https://sass-lang.com/documentation/modules/map/)
-- [sass:string](https://sass-lang.com/documentation/modules/string/)
-- [sass:meta](https://sass-lang.com/documentation/modules/meta/)
-- [sass:selector](https://sass-lang.com/documentation/modules/selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="021-custom-functions-and-return-values.md">021 - Custom Functions and Return Values</a></td><td><a href="../qnas/022-built-in-sass-modules.md">Q&amp;A</a></td><td><a href="../examples/022-built-in-sass-modules.md">Example</a></td><td><a href="023-conditionals-and-boolean-logic.md">023 - Conditionals and Boolean Logic</a></td></tr>
+  </tbody>
+</table>

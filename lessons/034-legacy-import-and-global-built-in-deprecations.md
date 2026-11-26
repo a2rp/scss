@@ -1,4 +1,4 @@
-# 034 — Legacy @import and Global Built-In Deprecations
+# 034 - Legacy @import and Global Built-In Deprecations
 
 ## Learning goals
 
@@ -411,11 +411,13 @@ Silencing warnings can be a temporary compatibility measure, but it does not upd
 - Configure theme modules on their first @use.
 - Preview Sass Migrator changes, include dependencies when appropriate, and review the diff and generated CSS.
 - Treat third-party warnings separately and avoid hiding deprecations in code you own.
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @import](https://sass-lang.com/documentation/at-rules/import/)
-- [Breaking change: @import and global built-ins](https://sass-lang.com/documentation/breaking-changes/import/)
-- [Sass Migrator](https://sass-lang.com/documentation/cli/migrator/)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Built-in Sass modules](https://sass-lang.com/documentation/modules/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="033-emitted-css-and-entrypoints.md">033 - Generated CSS and Entry Points</a></td><td><a href="../qnas/034-legacy-import-and-global-built-in-deprecations.md">Q&amp;A</a></td><td><a href="../examples/034-legacy-import-and-global-built-in-deprecations.md">Example</a></td><td><a href="035-migrating-to-sass-modules.md">035 - Migrating to Sass Modules</a></td></tr>
+  </tbody>
+</table>

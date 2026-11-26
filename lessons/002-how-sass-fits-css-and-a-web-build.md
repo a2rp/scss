@@ -202,10 +202,13 @@ This sequence separates common causes: a Sass compilation problem, a wrong path,
 3. Open the generated CSS and find one Sass feature that has been transformed.
 4. Change the source, recompile it, and confirm that the browser receives the updated stylesheet.
 5. In a Vite project, identify where the SCSS file is imported and which command starts development.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation](https://sass-lang.com/documentation/)
-- [Sass command-line interface](https://sass-lang.com/documentation/cli/)
-- [Sass syntax overview](https://sass-lang.com/documentation/syntax/)
-- [Vite CSS features](https://vite.dev/guide/features#css)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="001-introduction-to-sass-and-scss.md">001 - Introduction to Sass and SCSS</a></td><td><a href="../qnas/002-how-sass-fits-css-and-a-web-build.md">Q&amp;A</a></td><td><a href="../examples/002-how-sass-fits-css-and-a-web-build.md">Example</a></td><td><a href="003-installing-dart-sass-and-version-basics.md">003 - Installing Dart Sass and Version Basics</a></td></tr>
+  </tbody>
+</table>

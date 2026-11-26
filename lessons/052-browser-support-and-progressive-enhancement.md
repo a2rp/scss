@@ -264,16 +264,13 @@ Write a short browser support policy for the sample. Identify the exact feature 
 Compatibility work begins with a user-focused support policy. Use compatibility data and Baseline as evidence, not as a replacement for testing. Keep important content and operation in a broadly supported baseline, then use <code>@supports</code> to add CSS enhancements where appropriate.
 
 Feature queries test whether syntax is accepted; they cannot guarantee a bug-free implementation. Sass organizes and compiles styles, while browser support decisions happen in the browser and any compatibility transforms happen in separate build steps. Test the compiled output and the user journeys that matter.
+## Chapter navigation
 
-## References
-
-- [MDN: supporting older browsers](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers)
-- [MDN: using feature queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries)
-- [MDN: <code>@supports</code> at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40supports)
-- [MDN: CSS error handling and vendor prefixes](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
-- [MDN: Baseline compatibility](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility)
-- [MDN: implementing feature detection](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection)
-- [MDN: cross-browser testing](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Introduction)
-- [Sass: CSS at-rules](https://sass-lang.com/documentation/at-rules/css/)
-- [Sass: Dart Sass CLI](https://sass-lang.com/documentation/cli/)
-- [Next: Capstone — build a reusable SCSS design system](053-capstone-build-a-reusable-scss-design-system.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="051-accessible-motion-and-responsive-patterns.md">051 - Accessible motion and responsive patterns</a></td><td><a href="../qnas/052-browser-support-and-progressive-enhancement.md">Q&amp;A</a></td><td><a href="../examples/052-browser-support-and-progressive-enhancement.md">Example</a></td><td><a href="053-capstone-build-a-reusable-scss-design-system.md">053 - Capstone: build a reusable SCSS design system</a></td></tr>
+  </tbody>
+</table>

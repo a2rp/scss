@@ -1,4 +1,4 @@
-# Project structure and naming conventions — Q&A
+# Project structure and naming conventions - Q&A
 
 This Q&A covers Sass file layout, module naming, entry points, module APIs, and cross-platform paths. Architectural choices are conventions; the Sass module-loading behavior described here follows the official Sass documentation linked at the end.
 
@@ -243,12 +243,13 @@ If those tasks are difficult, improve names and boundaries before adding more la
 - Using backslashes or inconsistent casing in module URLs.
 - Creating too many tiny files or one unmaintainable catch-all.
 - Building folder depth before there is a real need.
+## Chapter navigation
 
-## Official Sass references
-
-- [Sass modules and @use](https://sass-lang.com/documentation/at-rules/use/)
-- [The @forward rule](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass stylesheet structure](https://sass-lang.com/documentation/syntax/structure/)
-- [Sass module system](https://sass-lang.com/blog/the-module-system-is-launched/)
-- [Sass migration guide for @import](https://sass-lang.com/documentation/breaking-changes/import/)
-- [Sass migrator](https://sass-lang.com/documentation/cli/migrator/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="041-component-styles-and-architecture.md">041 - Component styles and architecture - Q&amp;A</a></td><td><a href="../lessons/042-project-structure-and-naming-conventions.md">Lesson</a></td><td><a href="../examples/042-project-structure-and-naming-conventions.md">Example</a></td><td><a href="043-npm-scripts-and-build-integration.md">043 - npm scripts and build integration - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

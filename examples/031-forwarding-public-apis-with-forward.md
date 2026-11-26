@@ -1,4 +1,4 @@
-# 031 — Forwarding Public APIs with @forward: Examples
+# 031 - Forwarding Public APIs with @forward: Examples
 
 These examples use a small Sass library split across partials. Each section shows the source files, the public entrypoint, and how a consuming stylesheet uses that API.
 
@@ -553,5 +553,13 @@ The public entrypoint decides which members and names downstream users receive. 
 
 - [Lesson: Forwarding public APIs with @forward](../lessons/031-forwarding-public-apis-with-forward.md)
 - [Q&A: Forwarding public APIs with @forward](../qnas/031-forwarding-public-apis-with-forward.md)
-- [Sass: @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: @use](https://sass-lang.com/documentation/at-rules/use/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="030-module-configuration-and-defaults.md">030 - Module Configuration and !default: Examples</a></td><td><a href="../lessons/031-forwarding-public-apis-with-forward.md">Lesson</a></td><td><a href="../qnas/031-forwarding-public-apis-with-forward.md">Q&amp;A</a></td><td><a href="032-partials-load-paths-and-file-naming.md">032 - Partials, Load Paths, and File Naming: Examples</a></td></tr>
+  </tbody>
+</table>

@@ -1,6 +1,6 @@
 # CSS output, performance, and maintenance
 
-Sass runs during a build and produces CSS. The browser downloads and applies that CSS, so runtime style performance depends on the final CSS and how the page loads it—not on whether the source was written in Sass or plain CSS.
+Sass runs during a build and produces CSS. The browser downloads and applies that CSS, so runtime style performance depends on the final CSS and how the page loads it-not on whether the source was written in Sass or plain CSS.
 
 A good stylesheet workflow keeps generated output intentional, measures what the page actually downloads and uses, and removes duplication without making the source harder to maintain.
 
@@ -265,16 +265,16 @@ Output optimization should preserve behavior, not only reduce bytes.
 - Coverage reveals only what was used during the recorded session; verify other routes and states before removing code.
 - Optimize based on measured output and behavior, and re-check the cascade after changing CSS order or delivery.
 
-## Official references
-
-- [Dart Sass CLI: output styles and compilation](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass: @use and module output](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @import and migration](https://sass-lang.com/documentation/at-rules/import/)
-- [Chrome DevTools: Coverage](https://developer.chrome.com/docs/devtools/coverage/)
-- [Chrome DevTools: CSS inspection and Coverage](https://developer.chrome.com/docs/devtools/css/reference/)
-- [web.dev: the critical rendering path](https://web.dev/learn/performance/understanding-the-critical-path)
-- [Chrome Lighthouse: render-blocking resources](https://developer.chrome.com/docs/lighthouse/performance/render-blocking/)
-
 ## Next lesson
 
 Continue with [Accessible motion and responsive patterns](051-accessible-motion-and-responsive-patterns.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="049-source-maps-and-browser-devtools.md">049 - Source maps and browser developer tools</a></td><td><a href="../qnas/050-css-output-performance-and-maintenance.md">Q&amp;A</a></td><td><a href="../examples/050-css-output-performance-and-maintenance.md">Example</a></td><td><a href="051-accessible-motion-and-responsive-patterns.md">051 - Accessible motion and responsive patterns</a></td></tr>
+  </tbody>
+</table>

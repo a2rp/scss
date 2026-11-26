@@ -1,4 +1,4 @@
-# Sass CLI, watch mode, and build options — Examples
+# Sass CLI, watch mode, and build options - Examples
 
 These command examples use Dart Sass. Run them from the project root, or adjust paths to match the current directory. Check the installed compiler with <code>sass --version</code> or <code>npx sass --version</code>.
 
@@ -284,10 +284,13 @@ Check the locations included in the watch command and its load paths. If the cha
 6. Use <code>--verbose</code> to review deprecation warnings.
 7. Decide whether error CSS should be enabled in local watch mode.
 8. Confirm which CLI options are available in the project’s locked Sass version.
+## Chapter navigation
 
-## Official references
-
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass CLI overview](https://sass-lang.com/documentation/cli/)
-- [Sass installation](https://sass-lang.com/install/)
-- [Sass breaking changes and deprecations](https://sass-lang.com/documentation/breaking-changes/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="043-npm-scripts-and-build-integration.md">043 - npm scripts and build integration - Examples</a></td><td><a href="../lessons/044-sass-cli-watch-and-build-options.md">Lesson</a></td><td><a href="../qnas/044-sass-cli-watch-and-build-options.md">Q&amp;A</a></td><td><a href="045-framework-integrations-angular-react-vite.md">045 - Framework integrations: Angular, React, and Vite - Examples</a></td></tr>
+  </tbody>
+</table>

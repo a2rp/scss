@@ -1,4 +1,4 @@
-# 020 — Content Blocks and Context-Aware Mixins: Examples
+# 020 - Content Blocks and Context-Aware Mixins: Examples
 
 Each example shows a mixin that chooses a context and a caller-supplied block inserted into that context.
 
@@ -354,3 +354,13 @@ Find every include and check:
 - Does a content argument have a matching using parameter?
 - Are variables read from the include site's scope?
 - Does the mixin insert the content once or multiple times intentionally?
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="019-mixin-arguments-defaults-and-keyword-args.md">019 - Mixin Arguments, Defaults, and Keyword Arguments: Examples</a></td><td><a href="../lessons/020-content-blocks-and-context-aware-mixins.md">Lesson</a></td><td><a href="../qnas/020-content-blocks-and-context-aware-mixins.md">Q&amp;A</a></td><td><a href="021-custom-functions-and-return-values.md">021 - Custom Functions and Return Values: Examples</a></td></tr>
+  </tbody>
+</table>

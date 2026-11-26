@@ -1,4 +1,4 @@
-# 016 — The Parent Selector
+# 016 - The Parent Selector
 
 ## Learning goals
 
@@ -513,11 +513,13 @@ This example uses the parent selector for BEM class names, a modifier, a state, 
 - Use & with combinators when the parent participates in a child or sibling relationship.
 - Sass's parent selector is resolved during compilation and does not behave exactly like native CSS nesting.
 - Read the generated selector to verify its meaning and specificity.
+## Chapter navigation
 
-## Official references
-
-- [Sass parent selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
-- [Sass style rules and selector nesting](https://sass-lang.com/documentation/style-rules/)
-- [Sass and native CSS nesting](https://sass-lang.com/blog/sass-and-native-nesting/)
-- [Sass interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass selector module](https://sass-lang.com/documentation/modules/selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="015-nesting-rules-and-declarations.md">015 - Nesting Rules and Declarations</a></td><td><a href="../qnas/016-parent-selector.md">Q&amp;A</a></td><td><a href="../examples/016-parent-selector.md">Example</a></td><td><a href="017-interpolation-in-selectors-and-property-names.md">017 - Interpolation in Selectors and Property Names</a></td></tr>
+  </tbody>
+</table>

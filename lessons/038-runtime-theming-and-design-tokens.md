@@ -1,4 +1,4 @@
-# 038 — Runtime Theming and Design Tokens
+# 038 - Runtime Theming and Design Tokens
 
 ## Learning goals
 
@@ -466,8 +466,13 @@ Use `color-scheme` to tell the browser which schemes the page supports. Check fo
 - [Q&A: Runtime theming and design tokens](../qnas/038-runtime-theming-and-design-tokens.md)
 - [Examples: Runtime theming and design tokens](../examples/038-runtime-theming-and-design-tokens.md)
 - [Next lesson: Reusable responsive mixins](039-reusable-responsive-mixins.md)
-- [Sass: @use modules](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: Maps](https://sass-lang.com/documentation/values/maps/)
-- [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/)
-- [CSS Color Adjustment Module](https://www.w3.org/TR/css-color-adjust-1/)
-- [WCAG 2.2: Contrast Minimum](https://www.w3.org/TR/WCAG22/#contrast-minimum)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="037-sass-variables-vs-css-custom-properties.md">037 - Sass Variables versus CSS Custom Properties</a></td><td><a href="../qnas/038-runtime-theming-and-design-tokens.md">Q&amp;A</a></td><td><a href="../examples/038-runtime-theming-and-design-tokens.md">Example</a></td><td><a href="039-reusable-responsive-mixins.md">039 - Reusable Responsive Mixins</a></td></tr>
+  </tbody>
+</table>

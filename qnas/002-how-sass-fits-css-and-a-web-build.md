@@ -1,4 +1,4 @@
-# 002. How Sass Fits CSS and a Web Build — Q&A
+# 002. How Sass Fits CSS and a Web Build - Q&A
 
 ## Concepts
 
@@ -146,3 +146,13 @@ Use the file designated as the source of truth by the project. If CSS is generat
 - **Direct compiler workflow:** Choose source and output paths in the Sass CLI.
 - **Integrated workflow:** A build tool coordinates Sass with the rest of the project.
 - **Debugging order:** Source, compilation, output, loading, selector match, cascade.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="001-introduction-to-sass-and-scss.md">001 - Q&amp;A: Introduction to Sass and SCSS</a></td><td><a href="../lessons/002-how-sass-fits-css-and-a-web-build.md">Lesson</a></td><td><a href="../examples/002-how-sass-fits-css-and-a-web-build.md">Example</a></td><td><a href="003-installing-dart-sass-and-version-basics.md">003 - Installing Dart Sass and Version Basics - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

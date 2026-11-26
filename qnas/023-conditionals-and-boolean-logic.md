@@ -1,4 +1,4 @@
-# 023 — Conditionals and Boolean Logic: Q&A
+# 023 - Conditionals and Boolean Logic: Q&A
 
 ## Core behavior
 
@@ -199,8 +199,13 @@ If there is no final **@else**, Sass evaluates none of the chain's blocks and em
 - Only **false** and **null** are falsey; **0** and empty values are truthy.
 - Separate **@if** rules can both run; an if/else chain selects at most one branch.
 - Use Sass conditions for compile-time choices and CSS conditions for browser runtime choices.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: @if and @else](https://sass-lang.com/documentation/at-rules/control/if/)
-- [Sass documentation: operators](https://sass-lang.com/documentation/operators/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="022-built-in-sass-modules.md">022 - Built-in Sass Modules: Q&amp;A</a></td><td><a href="../lessons/023-conditionals-and-boolean-logic.md">Lesson</a></td><td><a href="../examples/023-conditionals-and-boolean-logic.md">Example</a></td><td><a href="024-loops-each-for-and-while.md">024 - Loops: each, for, and while: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

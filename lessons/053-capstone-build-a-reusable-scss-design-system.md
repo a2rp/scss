@@ -329,15 +329,13 @@ The final system should be small enough that a new contributor can find a token,
 ## Summary
 
 A reusable SCSS design system combines a small public Sass API with CSS output and documented usage rules. Use Sass maps and functions for build-time tokens and mixins; use CSS custom properties when the value needs to respond to themes or runtime context. Keep the public API narrow, components semantic and accessible, and the compiled output easy to inspect.
+## Chapter navigation
 
-## References
-
-- [Sass: <code>@use</code> modules](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: <code>@forward</code> modules](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: built-in modules](https://sass-lang.com/documentation/modules/)
-- [Sass: CSS at-rules](https://sass-lang.com/documentation/at-rules/css/)
-- [MDN: using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties)
-- [MDN: <code>var()</code> function](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/var)
-- [MDN: registering CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties)
-- [MDN: CSS property value processing](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing)
-- [Next: SCSS quick reference and glossary](054-scss-quick-reference-and-glossary.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="052-browser-support-and-progressive-enhancement.md">052 - Browser support and progressive enhancement</a></td><td><a href="../qnas/053-capstone-build-a-reusable-scss-design-system.md">Q&amp;A</a></td><td><a href="../examples/053-capstone-build-a-reusable-scss-design-system.md">Example</a></td><td><a href="054-scss-quick-reference-and-glossary.md">054 - SCSS quick reference and glossary</a></td></tr>
+  </tbody>
+</table>

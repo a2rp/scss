@@ -1,4 +1,4 @@
-# 016 — The Parent Selector: Q&A
+# 016 - The Parent Selector: Q&A
 
 ## The basic meaning of &
 
@@ -137,11 +137,13 @@ Assuming Sass suffix behavior is native CSS behavior. A pattern such as &__item 
 ### 32. When should I prefer a separate selector over a complex & expression?
 
 Prefer a direct selector when it is easier to understand, reuse, and match to the markup. Use & when it clearly expresses a state, context, suffix, or relationship of the current component.
+## Chapter navigation
 
-## Official references
-
-- [Sass parent selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
-- [Sass style rules and selector nesting](https://sass-lang.com/documentation/style-rules/)
-- [Sass and native CSS nesting](https://sass-lang.com/blog/sass-and-native-nesting/)
-- [Sass interpolation](https://sass-lang.com/documentation/interpolation/)
-- [Sass selector module](https://sass-lang.com/documentation/modules/selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="015-nesting-rules-and-declarations.md">015 - Nesting Rules and Declarations: Q&amp;A</a></td><td><a href="../lessons/016-parent-selector.md">Lesson</a></td><td><a href="../examples/016-parent-selector.md">Example</a></td><td><a href="017-interpolation-in-selectors-and-property-names.md">017 - Interpolation in Selectors and Property Names: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

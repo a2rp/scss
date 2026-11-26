@@ -1,4 +1,4 @@
-# SCSS quick reference and glossary — Examples
+# SCSS quick reference and glossary - Examples
 
 This worked example brings the final chapter's ideas together in one small project. It has a configurable Sass module, a public module entry point, runtime CSS theme variables, a reusable component, and repeatable build commands.
 
@@ -352,12 +352,13 @@ Before treating this mini project as complete, confirm:
 - The component has a visible keyboard focus indicator.
 - Both build and watch commands are recorded in the project scripts.
 - Generated CSS is reproducible from source and is not edited manually.
+## Chapter navigation
 
-## Official references
-
-- [Sass modules with @use](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass modules with @forward](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
-- [Sass mixins](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/)
-- [Sass import deprecation](https://sass-lang.com/documentation/breaking-changes/import/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="053-capstone-build-a-reusable-scss-design-system.md">053 - Capstone: build a reusable SCSS design system - Examples</a></td><td><a href="../lessons/054-scss-quick-reference-and-glossary.md">Lesson</a></td><td><a href="../qnas/054-scss-quick-reference-and-glossary.md">Q&amp;A</a></td><td>End of course</td></tr>
+  </tbody>
+</table>

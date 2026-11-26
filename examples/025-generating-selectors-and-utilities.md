@@ -1,4 +1,4 @@
-# 025 — Generating Selectors and Utility Classes: Examples
+# 025 - Generating Selectors and Utility Classes: Examples
 
 These examples use Sass maps, loops, interpolation, and the parent selector to generate CSS selectors. Sass expands the loops during compilation.
 
@@ -381,3 +381,13 @@ Inspect the compiled CSS to confirm that each selector is valid, the values matc
 - Use direct Sass variables in declaration values.
 - Responsive utility media queries remain for the browser to evaluate.
 - Keep generated utility APIs intentional and concise.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="024-loops-each-for-and-while.md">024 - Loops: each, for, and while: Examples</a></td><td><a href="../lessons/025-generating-selectors-and-utilities.md">Lesson</a></td><td><a href="../qnas/025-generating-selectors-and-utilities.md">Q&amp;A</a></td><td><a href="026-extend-placeholder-selectors.md">026 - @extend and Placeholder Selectors: Examples</a></td></tr>
+  </tbody>
+</table>

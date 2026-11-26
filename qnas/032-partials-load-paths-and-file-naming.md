@@ -1,4 +1,4 @@
-# 032 — Partials, Load Paths, and File Naming: Q&A
+# 032 - Partials, Load Paths, and File Naming: Q&A
 
 ## Partials and file names
 
@@ -214,5 +214,13 @@ npx sass --load-path=src/scss --load-path=node_modules/library/scss src/scss/app
 
 - [Lesson: Partials, load paths, and file naming](../lessons/032-partials-load-paths-and-file-naming.md)
 - [Example: Partials, load paths, and file naming](../examples/032-partials-load-paths-and-file-naming.md)
-- [Sass: @use and module resolution](https://sass-lang.com/documentation/at-rules/use/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/dart-sass/)
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="031-forwarding-public-apis-with-forward.md">031 - Forwarding Public APIs with @forward: Q&amp;A</a></td><td><a href="../lessons/032-partials-load-paths-and-file-naming.md">Lesson</a></td><td><a href="../examples/032-partials-load-paths-and-file-naming.md">Example</a></td><td><a href="033-emitted-css-and-entrypoints.md">033 - Generated CSS and Entry Points: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

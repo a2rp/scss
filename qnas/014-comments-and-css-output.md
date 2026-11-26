@@ -1,4 +1,4 @@
-# 014 — Comments and Generated CSS Output: Q&A
+# 014 - Comments and Generated CSS Output: Q&A
 
 ## Comments in SCSS
 
@@ -155,3 +155,13 @@ Compile with expanded style, open the generated CSS, and use source maps in brow
 ### 36. What is the key rule for comments and CSS output?
 
 Decide whether each comment belongs only in source or must be published. Then choose output formatting and source-map settings deliberately for the build target.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="013-colors-and-sass-color-module.md">013 - Colors and the Sass Color Module: Q&amp;A</a></td><td><a href="../lessons/014-comments-and-css-output.md">Lesson</a></td><td><a href="../examples/014-comments-and-css-output.md">Example</a></td><td><a href="015-nesting-rules-and-declarations.md">015 - Nesting Rules and Declarations: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

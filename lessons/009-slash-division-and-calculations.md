@@ -1,4 +1,4 @@
-# 009 — Slash Division and Calculations
+# 009 - Slash Division and Calculations
 
 ## Learning goals
 
@@ -393,10 +393,13 @@ Before moving on, make sure you can answer these questions:
 6. Why should interpolation be avoided inside calculations?
 7. Can a calc() value be multiplied using ordinary SassScript outside calc()?
 8. Why might Sass simplify min() or clamp() before emitting CSS?
+## Chapter navigation
 
-## Further reading
-
-- [Sass numeric operators and slash-separated values](https://sass-lang.com/documentation/operators/numeric/)
-- [Sass calculations](https://sass-lang.com/documentation/values/calculations/)
-- [Sass math module](https://sass-lang.com/documentation/modules/math/)
-- [Sass list module](https://sass-lang.com/documentation/modules/list/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="008-numbers-units-and-arithmetic.md">008 - Numbers, Units, and Arithmetic</a></td><td><a href="../qnas/009-slash-division-and-calculations.md">Q&amp;A</a></td><td><a href="../examples/009-slash-division-and-calculations.md">Example</a></td><td><a href="010-strings-and-interpolation.md">010 - Strings and Interpolation</a></td></tr>
+  </tbody>
+</table>

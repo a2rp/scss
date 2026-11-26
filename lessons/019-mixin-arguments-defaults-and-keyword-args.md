@@ -1,4 +1,4 @@
-# 019 — Mixin Arguments, Defaults, and Keyword Arguments
+# 019 - Mixin Arguments, Defaults, and Keyword Arguments
 
 ## Learning goals
 
@@ -455,9 +455,13 @@ This example previews a mixin whose behavior depends on a Boolean argument. Cond
 - Keyword parameter names are part of a mixin's public API.
 - Sass reports errors for missing required values, unknown keywords, duplicate values, and excess arguments.
 - Content blocks and arbitrary argument lists are separate topics.
+## Chapter navigation
 
-## Official references
-
-- [Sass @mixin and @include: arguments and defaults](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass variables and default expressions](https://sass-lang.com/documentation/variables/)
-- [SassScript expressions](https://sass-lang.com/documentation/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="018-mixin-basics.md">018 - Mixin Basics</a></td><td><a href="../qnas/019-mixin-arguments-defaults-and-keyword-args.md">Q&amp;A</a></td><td><a href="../examples/019-mixin-arguments-defaults-and-keyword-args.md">Example</a></td><td><a href="020-content-blocks-and-context-aware-mixins.md">020 - Content Blocks and Context-Aware Mixins</a></td></tr>
+  </tbody>
+</table>

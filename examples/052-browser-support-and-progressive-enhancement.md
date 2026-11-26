@@ -1,4 +1,4 @@
-# Browser support and progressive enhancement — Examples
+# Browser support and progressive enhancement - Examples
 
 This exercise creates a small SCSS page with a working baseline and optional CSS enhancements. It demonstrates declaration fallbacks, <code>@supports</code> feature queries, selector queries, Sass modules, and a lightweight browser test matrix.
 
@@ -326,15 +326,13 @@ A browser that accepts <code>display: grid</code> may still have a limitation in
 - Grid, grid spacing, bounded width, gradient, and color mixing are applied only when their CSS conditions are accepted.
 - Keyboard focus remains visible, with a more specific focus-visible treatment where supported.
 - The compiled CSS contains the Sass output and the browser-evaluated feature queries.
+## Chapter navigation
 
-## References
-
-- [MDN: supporting older browsers](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers)
-- [MDN: using feature queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries)
-- [MDN: CSS <code>@supports</code> reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40supports)
-- [MDN: CSS error handling](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Syntax/Error_handling)
-- [MDN: Baseline compatibility](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility)
-- [MDN: cross-browser testing](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Introduction)
-- [Sass: CSS at-rules](https://sass-lang.com/documentation/at-rules/css/)
-- [Sass: Dart Sass CLI](https://sass-lang.com/documentation/cli/)
-- [Next: Capstone — build a reusable SCSS design system](../lessons/053-capstone-build-a-reusable-scss-design-system.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="051-accessible-motion-and-responsive-patterns.md">051 - Accessible motion and responsive patterns - Examples</a></td><td><a href="../lessons/052-browser-support-and-progressive-enhancement.md">Lesson</a></td><td><a href="../qnas/052-browser-support-and-progressive-enhancement.md">Q&amp;A</a></td><td><a href="053-capstone-build-a-reusable-scss-design-system.md">053 - Capstone: build a reusable SCSS design system - Examples</a></td></tr>
+  </tbody>
+</table>

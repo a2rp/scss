@@ -1,4 +1,4 @@
-# Source maps and browser developer tools — Examples
+# Source maps and browser developer tools - Examples
 
 This exercise compiles a small Sass component, inspects its mapped source in Chrome DevTools, and traces an overridden declaration back to the rule that wins. It also shows how to check source-map availability and disable maps in a build that should not publish them.
 
@@ -229,13 +229,13 @@ Do not manually edit the map to compensate for a broken build pipeline. Fix the 
 - Inspect Developer Resources if a map or original file does not load.
 - Try <code>--embed-sources</code> and compare the map contents and size.
 - Try <code>--no-source-map</code> and confirm the output no longer references a map.
+## Chapter navigation
 
-## Official references
-
-- [Dart Sass CLI: source maps](https://sass-lang.com/documentation/cli/dart-sass/#source-maps)
-- [Sass JavaScript API: compile options](https://sass-lang.com/documentation/js-api/interfaces/options/)
-- [Sass JavaScript API: CompileResult](https://sass-lang.com/documentation/js-api/interfaces/compileresult/)
-- [Chrome DevTools: CSS source maps preferences](https://developer.chrome.com/docs/devtools/settings/preferences/)
-- [Chrome DevTools: debug authored source with source maps](https://developer.chrome.com/docs/devtools/javascript/source-maps/)
-- [Chrome DevTools: view and manually load source maps](https://developer.chrome.com/docs/devtools/developer-resources/)
-- [Chrome DevTools: inspect CSS in Styles and Computed](https://developer.chrome.com/docs/devtools/css/reference/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="048-linting-and-style-quality.md">048 - Linting and stylesheet quality - Examples</a></td><td><a href="../lessons/049-source-maps-and-browser-devtools.md">Lesson</a></td><td><a href="../qnas/049-source-maps-and-browser-devtools.md">Q&amp;A</a></td><td><a href="050-css-output-performance-and-maintenance.md">050 - CSS output, performance, and maintenance - Examples</a></td></tr>
+  </tbody>
+</table>

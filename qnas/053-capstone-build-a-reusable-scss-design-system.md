@@ -1,4 +1,4 @@
-# Capstone: build a reusable SCSS design system — Q&A
+# Capstone: build a reusable SCSS design system - Q&A
 
 These answers review the architecture and implementation choices in the capstone. They distinguish Sass's build-time module system from CSS custom properties and runtime browser behavior.
 
@@ -118,15 +118,13 @@ Once documented and used by consumers, names and behavior become contracts. Remo
 ## 28. How should the system evolve?
 
 Use consumer feedback and repeated product needs. Review whether tokens are used, whether components still match product patterns, and whether browser and accessibility expectations changed. Remove obsolete tokens deliberately and document breaking changes rather than silently changing behavior.
+## Chapter navigation
 
-## References
-
-- [Sass: <code>@use</code> modules](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: <code>@forward</code> modules](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass: built-in modules](https://sass-lang.com/documentation/modules/)
-- [Sass: <code>@import</code> and module-system changes](https://sass-lang.com/documentation/breaking-changes/import/)
-- [MDN: using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties)
-- [MDN: <code>var()</code> function](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/var)
-- [MDN: inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
-- [MDN: registering CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Registering_properties)
-- [Next: SCSS quick reference and glossary](../lessons/054-scss-quick-reference-and-glossary.md)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="052-browser-support-and-progressive-enhancement.md">052 - Browser support and progressive enhancement - Q&amp;A</a></td><td><a href="../lessons/053-capstone-build-a-reusable-scss-design-system.md">Lesson</a></td><td><a href="../examples/053-capstone-build-a-reusable-scss-design-system.md">Example</a></td><td><a href="054-scss-quick-reference-and-glossary.md">054 - SCSS quick reference and glossary - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

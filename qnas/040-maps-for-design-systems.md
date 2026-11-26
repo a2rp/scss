@@ -1,4 +1,4 @@
-# Maps for design systems — Q&A
+# Maps for design systems - Q&A
 
 This Q&A explains Sass maps as data structures for design tokens, component variants, and generated CSS. The examples use the built-in `sass:map` module, so load it with `@use "sass:map";` in each stylesheet that calls its functions.
 
@@ -345,11 +345,13 @@ Remove temporary debug statements when they are no longer useful, especially if 
 Use a Sass map to organize compile-time values, iterate over them, and generate stylesheet output. Use CSS custom properties when values need to inherit, respond to runtime conditions, or be read and changed in the browser.
 
 They can work together: keep authoring tokens in a Sass map and compile them into CSS custom properties.
+## Chapter navigation
 
-## Official references
-
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
-- [The built-in `sass:map` module](https://sass-lang.com/documentation/modules/map/)
-- [The `@each` control rule](https://sass-lang.com/documentation/at-rules/control/each/)
-- [Sass functions](https://sass-lang.com/documentation/at-rules/function/)
-- [Sass modules and `@use`](https://sass-lang.com/documentation/at-rules/use/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="039-reusable-responsive-mixins.md">039 - Reusable Responsive Mixins: Q&amp;A</a></td><td><a href="../lessons/040-maps-for-design-systems.md">Lesson</a></td><td><a href="../examples/040-maps-for-design-systems.md">Example</a></td><td><a href="041-component-styles-and-architecture.md">041 - Component styles and architecture - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

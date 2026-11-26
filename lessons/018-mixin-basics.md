@@ -1,4 +1,4 @@
-# 018 — Mixin Basics
+# 018 - Mixin Basics
 
 ## Learning goals
 
@@ -416,10 +416,13 @@ The mixin reuses the focus declarations, while each selector retains its own sem
 - Mixins can include other mixins and can contain CSS at-rules.
 - Choose a mixin when named Sass composition improves clarity; do not create one for every declaration.
 - Mixin arguments and caller-provided content blocks are separate topics covered in the next chapters.
+## Chapter navigation
 
-## Official references
-
-- [Sass @mixin and @include](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass at-rules](https://sass-lang.com/documentation/at-rules/)
-- [Sass @extend and mixins](https://sass-lang.com/documentation/at-rules/extend/)
-- [Sass stylesheet structure](https://sass-lang.com/documentation/syntax/structure/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="017-interpolation-in-selectors-and-property-names.md">017 - Interpolation in Selectors and Property Names</a></td><td><a href="../qnas/018-mixin-basics.md">Q&amp;A</a></td><td><a href="../examples/018-mixin-basics.md">Example</a></td><td><a href="019-mixin-arguments-defaults-and-keyword-args.md">019 - Mixin Arguments, Defaults, and Keyword Arguments</a></td></tr>
+  </tbody>
+</table>

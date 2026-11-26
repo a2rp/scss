@@ -1,4 +1,4 @@
-# 002. How Sass Fits CSS and a Web Build — Examples
+# 002. How Sass Fits CSS and a Web Build - Examples
 
 This example follows an SCSS file through two workflows:
 
@@ -235,3 +235,13 @@ Inspect the element in browser developer tools. Check whether the selector match
 4. In the CLI project, change the stylesheet link to a wrong path and inspect the browser’s network panel.
 5. In the Vite project, remove the SCSS import, reload the page, and note the difference.
 6. Compare the readable source files with the generated CSS or Vite production output.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="001-introduction-to-sass-and-scss.md">001 - Example: Compile and use your first SCSS card</a></td><td><a href="../lessons/002-how-sass-fits-css-and-a-web-build.md">Lesson</a></td><td><a href="../qnas/002-how-sass-fits-css-and-a-web-build.md">Q&amp;A</a></td><td><a href="003-installing-dart-sass-and-version-basics.md">003 - Installing Dart Sass and Version Basics - Examples</a></td></tr>
+  </tbody>
+</table>

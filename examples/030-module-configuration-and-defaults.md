@@ -1,4 +1,4 @@
-# 030 — Module Configuration and !default: Examples
+# 030 - Module Configuration and !default: Examples
 
 These examples show module defaults, load-time configuration, and other ways to handle style variations. Multi-file examples include their paths in comments.
 
@@ -456,10 +456,13 @@ For a configurable module, use `!default` and `@use ... with (...)` so the value
 | Multiple variants in the same stylesheet | Use a parameterized mixin |
 | Theme changes in the browser | Use CSS custom properties |
 | Internal implementation value | Keep it private and do not expose it as configuration |
+## Chapter navigation
 
-## Further reading
-
-- [Sass: @use — Configuration](https://sass-lang.com/documentation/at-rules/use/#configuration)
-- [Sass: @use — With Mixins](https://sass-lang.com/documentation/at-rules/use/#with-mixins)
-- [Sass: @use — Reassigning Variables](https://sass-lang.com/documentation/at-rules/use/#reassigning-variables)
-- [Sass: Variables — Default Values](https://sass-lang.com/documentation/variables/#default-values)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="029-module-namespaces-and-private-members.md">029 - Module Namespaces and Private Members: Examples</a></td><td><a href="../lessons/030-module-configuration-and-defaults.md">Lesson</a></td><td><a href="../qnas/030-module-configuration-and-defaults.md">Q&amp;A</a></td><td><a href="031-forwarding-public-apis-with-forward.md">031 - Forwarding Public APIs with @forward: Examples</a></td></tr>
+  </tbody>
+</table>

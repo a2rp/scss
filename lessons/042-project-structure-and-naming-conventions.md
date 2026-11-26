@@ -106,7 +106,7 @@ The underscore is omitted from the module URL:
 
 The extension is usually omitted too. Keep the on-disk filename and module URL aligned, and use the same casing in both places.
 
-A non-partial file such as <code>app.scss</code> is commonly an entry point, although the build configuration—not the filename alone—determines what gets compiled.
+A non-partial file such as <code>app.scss</code> is commonly an entry point, although the build configuration-not the filename alone-determines what gets compiled.
 
 ## 4. Name files for their responsibility
 
@@ -416,14 +416,16 @@ Avoid empty folders and wrapper files that do not clarify a current responsibili
 | Component selectors | Use a consistent, scoped naming convention |
 | Generated CSS | Keep it in a documented output location |
 
-## Further reading
-
-- [Sass modules and @use](https://sass-lang.com/documentation/at-rules/use/)
-- [The @forward rule](https://sass-lang.com/documentation/at-rules/forward/)
-- [Sass stylesheet structure](https://sass-lang.com/documentation/syntax/structure/)
-- [Sass module system](https://sass-lang.com/blog/the-module-system-is-launched/)
-- [Sass migration guide for @import](https://sass-lang.com/documentation/breaking-changes/import/)
-
 ## Next lesson
 
 Continue with [npm scripts and build integration](043-npm-scripts-and-build-integration.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="041-component-styles-and-architecture.md">041 - Component styles and architecture</a></td><td><a href="../qnas/042-project-structure-and-naming-conventions.md">Q&amp;A</a></td><td><a href="../examples/042-project-structure-and-naming-conventions.md">Example</a></td><td><a href="043-npm-scripts-and-build-integration.md">043 - npm scripts and build integration</a></td></tr>
+  </tbody>
+</table>

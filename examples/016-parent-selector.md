@@ -1,4 +1,4 @@
-# 016 — The Parent Selector: Examples
+# 016 - The Parent Selector: Examples
 
 These examples show how Dart Sass substitutes the parent selector while compiling nested SCSS.
 
@@ -413,3 +413,13 @@ Check the generated selector in each case: same-element state, appended class na
 - Does using & with a selector list create all the expected combinations?
 - Could a selector function such as :not() make the rule broader than expected?
 - Does a root-level & rely on native CSS nesting support?
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="015-nesting-rules-and-declarations.md">015 - Nesting Rules and Declarations: Examples</a></td><td><a href="../lessons/016-parent-selector.md">Lesson</a></td><td><a href="../qnas/016-parent-selector.md">Q&amp;A</a></td><td><a href="017-interpolation-in-selectors-and-property-names.md">017 - Interpolation in Selectors and Property Names: Examples</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# Warnings, errors, and debugging — Q&A
+# Warnings, errors, and debugging - Q&A
 
 This Q&A reviews Sass diagnostics, compiler behavior, and debugging workflows. CLI flags and JavaScript API options can depend on the installed Dart Sass version, so check the documentation for the version your project uses.
 
@@ -121,12 +121,13 @@ Validate public inputs at the library boundary where the consumer calls a functi
 ## 30. What is a good debugging loop for Sass?
 
 Reproduce the issue with the project's Sass version, read the full message and stack, classify the problem, reduce it to a small example, inspect values or computed styles at the correct layer, fix the cause, remove temporary instrumentation, and confirm the compiler's exit status and output.
+## Chapter navigation
 
-## Official references
-
-- [Sass: @warn](https://sass-lang.com/documentation/at-rules/warn/)
-- [Sass: @error](https://sass-lang.com/documentation/at-rules/error/)
-- [Sass: @debug](https://sass-lang.com/documentation/at-rules/debug/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass deprecations](https://sass-lang.com/documentation/breaking-changes/)
-- [Sass JavaScript API logger](https://sass-lang.com/documentation/js-api/interfaces/logger/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="046-authoring-a-sass-library.md">046 - Authoring a Sass library - Q&amp;A</a></td><td><a href="../lessons/047-warnings-errors-and-debugging.md">Lesson</a></td><td><a href="../examples/047-warnings-errors-and-debugging.md">Example</a></td><td><a href="048-linting-and-style-quality.md">048 - Linting and stylesheet quality - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

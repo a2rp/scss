@@ -325,13 +325,16 @@ Embedded sources and maps can make assets substantially larger. Use these option
 | Suppress dependency deprecations | <code>--quiet-deps</code> |
 | Show command options | <code>--help</code> |
 
-## Further reading
-
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass CLI overview](https://sass-lang.com/documentation/cli/)
-- [Sass installation](https://sass-lang.com/install/)
-- [Sass breaking changes and deprecations](https://sass-lang.com/documentation/breaking-changes/)
-
 ## Next lesson
 
 Continue with [Framework integrations: Angular, React, and Vite](045-framework-integrations-angular-react-vite.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="043-npm-scripts-and-build-integration.md">043 - npm scripts and build integration</a></td><td><a href="../qnas/044-sass-cli-watch-and-build-options.md">Q&amp;A</a></td><td><a href="../examples/044-sass-cli-watch-and-build-options.md">Example</a></td><td><a href="045-framework-integrations-angular-react-vite.md">045 - Framework integrations: Angular, React, and Vite</a></td></tr>
+  </tbody>
+</table>

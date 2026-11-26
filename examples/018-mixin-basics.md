@@ -1,4 +1,4 @@
-# 018 — Mixin Basics: Examples
+# 018 - Mixin Basics: Examples
 
 These examples use argument-free Sass mixins and show the CSS emitted at each include.
 
@@ -395,3 +395,13 @@ Open the generated CSS and locate every @include from the source. The Sass at-ru
 - Did nested selectors resolve in the include context?
 - Are repeated output blocks intentional?
 - Is the mixin focused on one reusable purpose?
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="017-interpolation-in-selectors-and-property-names.md">017 - Interpolation in Selectors and Property Names: Examples</a></td><td><a href="../lessons/018-mixin-basics.md">Lesson</a></td><td><a href="../qnas/018-mixin-basics.md">Q&amp;A</a></td><td><a href="019-mixin-arguments-defaults-and-keyword-args.md">019 - Mixin Arguments, Defaults, and Keyword Arguments: Examples</a></td></tr>
+  </tbody>
+</table>

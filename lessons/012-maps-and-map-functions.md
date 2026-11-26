@@ -1,4 +1,4 @@
-# 012 — Maps and Map Functions
+# 012 - Maps and Map Functions
 
 ## Learning goals
 
@@ -495,9 +495,13 @@ Before moving on, make sure you can answer these questions:
 8. How does map.deep-merge() differ from map.merge()?
 9. Why must you reassign the result of a map function?
 10. When should you use a map instead of a list?
+## Chapter navigation
 
-## Further reading
-
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
-- [sass:map module](https://sass-lang.com/documentation/modules/map/)
-- [Sass @each rule](https://sass-lang.com/documentation/at-rules/control/each/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="011-lists-and-list-functions.md">011 - Lists and List Functions</a></td><td><a href="../qnas/012-maps-and-map-functions.md">Q&amp;A</a></td><td><a href="../examples/012-maps-and-map-functions.md">Example</a></td><td><a href="013-colors-and-sass-color-module.md">013 - Colors and the Sass Color Module</a></td></tr>
+  </tbody>
+</table>

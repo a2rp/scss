@@ -1,4 +1,4 @@
-# 015 — Nesting Rules and Declarations
+# 015 - Nesting Rules and Declarations
 
 ## Learning goals
 
@@ -508,11 +508,13 @@ For a real project, compare this source with its generated CSS and check whether
 - Modern Dart Sass preserves declaration order around nested rules, even when it emits the parent selector more than once.
 - Sass nesting compiles to CSS; it is not exactly the same as native CSS nesting.
 - Keep nesting shallow and verify the generated selectors.
+## Chapter navigation
 
-## Official references
-
-- [Sass style rules and selector nesting](https://sass-lang.com/documentation/style-rules/)
-- [Sass property declarations and nested properties](https://sass-lang.com/documentation/style-rules/declarations/)
-- [Sass mixed declarations change](https://sass-lang.com/documentation/breaking-changes/mixed-decls/)
-- [Sass and native CSS nesting](https://sass-lang.com/blog/sass-and-native-nesting/)
-- [Sass parent selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="014-comments-and-css-output.md">014 - Comments and Generated CSS Output</a></td><td><a href="../qnas/015-nesting-rules-and-declarations.md">Q&amp;A</a></td><td><a href="../examples/015-nesting-rules-and-declarations.md">Example</a></td><td><a href="016-parent-selector.md">016 - The Parent Selector</a></td></tr>
+  </tbody>
+</table>

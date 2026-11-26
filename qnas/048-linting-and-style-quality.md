@@ -1,4 +1,4 @@
-# Linting and stylesheet quality — Q&A
+# Linting and stylesheet quality - Q&A
 
 This Q&A explains how to build a practical SCSS quality workflow with Stylelint, Prettier, Dart Sass, and browser inspection. Tool support can change across releases, so use compatible package versions and check the documentation for the versions pinned by your project.
 
@@ -135,16 +135,13 @@ Start by choosing a compatible shared config, run it on the current source, and 
 ## 32. What is the complete stylesheet quality loop?
 
 Format authored source, lint it with the project's shared rules, compile with the project's Sass version, inspect rendered behavior in the browser, and review the changes. Each step checks a different part of the result.
+## Chapter navigation
 
-## Official references
-
-- [Stylelint: getting started with SCSS](https://stylelint.io/user-guide/get-started/)
-- [Stylelint: SCSS standard configuration](https://github.com/stylelint-scss/stylelint-config-standard-scss)
-- [Stylelint: configuration](https://stylelint.io/user-guide/configure/)
-- [Stylelint: errors and warnings](https://stylelint.io/user-guide/errors/)
-- [Stylelint: customization and rule exceptions](https://stylelint.io/user-guide/customize/)
-- [Stylelint: command-line interface](https://stylelint.io/user-guide/cli/)
-- [PostCSS SCSS parser](https://github.com/postcss/postcss-scss)
-- [PostCSS Sass parser](https://github.com/postcss/postcss-sass)
-- [Prettier: options](https://prettier.io/docs/options.html)
-- [Prettier: ignoring files](https://prettier.io/docs/ignore.html)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="047-warnings-errors-and-debugging.md">047 - Warnings, errors, and debugging - Q&amp;A</a></td><td><a href="../lessons/048-linting-and-style-quality.md">Lesson</a></td><td><a href="../examples/048-linting-and-style-quality.md">Example</a></td><td><a href="049-source-maps-and-browser-devtools.md">049 - Source maps and browser developer tools - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

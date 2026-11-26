@@ -1,4 +1,4 @@
-# 007 — Sass Value Types and Null: Examples
+# 007 - Sass Value Types and Null: Examples
 
 These examples use SCSS syntax. Save each snippet in a .scss file and compile it with Dart Sass to compare the result.
 
@@ -489,11 +489,13 @@ The regular values are emitted, the null border is omitted, the null font-list i
 4. Change $focus-color from null to teal. Which selector is added?
 5. Set $alert-icon-enabled to false. What happens to the pseudo-element?
 6. Use @debug on a missing map lookup. What value does Sass report?
+## Chapter navigation
 
-## References
-
-- [Sass values](https://sass-lang.com/documentation/values/)
-- [Sass null](https://sass-lang.com/documentation/values/null/)
-- [Sass booleans](https://sass-lang.com/documentation/values/booleans/)
-- [Sass lists](https://sass-lang.com/documentation/values/lists/)
-- [Sass maps](https://sass-lang.com/documentation/values/maps/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="006-sass-variables-and-scope.md">006 - Sass Variables and Scope - Examples</a></td><td><a href="../lessons/007-sass-value-types-and-null.md">Lesson</a></td><td><a href="../qnas/007-sass-value-types-and-null.md">Q&amp;A</a></td><td><a href="008-numbers-units-and-arithmetic.md">008 - Numbers, Units, and Arithmetic: Examples</a></td></tr>
+  </tbody>
+</table>

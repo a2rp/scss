@@ -1,4 +1,4 @@
-# 024 — Loops: each, for, and while: Examples
+# 024 - Loops: each, for, and while: Examples
 
 These examples show list, map, numeric-range, and condition-based loops. Sass expands each loop during compilation; the browser receives only the resulting CSS.
 
@@ -414,3 +414,13 @@ Compare the generated selectors and declarations with the expected output. When 
 - Interpolate loop values in generated selectors.
 - Use descriptive tokens instead of raw values for class names.
 - Every Sass loop is expanded during compilation and contributes to the generated CSS.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="023-conditionals-and-boolean-logic.md">023 - Conditionals and Boolean Logic: Examples</a></td><td><a href="../lessons/024-loops-each-for-and-while.md">Lesson</a></td><td><a href="../qnas/024-loops-each-for-and-while.md">Q&amp;A</a></td><td><a href="025-generating-selectors-and-utilities.md">025 - Generating Selectors and Utility Classes: Examples</a></td></tr>
+  </tbody>
+</table>

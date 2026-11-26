@@ -1,4 +1,4 @@
-# 020 — Content Blocks and Context-Aware Mixins: Q&A
+# 020 - Content Blocks and Context-Aware Mixins: Q&A
 
 ## Content block basics
 
@@ -137,10 +137,13 @@ Yes. The arguments can configure the context, while the content block supplies t
 ### 32. Are content blocks used by the browser at runtime?
 
 No. Sass expands them at compile time. The browser receives the resulting CSS rules.
+## Chapter navigation
 
-## Official references
-
-- [Sass @mixin and @include: content blocks](https://sass-lang.com/documentation/at-rules/mixin/#content-blocks)
-- [Sass @mixin and @include: arguments to content blocks](https://sass-lang.com/documentation/at-rules/mixin/#passing-arguments-to-content-blocks)
-- [Sass local variables and scope](https://sass-lang.com/documentation/variables/)
-- [Sass parent selector](https://sass-lang.com/documentation/style-rules/parent-selector/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="019-mixin-arguments-defaults-and-keyword-args.md">019 - Mixin Arguments, Defaults, and Keyword Arguments: Q&amp;A</a></td><td><a href="../lessons/020-content-blocks-and-context-aware-mixins.md">Lesson</a></td><td><a href="../examples/020-content-blocks-and-context-aware-mixins.md">Example</a></td><td><a href="021-custom-functions-and-return-values.md">021 - Custom Functions and Return Values: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

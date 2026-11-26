@@ -1,4 +1,4 @@
-# 022 — Built-in Sass Modules: Examples
+# 022 - Built-in Sass Modules: Examples
 
 These examples use the modern Dart Sass module system. Each snippet can be saved and compiled on its own. Keep every **@use** statement at the top of its stylesheet.
 
@@ -246,3 +246,13 @@ Read the compiler's debug output separately from the generated CSS. The **@debug
 - List indexes begin at **1**; a missing map key returns **null**.
 - Prefer namespaced functions instead of legacy global aliases.
 - Compare the expected CSS with output from the Dart Sass version used in your project.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="021-custom-functions-and-return-values.md">021 - Custom Functions and Return Values: Examples</a></td><td><a href="../lessons/022-built-in-sass-modules.md">Lesson</a></td><td><a href="../qnas/022-built-in-sass-modules.md">Q&amp;A</a></td><td><a href="023-conditionals-and-boolean-logic.md">023 - Conditionals and Boolean Logic: Examples</a></td></tr>
+  </tbody>
+</table>

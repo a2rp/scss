@@ -1,4 +1,4 @@
-# 013 — Colors and the Sass Color Module: Examples
+# 013 - Colors and the Sass Color Module: Examples
 
 Most modern color-module examples in this file require Dart Sass 1.79.0 or later. Browser support for modern CSS color syntax is separate from Sass compiler support. Add fallback declarations when the project needs them.
 
@@ -401,9 +401,13 @@ $same-color: color.same($brand, color.to-space($brand, oklch));
 ~~~
 
 The first debug values identify the converted space and requested channels. The final equality check is true because the conversion preserves the color.
+## Chapter navigation
 
-## Further reading
-
-- [Sass colors](https://sass-lang.com/documentation/values/colors/)
-- [sass:color module](https://sass-lang.com/documentation/modules/color/)
-- [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="012-maps-and-map-functions.md">012 - Maps and Map Functions: Examples</a></td><td><a href="../lessons/013-colors-and-sass-color-module.md">Lesson</a></td><td><a href="../qnas/013-colors-and-sass-color-module.md">Q&amp;A</a></td><td><a href="014-comments-and-css-output.md">014 - Comments and Generated CSS Output: Examples</a></td></tr>
+  </tbody>
+</table>

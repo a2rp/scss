@@ -208,16 +208,16 @@ Source maps do not change runtime styles, but public maps can reveal source code
 - Rebuild CSS and maps together so DevTools does not show stale or mismatched source.
 - Decide intentionally whether production deployments should publish maps or embedded Sass sources.
 
-## Official references
-
-- [Dart Sass CLI: source maps](https://sass-lang.com/documentation/cli/dart-sass/#source-maps)
-- [Sass JavaScript API: compile options](https://sass-lang.com/documentation/js-api/interfaces/options/)
-- [Sass JavaScript API: CompileResult](https://sass-lang.com/documentation/js-api/interfaces/compileresult/)
-- [Chrome DevTools: CSS source maps preferences](https://developer.chrome.com/docs/devtools/settings/preferences/)
-- [Chrome DevTools: debug authored source with source maps](https://developer.chrome.com/docs/devtools/javascript/source-maps/)
-- [Chrome DevTools: view and manually load source maps](https://developer.chrome.com/docs/devtools/developer-resources/)
-- [Chrome DevTools: inspect CSS in Styles and Computed](https://developer.chrome.com/docs/devtools/css/reference/)
-
 ## Next lesson
 
 Continue with [CSS output, performance, and maintenance](050-css-output-performance-and-maintenance.md).
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous lesson</th><th>Chapter Q&amp;A</th><th>Chapter example</th><th>Next lesson</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="048-linting-and-style-quality.md">048 - Linting and stylesheet quality</a></td><td><a href="../qnas/049-source-maps-and-browser-devtools.md">Q&amp;A</a></td><td><a href="../examples/049-source-maps-and-browser-devtools.md">Example</a></td><td><a href="050-css-output-performance-and-maintenance.md">050 - CSS output, performance, and maintenance</a></td></tr>
+  </tbody>
+</table>

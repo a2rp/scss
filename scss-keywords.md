@@ -315,16 +315,6 @@ $spacing: 1rem;
 
 Sass evaluates the variable, module call, mixin, and nesting, then emits ordinary CSS.
 
-## Official references
-
-- [Sass documentation](https://sass-lang.com/documentation/)
-- [Sass syntax](https://sass-lang.com/documentation/syntax/)
-- [Sass at-rules](https://sass-lang.com/documentation/at-rules/)
-- [Built-in modules](https://sass-lang.com/documentation/modules/)
-- [Sass `@use`](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass `@mixin` and `@include`](https://sass-lang.com/documentation/at-rules/mixin/)
-- [Sass `@import` and global built-in deprecations](https://sass-lang.com/documentation/breaking-changes/import/)
-
 ## Related files
 
 - [Course roadmap](README.md)

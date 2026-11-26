@@ -1,4 +1,4 @@
-# CSS output, performance, and maintenance — Examples
+# CSS output, performance, and maintenance - Examples
 
 This exercise creates two Sass entry points, compares readable and compressed CSS output, and investigates unused CSS with Chrome DevTools. It also demonstrates why coverage data should lead to a review rather than automatic deletion.
 
@@ -268,13 +268,13 @@ Do not rely on a local development output as proof of production size. Measure t
 - Use Coverage on the demo page, then visit a dialog state before drawing conclusions.
 - Check whether independently compiled entry points duplicate shared CSS when loaded together.
 - Rebuild after changes and recheck output, page behavior, and measurements.
+## Chapter navigation
 
-## Official references
-
-- [Dart Sass CLI: output styles and compilation](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass: @use and module output](https://sass-lang.com/documentation/at-rules/use/)
-- [Sass: @import and migration](https://sass-lang.com/documentation/at-rules/import/)
-- [Chrome DevTools: Coverage](https://developer.chrome.com/docs/devtools/coverage/)
-- [Chrome DevTools: CSS inspection and Coverage](https://developer.chrome.com/docs/devtools/css/reference/)
-- [web.dev: the critical rendering path](https://web.dev/learn/performance/understanding-the-critical-path)
-- [Chrome Lighthouse: render-blocking resources](https://developer.chrome.com/docs/lighthouse/performance/render-blocking/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="049-source-maps-and-browser-devtools.md">049 - Source maps and browser developer tools - Examples</a></td><td><a href="../lessons/050-css-output-performance-and-maintenance.md">Lesson</a></td><td><a href="../qnas/050-css-output-performance-and-maintenance.md">Q&amp;A</a></td><td><a href="051-accessible-motion-and-responsive-patterns.md">051 - Accessible motion and responsive patterns - Examples</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# npm scripts and build integration — Examples
+# npm scripts and build integration - Examples
 
 These examples use the Sass CLI installed in the project’s npm dependencies. Run npm commands from the package root unless a project script documents otherwise.
 
@@ -336,11 +336,13 @@ If Sass cannot resolve a module used by the entry point, check its relative URL 
 5. Add a Sass build to a larger <code>build</code> script without masking failures.
 6. Find the CSS output path referenced by the application and make the npm script write there.
 7. If a bundler already owns Sass compilation, remove any redundant CLI compile for the same entry point.
+## Chapter navigation
 
-## Official references
-
-- [Install Sass](https://sass-lang.com/install/)
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass JavaScript package](https://sass-lang.com/dart-sass/)
-- [npm scripts](https://docs.npmjs.com/using-npm/scripts/)
-- [npm package.json scripts field](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#scripts)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="042-project-structure-and-naming-conventions.md">042 - Project structure and naming conventions - Examples</a></td><td><a href="../lessons/043-npm-scripts-and-build-integration.md">Lesson</a></td><td><a href="../qnas/043-npm-scripts-and-build-integration.md">Q&amp;A</a></td><td><a href="044-sass-cli-watch-and-build-options.md">044 - Sass CLI, watch mode, and build options - Examples</a></td></tr>
+  </tbody>
+</table>

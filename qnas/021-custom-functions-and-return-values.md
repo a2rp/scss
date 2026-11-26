@@ -1,4 +1,4 @@
-# 021 — Custom Functions and Return Values: Q&A
+# 021 - Custom Functions and Return Values: Q&A
 
 ## Core concepts
 
@@ -243,7 +243,13 @@ Expected CSS:
 - A function call evaluates to a value; it does not insert a block of CSS.
 - Use a mixin when reusable CSS output is required.
 - Make sure arguments, units, returned values, and consuming properties fit together.
+## Chapter navigation
 
-## Further reading
-
-- [Sass documentation: @function](https://sass-lang.com/documentation/at-rules/function/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="020-content-blocks-and-context-aware-mixins.md">020 - Content Blocks and Context-Aware Mixins: Q&amp;A</a></td><td><a href="../lessons/021-custom-functions-and-return-values.md">Lesson</a></td><td><a href="../examples/021-custom-functions-and-return-values.md">Example</a></td><td><a href="022-built-in-sass-modules.md">022 - Built-in Sass Modules: Q&amp;A</a></td></tr>
+  </tbody>
+</table>

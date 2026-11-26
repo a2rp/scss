@@ -1,4 +1,4 @@
-# 005. SCSS Syntax and Rules — Q&A
+# 005. SCSS Syntax and Rules - Q&A
 
 ## Syntax and stylesheet structure
 
@@ -153,3 +153,13 @@ Look at the first error, the named file, and several nearby lines. Check braces,
 - **Block comment:** /* comment */ normally emitted except in compressed output.
 - **Sass variable:** A compile-time value beginning with $.
 - **CSS custom property:** A runtime CSS value beginning with --.
+## Chapter navigation
+
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="004-compiling-scss-to-css.md">004 - Compiling SCSS to CSS - Q&amp;A</a></td><td><a href="../lessons/005-scss-syntax-and-rules.md">Lesson</a></td><td><a href="../examples/005-scss-syntax-and-rules.md">Example</a></td><td><a href="006-sass-variables-and-scope.md">006 - Sass Variables and Scope - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-# npm scripts and build integration — Q&A
+# npm scripts and build integration - Q&A
 
 This Q&A explains how a project can run Sass through npm scripts and connect compilation to its build workflow. Commands are examples; adjust paths and script names to the project.
 
@@ -285,11 +285,13 @@ That depends on the deployment workflow. Some projects commit generated assets; 
 ## 35. What should I check before calling the integration complete?
 
 Confirm the Sass dependency and lockfile are present, entry points and output paths are correct, scripts are named by purpose, watch mode is separate, build failures remain visible, and the framework or CLI has one clear owner for each Sass entry.
+## Chapter navigation
 
-## Official references
-
-- [Install Sass](https://sass-lang.com/install/)
-- [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass/)
-- [Sass JavaScript package](https://sass-lang.com/dart-sass/)
-- [npm scripts](https://docs.npmjs.com/using-npm/scripts/)
-- [npm package.json scripts field](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#scripts)
+<table width="100%">
+  <thead>
+    <tr><th>Previous Q&amp;A</th><th>Chapter lesson</th><th>Chapter example</th><th>Next Q&amp;A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="042-project-structure-and-naming-conventions.md">042 - Project structure and naming conventions - Q&amp;A</a></td><td><a href="../lessons/043-npm-scripts-and-build-integration.md">Lesson</a></td><td><a href="../examples/043-npm-scripts-and-build-integration.md">Example</a></td><td><a href="044-sass-cli-watch-and-build-options.md">044 - Sass CLI, watch mode, and build options - Q&amp;A</a></td></tr>
+  </tbody>
+</table>

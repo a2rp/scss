@@ -197,10 +197,13 @@ Then change `$space` and compile again. The card padding and the spacing below i
 - SCSS nesting is expanded into ordinary CSS selectors.
 - The browser receives generated CSS, not Sass source.
 - A successful compile does not automatically connect the output to a page; the page or build system must load the generated file.
+## Chapter navigation
 
-## Official references
-
-- [Install Sass](https://sass-lang.com/install/)
-- [Sass basics](https://sass-lang.com/guide/)
-- [Sass syntax](https://sass-lang.com/documentation/syntax/)
-- [Dart Sass command-line interface](https://sass-lang.com/documentation/cli/)
+<table width="100%">
+  <thead>
+    <tr><th>Previous example</th><th>Chapter lesson</th><th>Chapter Q&amp;A</th><th>Next example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start of course</td><td><a href="../lessons/001-introduction-to-sass-and-scss.md">Lesson</a></td><td><a href="../qnas/001-introduction-to-sass-and-scss.md">Q&amp;A</a></td><td><a href="002-how-sass-fits-css-and-a-web-build.md">002 - How Sass Fits CSS and a Web Build - Examples</a></td></tr>
+  </tbody>
+</table>
