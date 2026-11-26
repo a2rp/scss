@@ -37,7 +37,10 @@ A library can contain internal modules and one stable entry point:
 
 ~~~text
 sass/
-  _index.scss
+  index.scss
+  tokens.scss
+  mixins.scss
+  components.scss
   _tokens.scss
   _mixins.scss
   _functions.scss
@@ -58,7 +61,7 @@ Use partial filenames for Sass files intended to be loaded by other stylesheets 
 A library entry point can forward selected members from internal modules:
 
 ~~~scss
-// sass/_index.scss
+// sass/index.scss
 @forward "tokens" show $brand, $surface, $radius;
 @forward "mixins" show focus-ring, visually-hidden;
 @forward "functions" show fluid-size;
@@ -88,7 +91,7 @@ The namespace helps prevent collisions with members from other libraries. Keep m
 If the facade also defines styles or members that use a forwarded module, load it with <code>@use</code> as well:
 
 ~~~scss
-// sass/_index.scss
+// sass/index.scss
 @forward "tokens" show $brand, $surface;
 @use "tokens" as tokens;
 
@@ -151,6 +154,13 @@ Each Sass file has its own module scope. An implementation module should load th
 }
 ~~~
 
+A public subpath can re-export the implementation module:
+
+~~~scss
+// sass/mixins.scss
+@forward "_mixins";
+~~~
+
 Do not rely on a consumer loading some other file first. A module should compile when loaded through its documented entry point without depending on accidental global members.
 
 ## 8. Separate Sass-only APIs from CSS output
@@ -163,6 +173,13 @@ $brand: #2457d6 !default;
 $surface: #f4f6fb !default;
 $radius: 0.5rem !default;
 $focus: #8a4fff !default;
+~~~
+
+The package can provide a stable tokens subpath through a small facade:
+
+~~~scss
+// sass/tokens.scss
+@forward "_tokens";
 ~~~
 
 A separate stylesheet or mixin can emit CSS when the consumer chooses it:
@@ -230,7 +247,7 @@ Avoid making every implementation variable configurable. A public configuration 
 A facade can set package defaults while still allowing downstream consumers to override them:
 
 ~~~scss
-// sass/_index.scss
+// sass/index.scss
 @forward "tokens" with (
   $brand: #2457d6 !default,
   $radius: 0.5rem !default
@@ -394,7 +411,10 @@ package/
   README.md
   LICENSE
   sass/
-    _index.scss
+    index.scss
+    tokens.scss
+    mixins.scss
+    components.scss
     _tokens.scss
     _mixins.scss
     _functions.scss
