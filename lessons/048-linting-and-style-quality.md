@@ -61,21 +61,21 @@ If you use a different module format or configuration filename, follow the Style
 
 ## 3. Lint authored SCSS files
 
-Run Stylelint on source files with a quoted glob:
+Run Stylelint on SCSS source files with a quoted glob:
 
 ~~~sh
 npx stylelint "src/**/*.scss"
 ~~~
 
-For a project with Sass and plain CSS sources, the glob can include both:
+For a project with both SCSS and plain CSS sources, the glob can include both:
 
 ~~~sh
-npx stylelint "src/**/*.{scss,sass,css}"
+npx stylelint "src/**/*.{scss,css}"
 ~~~
 
-A quoted glob lets Stylelint process the pattern instead of relying on shell-specific glob expansion. Adapt the paths and extensions to the actual source layout. Avoid including generated output in the same glob as authored Sass.
+Adapt the paths and extensions to the actual source layout. Avoid including generated output in the same glob as authored Sass. The SCSS shared config uses an SCSS parser; indented <code>.sass</code> files need an appropriate syntax such as <code>postcss-sass</code> configured for those file patterns. Do not assume that parsing <code>.scss</code> also parses indented Sass.
 
-A lint error is a signal to inspect the rule, the source, and the project's intent. Fix real issues first. If a rule conflicts with a valid project convention, change the shared config deliberately rather than accumulating local suppressions.
+A quoted glob lets Stylelint process the pattern instead of relying on shell-specific glob expansion. A lint error is a signal to inspect the rule, the source, and the project's intent. Fix real issues first. If a rule conflicts with a valid project convention, change the shared config deliberately rather than accumulating local suppressions.
 
 ## 4. Keep Stylelint, Prettier, and Sass compilation in their lanes
 
@@ -283,7 +283,7 @@ A linter can enforce selected patterns; it cannot understand the complete produc
 - Stylelint can parse and lint SCSS when configured with an SCSS-aware shared configuration.
 - Use a formatter for layout, a linter for configured conventions, Sass for compilation, and browser tools for rendered behavior.
 - Keep source globs and ignore patterns deliberate so generated files do not pollute checks and authored files are not skipped.
-- Use shallow nesting, readable names, and documented project conventions to support maintainability.
+- Use a separate syntax parser for indented <code>.sass</code>; SCSS parsing alone does not cover it.
 - Apply auto-fixes carefully, review the diff, and keep rule suppressions narrow and explained.
 - CI should run repeatable checks and fail when required lint, format, or compilation steps fail.
 
@@ -294,6 +294,8 @@ A linter can enforce selected patterns; it cannot understand the complete produc
 - [Stylelint: configuration](https://stylelint.io/user-guide/configure/)
 - [Stylelint: customization and rule exceptions](https://stylelint.io/user-guide/customize/)
 - [Stylelint: command-line interface](https://stylelint.io/user-guide/cli/)
+- [Stylelint: Sass syntax support](https://stylelint.io/migration-guide/to-14/)
+- [PostCSS Sass syntax parser](https://github.com/postcss/postcss-sass)
 - [Prettier: options](https://prettier.io/docs/options.html)
 - [Prettier: ignoring files](https://prettier.io/docs/ignore.html)
 
